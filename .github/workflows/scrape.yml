@@ -1,15 +1,15 @@
 name: Scrape VT data
 
-# Two cadences in one workflow: the timetable changes constantly during
-# registration, the catalog changes a few times a year.
+# Two cadences. The timetable changes constantly during registration; the
+# catalog, ratings and grade extract move slowly enough for a weekly pass.
 on:
   schedule:
-    - cron: "*/30 * * * *" # timetable
-    - cron: "17 6 * * 1" # catalog, Mondays
+    - cron: "*/30 * * * *" # timetable only
+    - cron: "17 6 * * 1" # everything, Mondays
   workflow_dispatch:
     inputs:
-      catalog:
-        description: "Also refresh the catalog"
+      full:
+        description: "Refresh every source, not just the timetable"
         type: boolean
         default: false
 
@@ -25,6 +25,8 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+    env:
+      FULL: ${{ github.event.schedule == '17 6 * * 1' || inputs.full }}
     steps:
       - uses: actions/checkout@v4
 
@@ -32,12 +34,29 @@ jobs:
         with:
           enable-cache: true
 
-      - name: Scrape timetable
+      - name: Timetable
         run: uv run --with httpx --with lxml python -m tools.vtcourses.timetable
 
-      - name: Scrape catalog
-        if: github.event.schedule == '17 6 * * 1' || inputs.catalog
+      - name: Catalog
+        if: env.FULL == 'true'
         run: uv run --with httpx --with lxml python -m tools.vtcourses.catalog
+
+      - name: Grade distributions
+        if: env.FULL == 'true'
+        run: uv run --with httpx python -m tools.vtcourses.grades
+
+      - name: RateMyProfessors
+        if: env.FULL == 'true'
+        run: uv run --with httpx python -m tools.vtcourses.rmp
+
+      - name: Reddit
+        # No-ops with a message when the secrets are absent, so the job stays
+        # green until someone registers an app.
+        if: env.FULL == 'true'
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: uv run --with httpx python -m tools.vtcourses.reddit
 
       - name: Commit changes
         id: commit

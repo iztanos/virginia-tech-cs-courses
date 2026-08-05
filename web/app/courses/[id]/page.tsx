@@ -1,6 +1,9 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import Discussion from "@/components/Discussion";
+import GradeHistory from "@/components/GradeHistory";
+import Ratings from "@/components/Ratings";
 import Sections from "@/components/Sections";
 import { getDataset, type MdTable } from "@/lib/data";
 import { renderInline, renderMarkdown } from "@/lib/markdown";
@@ -19,7 +22,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function CoursePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const { courses } = getDataset();
+  const { courses, gradeYears } = getDataset();
   const course = courses.find((c) => c.id === id);
   if (!course) notFound();
 
@@ -79,6 +82,12 @@ export default async function CoursePage({ params }: { params: Promise<{ id: str
       )}
 
       <Sections offerings={course.offerings} />
+
+      <Ratings rmp={course.rmp} />
+
+      <GradeHistory grades={course.grades} years={gradeYears} />
+
+      <Discussion threads={course.reddit} />
 
       {course.catalog && (
         <section className="mt-8">

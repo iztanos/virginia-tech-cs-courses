@@ -94,12 +94,72 @@ export type CatalogCourse = {
 
 export type Offering = { code: string; name: string; sections: Section[] };
 
+export type RmpComment = {
+  professor: string;
+  date: string;
+  quality: number | null;
+  difficulty: number | null;
+  comment: string;
+};
+
+export type RmpCourse = {
+  n: number;
+  quality: number | null;
+  difficulty: number | null;
+  would_take_again_pct: number | null;
+  professors: string[];
+  recent_comments: RmpComment[];
+};
+
+export type GradeInstructor = {
+  name: string;
+  gpa: number | null;
+  withdraw_pct: number | null;
+  enrolled: number;
+  withdraws: number;
+  sections: number;
+  thin: boolean;
+};
+
+export type GradeCourse = {
+  title: string;
+  gpa: number | null;
+  withdraw_pct: number | null;
+  enrolled: number;
+  withdraws: number;
+  sections: number;
+  thin: boolean;
+  instructors: GradeInstructor[];
+};
+
+export type RedditThread = {
+  id: string;
+  title: string;
+  permalink: string;
+  score: number;
+  num_comments: number;
+  created: string;
+  flair: string | null;
+  excerpt: string;
+};
+
 export type CourseRow = Course & {
   catalog: CatalogCourse | null;
   offerings: Offering[];
   offeredTermNames: string[];
   sectionCount: number;
   openCount: number;
+  rmp: RmpCourse | null;
+  grades: GradeCourse | null;
+  reddit: RedditThread[];
+};
+
+export type Sources = {
+  timetable: string | null;
+  catalog: string | null;
+  rmp: string | null;
+  grades: string | null;
+  reddit: string | null;
 };
 
 export type Dataset = {
@@ -107,6 +167,8 @@ export type Dataset = {
   terms: { code: string; name: string }[];
   scrapedAt: string | null;
   catalogScrapedAt: string | null;
+  sources: Sources;
+  gradeYears: string[];
 };
 
 function readJson<T>(...parts: string[]): T | null {
@@ -127,11 +189,28 @@ export function getDataset(): Dataset {
   const curated = readJson<{ courses: Course[] }>("courses.json");
   const timetable = readJson<{ scraped_at: string; terms: Term[] }>("generated", "sections.json");
   const catalog = readJson<{ scraped_at: string; courses: CatalogCourse[] }>("generated", "catalog.json");
+  const rmp = readJson<{ scraped_at: string; courses: Record<string, RmpCourse> }>("generated", "rmp.json");
+  const grades = readJson<{
+    scraped_at: string;
+    academic_years: string[];
+    courses: Record<string, GradeCourse>;
+  }>("generated", "grades.json");
+  const reddit = readJson<{ scraped_at: string; courses: Record<string, RedditThread[]> }>(
+    "generated",
+    "reddit.json",
+  );
 
   const catalogByNumber = new Map<string, CatalogCourse>();
   for (const c of catalog?.courses ?? []) catalogByNumber.set(c.number, c);
 
   const terms = (timetable?.terms ?? []).map(({ code, name }) => ({ code, name }));
+
+  // An entry can cover several numbers (CS 2964 / 2974 / 2984); take the first
+  // number that any given source actually knows about.
+  const pick = <T,>(numbers: string[], table: Record<string, T> | undefined): T | null => {
+    for (const n of numbers) if (table?.[n]) return table[n];
+    return null;
+  };
 
   const courses: CourseRow[] = (curated?.courses ?? [])
     .filter((c) => c.is_course)
@@ -155,6 +234,9 @@ export function getDataset(): Dataset {
         offeredTermNames: offerings.map((o) => o.name),
         sectionCount,
         openCount,
+        rmp: pick(course.numbers, rmp?.courses),
+        grades: pick(course.numbers, grades?.courses),
+        reddit: pick(course.numbers, reddit?.courses) ?? [],
       };
     });
 
@@ -163,6 +245,14 @@ export function getDataset(): Dataset {
     terms,
     scrapedAt: timetable?.scraped_at ?? null,
     catalogScrapedAt: catalog?.scraped_at ?? null,
+    gradeYears: grades?.academic_years ?? [],
+    sources: {
+      timetable: timetable?.scraped_at ?? null,
+      catalog: catalog?.scraped_at ?? null,
+      rmp: rmp?.scraped_at ?? null,
+      grades: grades?.scraped_at ?? null,
+      reddit: reddit?.scraped_at ?? null,
+    },
   };
   return cached;
 }

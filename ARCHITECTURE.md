@@ -42,11 +42,21 @@ numbers, so decomposing them into JSON would add risk and buy nothing.
 
 | Layer | Source | Refresh | What it gives |
 |---|---|---|---|
-| Curated | `data/courses.json` | on commit | Usefulness /10, teaching grade, GPA, withdrawal %, RMP, per-instructor spread, prose |
+| Curated | `data/courses.json` | on commit | Usefulness /10, teaching grade, editorial prose |
 | Sections | Banner Timetable of Classes | every 30 min | CRN, schedule type, modality, credits, capacity, meeting times, location, exam, open/full |
 | Catalog | `catalog.vt.edu` | weekly | Official title, credits, description, prerequisites, corequisites, cross-listings, Pathways |
+| Ratings | RateMyProfessors GraphQL | weekly | Per-course quality, difficulty, would-take-again, recent comments with dates and instructor |
+| Grades | VT grade distributions (public mirror) | weekly | Enrollment-weighted GPA and withdrawal, per course **and per instructor** |
+| Discussion | Reddit official API | weekly, opt-in | r/VirginiaTech threads per course |
 
-All three join on the four-digit course number.
+All of them join on the four-digit course number.
+
+The scraped grade and rating layers reproduce the guide's own figures: the
+grade extract returns 627 CS section rows and RateMyProfessors returns 829
+ratings, matching `docs/methodology.md` exactly, and CS 3214 recomputes to
+GPA 2.92 / 4.4% withdrawal / 3.63 quality / n=23 — the numbers in the printed
+tables. The site prefers the scraped values and falls back to the curated
+snapshot where a course has none.
 
 ---
 
@@ -80,13 +90,54 @@ Both scrapers are plain `httpx` + `lxml` and run without credentials.
 - Yields 157 CS courses, 73 of them undergraduate — which matches the course
   count in the guide
 
+**RateMyProfessors** (`tools/vtcourses/rmp.py`)
+
+- Public GraphQL endpoint; the `Authorization: Basic dGVzdDp0ZXN0` header is
+  the site's own hardcoded `test:test` credential that every browser sends
+- Two paginated connections: `newSearch.teachers` filtered to
+  `department == "Computer Science"`, then `ratings` per teacher
+- Ratings are bucketed into per-course aggregates by the four-digit number
+  parsed out of each rating's free-text `class` field
+- Quality is (clarity + helpfulness) / 2, matching the guide's definition
+- 110 faculty, 829 ratings, 0.4s between requests
+
+**Grade distributions** (`tools/vtcourses/grades.py`)
+
+- Public CSV mirror; VT's own University DataCommons needs a VT PID
+- GPA is enrollment-weighted; withdrawal is
+  `Withdraws / (Withdraws + Graded Enrollment)`
+- Covers AY2019-20 → 2021-22 and **cannot be extended without PID access** —
+  every GPA on the site inherits that Spring 2022 ceiling
+- Unlike the printed tables it keeps instructors under 40 students, flagged
+  `thin` rather than dropped
+
+**Reddit** (`tools/vtcourses/reddit.py`) — *opt-in, off by default*
+
+- Anonymous access is blocked: `reddit.com/robots.txt` itself returns a
+  "Blocked" page and `/search.json` returns 403 from datacenter addresses
+- The supported route is OAuth. Register a "script" app at
+  <https://www.reddit.com/prefs/apps>, then add `REDDIT_CLIENT_ID` and
+  `REDDIT_CLIENT_SECRET` as repository secrets
+- Without those the scraper prints a notice and exits 0, so the scheduled job
+  stays green
+- **This path has not been exercised against real credentials** — only the
+  missing-credential and rejected-credential branches are verified
+
+### Coursicle — deliberately not scraped
+
+Coursicle answers every request with **HTTP 429 and a reCAPTCHA page** whose
+own source comments describe it as scraping and DDoS protection. Its
+`robots.txt` does allow the review URL patterns for a generic user-agent, but
+the CAPTCHA is an access control regardless, and getting past it would mean
+defeating it. It is left alone.
+
 ---
 
 ## Automation
 
 | Workflow | Trigger | Does |
 |---|---|---|
-| `scrape.yml` | `*/30 * * * *`, plus Mondays for the catalog | Scrapes, commits `data/generated/` only if something changed, then calls the deploy workflow |
+| `scrape.yml` | `*/30 * * * *` timetable; Mondays everything | Scrapes, commits `data/generated/` only if something changed, then calls the deploy workflow |
 | `deploy.yml` | push to `main`, `workflow_dispatch`, or called by `scrape.yml` | Builds the static export and publishes it to GitHub Pages |
 | `ci.yml` | pull requests and pushes | Fails if generated docs drift from `data/`; typechecks and builds the site |
 
@@ -109,6 +160,12 @@ Two GitHub behaviours worth knowing:
 # scrapers (no credentials needed)
 uv run --with httpx --with lxml python -m tools.vtcourses.timetable
 uv run --with httpx --with lxml python -m tools.vtcourses.catalog
+uv run --with httpx python -m tools.vtcourses.grades
+uv run --with httpx python -m tools.vtcourses.rmp
+
+# opt-in; no-ops without credentials
+REDDIT_CLIENT_ID=... REDDIT_CLIENT_SECRET=... \
+  uv run --with httpx python -m tools.vtcourses.reddit
 
 # regenerate docs after editing data/courses.json
 python -m tools.vtcourses.gendocs

@@ -25,7 +25,14 @@ export type SearchRow = {
   haystack: string;
 };
 
-type SortKey = "number" | "usefulness" | "teaching" | "gpa" | "withdraw" | "sections";
+type SortKey =
+  | "number"
+  | "usefulness"
+  | "teaching"
+  | "gpa"
+  | "withdraw"
+  | "rating"
+  | "sections";
 
 const LEVELS = [1000, 2000, 3000, 4000];
 
@@ -75,6 +82,8 @@ export default function CourseSearch({
           return cmp(a.gpa, b.gpa);
         case "withdraw":
           return cmp(a.withdrawPct, b.withdrawPct);
+        case "rating":
+          return cmp(a.rmpQuality, b.rmpQuality);
         case "sections":
           return cmp(a.sectionCount, b.sectionCount);
         default:
@@ -205,6 +214,14 @@ export default function CourseSearch({
                 W%
               </Th>
               <Th
+                onClick={() => toggleSort("rating")}
+                active={sort === "rating"}
+                desc={desc}
+                right
+              >
+                Rating
+              </Th>
+              <Th
                 onClick={() => toggleSort("sections")}
                 active={sort === "sections"}
                 desc={desc}
@@ -241,6 +258,18 @@ export default function CourseSearch({
                 <td className="px-2 py-2 text-right tabular-nums">{r.gpa?.toFixed(2) ?? "—"}</td>
                 <td className="px-2 py-2 text-right tabular-nums">
                   {r.withdrawPct === null ? "—" : `${r.withdrawPct}%`}
+                </td>
+                <td className="px-2 py-2 text-right tabular-nums">
+                  {r.rmpQuality === null ? (
+                    <span className="text-neutral-400">—</span>
+                  ) : (
+                    <span title={r.rmpN ? `${r.rmpN} ratings` : undefined}>
+                      {r.rmpQuality.toFixed(2)}
+                      {r.rmpN !== null && r.rmpN < 5 && (
+                        <span className="ml-1 text-[10px] text-neutral-400">thin</span>
+                      )}
+                    </span>
+                  )}
                 </td>
                 <td className="px-2 py-2 text-right tabular-nums">
                   {r.sectionCount === 0 ? (

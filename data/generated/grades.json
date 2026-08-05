@@ -1,0 +1,4049 @@
+{
+  "scraped_at": "2026-08-05T11:41:28+00:00",
+  "source": "https://raw.githubusercontent.com/jrudman25/CourseSearch/HEAD/Grade%20Distribution.csv",
+  "subject": "CS",
+  "academic_years": [
+    "2019-20",
+    "2020-21",
+    "2021-22"
+  ],
+  "total_rows": 26632,
+  "subject_rows": 627,
+  "courses": {
+    "1014": {
+      "title": "Intro Computational Thinking",
+      "gpa": 3.23,
+      "withdraw_pct": 3.2,
+      "enrolled": 548,
+      "withdraws": 18,
+      "sections": 11,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Kafura",
+          "gpa": 3.27,
+          "withdraw_pct": 4.2,
+          "enrolled": 323,
+          "withdraws": 14,
+          "sections": 6,
+          "thin": false
+        },
+        {
+          "name": "Gusukuma",
+          "gpa": 3.21,
+          "withdraw_pct": 0.7,
+          "enrolled": 152,
+          "withdraws": 1,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Gautam",
+          "gpa": 3.07,
+          "withdraw_pct": 4.2,
+          "enrolled": 23,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Cao",
+          "gpa": 3.04,
+          "withdraw_pct": 3.8,
+          "enrolled": 50,
+          "withdraws": 2,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "1044": {
+      "title": "Intro Prog in C",
+      "gpa": 3.24,
+      "withdraw_pct": 2.3,
+      "enrolled": 388,
+      "withdraws": 9,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Stevens",
+          "gpa": 3.24,
+          "withdraw_pct": 2.3,
+          "enrolled": 388,
+          "withdraws": 9,
+          "sections": 6,
+          "thin": false
+        }
+      ]
+    },
+    "1054": {
+      "title": "Intro to Programming in Java",
+      "gpa": 2.96,
+      "withdraw_pct": 4.3,
+      "enrolled": 513,
+      "withdraws": 23,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Gusukuma",
+          "gpa": 3.25,
+          "withdraw_pct": 5.6,
+          "enrolled": 119,
+          "withdraws": 7,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Barnette",
+          "gpa": 2.95,
+          "withdraw_pct": 0.0,
+          "enrolled": 17,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Lewis",
+          "gpa": 2.88,
+          "withdraw_pct": 3.6,
+          "enrolled": 243,
+          "withdraws": 9,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Farghally",
+          "gpa": 2.86,
+          "withdraw_pct": 5.0,
+          "enrolled": 134,
+          "withdraws": 7,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "1064": {
+      "title": "Intro to Programming in Python",
+      "gpa": 3.63,
+      "withdraw_pct": 0.9,
+      "enrolled": 3494,
+      "withdraws": 30,
+      "sections": 12,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Powell",
+          "gpa": 3.87,
+          "withdraw_pct": 0.0,
+          "enrolled": 70,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Wenskovitch",
+          "gpa": 3.63,
+          "withdraw_pct": 2.0,
+          "enrolled": 586,
+          "withdraws": 12,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Lewis",
+          "gpa": 3.62,
+          "withdraw_pct": 0.6,
+          "enrolled": 2838,
+          "withdraws": 18,
+          "sections": 9,
+          "thin": false
+        }
+      ]
+    },
+    "1114": {
+      "title": "Intro to Software Design",
+      "gpa": 2.6,
+      "withdraw_pct": 15.8,
+      "enrolled": 2107,
+      "withdraws": 396,
+      "sections": 14,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Kotut",
+          "gpa": 3.04,
+          "withdraw_pct": 0.7,
+          "enrolled": 138,
+          "withdraws": 1,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Feng",
+          "gpa": 2.81,
+          "withdraw_pct": 11.9,
+          "enrolled": 104,
+          "withdraws": 14,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Senger",
+          "gpa": 2.78,
+          "withdraw_pct": 18.7,
+          "enrolled": 109,
+          "withdraws": 25,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Irwin",
+          "gpa": 2.66,
+          "withdraw_pct": 11.0,
+          "enrolled": 121,
+          "withdraws": 15,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Barnette",
+          "gpa": 2.57,
+          "withdraw_pct": 13.0,
+          "enrolled": 1368,
+          "withdraws": 205,
+          "sections": 8,
+          "thin": false
+        },
+        {
+          "name": "Edwards",
+          "gpa": 2.35,
+          "withdraw_pct": 33.7,
+          "enrolled": 267,
+          "withdraws": 136,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "2064": {
+      "title": "Intermediate Prog in Python",
+      "gpa": 3.06,
+      "withdraw_pct": 2.0,
+      "enrolled": 98,
+      "withdraws": 2,
+      "sections": 2,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Wenskovitch",
+          "gpa": 3.06,
+          "withdraw_pct": 2.0,
+          "enrolled": 98,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "2104": {
+      "title": "Intro to Problem Solving in CS",
+      "gpa": 3.55,
+      "withdraw_pct": 1.3,
+      "enrolled": 1404,
+      "withdraws": 19,
+      "sections": 23,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "McPherson",
+          "gpa": 3.75,
+          "withdraw_pct": 0.0,
+          "enrolled": 69,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Ellis",
+          "gpa": 3.73,
+          "withdraw_pct": 1.7,
+          "enrolled": 113,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Roth",
+          "gpa": 3.66,
+          "withdraw_pct": 1.0,
+          "enrolled": 189,
+          "withdraws": 2,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Esakia",
+          "gpa": 3.61,
+          "withdraw_pct": 1.1,
+          "enrolled": 431,
+          "withdraws": 5,
+          "sections": 6,
+          "thin": false
+        },
+        {
+          "name": "Kotut",
+          "gpa": 3.6,
+          "withdraw_pct": 1.6,
+          "enrolled": 185,
+          "withdraws": 3,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Cao",
+          "gpa": 3.5,
+          "withdraw_pct": 2.2,
+          "enrolled": 131,
+          "withdraws": 3,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Powell",
+          "gpa": 3.39,
+          "withdraw_pct": 2.0,
+          "enrolled": 97,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Emebo",
+          "gpa": 3.22,
+          "withdraw_pct": 1.0,
+          "enrolled": 189,
+          "withdraws": 2,
+          "sections": 4,
+          "thin": false
+        }
+      ]
+    },
+    "2114": {
+      "title": "Softw Des & Data Structures",
+      "gpa": 3.2,
+      "withdraw_pct": 3.5,
+      "enrolled": 2675,
+      "withdraws": 97,
+      "sections": 17,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Farghally",
+          "gpa": 3.5,
+          "withdraw_pct": 0.7,
+          "enrolled": 279,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Esakia",
+          "gpa": 3.24,
+          "withdraw_pct": 1.3,
+          "enrolled": 229,
+          "withdraws": 3,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Haqq",
+          "gpa": 3.23,
+          "withdraw_pct": 2.4,
+          "enrolled": 944,
+          "withdraws": 23,
+          "sections": 7,
+          "thin": false
+        },
+        {
+          "name": "Ellis",
+          "gpa": 3.1,
+          "withdraw_pct": 5.3,
+          "enrolled": 1223,
+          "withdraws": 69,
+          "sections": 7,
+          "thin": false
+        }
+      ]
+    },
+    "2144": {
+      "title": "Competitive Problem Solving I",
+      "gpa": 3.8,
+      "withdraw_pct": 0.0,
+      "enrolled": 10,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Back",
+          "gpa": 3.8,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "2164": {
+      "title": "Foundations Security Environ",
+      "gpa": 3.62,
+      "withdraw_pct": 3.1,
+      "enrolled": 217,
+      "withdraws": 7,
+      "sections": 10,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Brantly",
+          "gpa": 3.72,
+          "withdraw_pct": 1.7,
+          "enrolled": 114,
+          "withdraws": 2,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "Suong",
+          "gpa": 3.56,
+          "withdraw_pct": 5.6,
+          "enrolled": 85,
+          "withdraws": 5,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Villacis Calderon",
+          "gpa": 3.22,
+          "withdraw_pct": 0.0,
+          "enrolled": 18,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "2304": {
+      "title": "TS: Kubernetes Programming",
+      "gpa": 3.64,
+      "withdraw_pct": 7.9,
+      "enrolled": 406,
+      "withdraws": 35,
+      "sections": 19,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Lohani",
+          "gpa": 3.83,
+          "withdraw_pct": 1.0,
+          "enrolled": 96,
+          "withdraws": 1,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "Cao",
+          "gpa": 3.78,
+          "withdraw_pct": 6.5,
+          "enrolled": 58,
+          "withdraws": 4,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Irwin",
+          "gpa": 3.77,
+          "withdraw_pct": 6.3,
+          "enrolled": 133,
+          "withdraws": 9,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Charles",
+          "gpa": 3.36,
+          "withdraw_pct": 14.7,
+          "enrolled": 110,
+          "withdraws": 19,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "Cameron",
+          "gpa": 2.0,
+          "withdraw_pct": 18.2,
+          "enrolled": 9,
+          "withdraws": 2,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "2505": {
+      "title": "Intro Computer Organization",
+      "gpa": 2.95,
+      "withdraw_pct": 8.7,
+      "enrolled": 1798,
+      "withdraws": 171,
+      "sections": 16,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Tausif",
+          "gpa": 3.78,
+          "withdraw_pct": 0.8,
+          "enrolled": 122,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Wenskovitch",
+          "gpa": 3.57,
+          "withdraw_pct": 1.3,
+          "enrolled": 75,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "McPherson",
+          "gpa": 2.94,
+          "withdraw_pct": 8.7,
+          "enrolled": 798,
+          "withdraws": 76,
+          "sections": 6,
+          "thin": false
+        },
+        {
+          "name": "McQuain",
+          "gpa": 2.81,
+          "withdraw_pct": 9.6,
+          "enrolled": 678,
+          "withdraws": 72,
+          "sections": 6,
+          "thin": false
+        },
+        {
+          "name": "Paul",
+          "gpa": 2.63,
+          "withdraw_pct": 14.4,
+          "enrolled": 125,
+          "withdraws": 21,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "2506": {
+      "title": "Intro to Computer Organization",
+      "gpa": 2.68,
+      "withdraw_pct": 9.3,
+      "enrolled": 1261,
+      "withdraws": 130,
+      "sections": 12,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Feng",
+          "gpa": 2.86,
+          "withdraw_pct": 10.7,
+          "enrolled": 108,
+          "withdraws": 13,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Nikolopoulos",
+          "gpa": 2.78,
+          "withdraw_pct": 5.1,
+          "enrolled": 335,
+          "withdraws": 18,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "McQuain",
+          "gpa": 2.75,
+          "withdraw_pct": 16.6,
+          "enrolled": 291,
+          "withdraws": 58,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Wenskovitch",
+          "gpa": 2.64,
+          "withdraw_pct": 10.2,
+          "enrolled": 106,
+          "withdraws": 12,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Jian",
+          "gpa": 2.52,
+          "withdraw_pct": 6.4,
+          "enrolled": 421,
+          "withdraws": 29,
+          "sections": 4,
+          "thin": false
+        }
+      ]
+    },
+    "2974": {
+      "title": "Independent Study",
+      "gpa": 4.0,
+      "withdraw_pct": 0.0,
+      "enrolled": 24,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Ellis",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 19,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Back",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "2984": {
+      "title": "SS:Intermediate Prog in Python",
+      "gpa": 3.54,
+      "withdraw_pct": 2.1,
+      "enrolled": 236,
+      "withdraws": 5,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Back",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Wenskovitch",
+          "gpa": 3.52,
+          "withdraw_pct": 2.2,
+          "enrolled": 226,
+          "withdraws": 5,
+          "sections": 3,
+          "thin": false
+        }
+      ]
+    },
+    "3114": {
+      "title": "Data Structures and Algorithms",
+      "gpa": 3.0,
+      "withdraw_pct": 8.0,
+      "enrolled": 1536,
+      "withdraws": 133,
+      "sections": 18,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Edmison",
+          "gpa": 3.72,
+          "withdraw_pct": 1.5,
+          "enrolled": 135,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Chang",
+          "gpa": 3.46,
+          "withdraw_pct": 0.0,
+          "enrolled": 34,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Cao",
+          "gpa": 3.11,
+          "withdraw_pct": 6.2,
+          "enrolled": 546,
+          "withdraws": 36,
+          "sections": 6,
+          "thin": false
+        },
+        {
+          "name": "Sullivan",
+          "gpa": 2.98,
+          "withdraw_pct": 15.9,
+          "enrolled": 207,
+          "withdraws": 39,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "McQuain",
+          "gpa": 2.73,
+          "withdraw_pct": 8.6,
+          "enrolled": 552,
+          "withdraws": 52,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "Davis",
+          "gpa": 2.62,
+          "withdraw_pct": 6.1,
+          "enrolled": 62,
+          "withdraws": 4,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "3214": {
+      "title": "Computer Systems",
+      "gpa": 2.92,
+      "withdraw_pct": 4.4,
+      "enrolled": 1077,
+      "withdraws": 49,
+      "sections": 14,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Williams",
+          "gpa": 2.99,
+          "withdraw_pct": 3.0,
+          "enrolled": 96,
+          "withdraws": 3,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Butt",
+          "gpa": 2.98,
+          "withdraw_pct": 7.3,
+          "enrolled": 215,
+          "withdraws": 17,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Hu",
+          "gpa": 2.93,
+          "withdraw_pct": 5.7,
+          "enrolled": 82,
+          "withdraws": 5,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Back",
+          "gpa": 2.92,
+          "withdraw_pct": 4.0,
+          "enrolled": 451,
+          "withdraws": 19,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "McQuain",
+          "gpa": 2.84,
+          "withdraw_pct": 1.6,
+          "enrolled": 183,
+          "withdraws": 3,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Hicks",
+          "gpa": 2.78,
+          "withdraw_pct": 3.8,
+          "enrolled": 50,
+          "withdraws": 2,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "3274": {
+      "title": "Software Reverse Engineering",
+      "gpa": 2.85,
+      "withdraw_pct": 18.8,
+      "enrolled": 52,
+      "withdraws": 12,
+      "sections": 2,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Howe",
+          "gpa": 3.05,
+          "withdraw_pct": 18.8,
+          "enrolled": 26,
+          "withdraws": 6,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Roessle",
+          "gpa": 2.66,
+          "withdraw_pct": 18.8,
+          "enrolled": 26,
+          "withdraws": 6,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "3304": {
+      "title": "Comparative Languages",
+      "gpa": 3.24,
+      "withdraw_pct": 4.0,
+      "enrolled": 1043,
+      "withdraws": 43,
+      "sections": 12,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Gracanin",
+          "gpa": 3.67,
+          "withdraw_pct": 3.7,
+          "enrolled": 52,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Meng",
+          "gpa": 3.4,
+          "withdraw_pct": 1.1,
+          "enrolled": 93,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "McPherson",
+          "gpa": 3.34,
+          "withdraw_pct": 1.0,
+          "enrolled": 407,
+          "withdraws": 4,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Tilevich",
+          "gpa": 3.14,
+          "withdraw_pct": 4.9,
+          "enrolled": 408,
+          "withdraws": 21,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Gulzar",
+          "gpa": 2.84,
+          "withdraw_pct": 15.3,
+          "enrolled": 83,
+          "withdraws": 15,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "3414": {
+      "title": "Numerical Methods",
+      "gpa": 3.06,
+      "withdraw_pct": 5.6,
+      "enrolled": 68,
+      "withdraws": 4,
+      "sections": 5,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Sarshar",
+          "gpa": 3.6,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Onufriev",
+          "gpa": 3.04,
+          "withdraw_pct": 5.8,
+          "enrolled": 49,
+          "withdraws": 3,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Watson",
+          "gpa": 2.56,
+          "withdraw_pct": 10.0,
+          "enrolled": 9,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "3604": {
+      "title": "Professionalism in Computing",
+      "gpa": 3.79,
+      "withdraw_pct": 0.5,
+      "enrolled": 1250,
+      "withdraws": 6,
+      "sections": 18,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "McCrickard",
+          "gpa": 3.8,
+          "withdraw_pct": 0.0,
+          "enrolled": 68,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Dunlap",
+          "gpa": 3.79,
+          "withdraw_pct": 0.4,
+          "enrolled": 1167,
+          "withdraws": 5,
+          "sections": 16,
+          "thin": false
+        },
+        {
+          "name": "Tatar",
+          "gpa": 3.36,
+          "withdraw_pct": 6.2,
+          "enrolled": 15,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "3654": {
+      "title": "Intro Data Analytics & Visual",
+      "gpa": 3.46,
+      "withdraw_pct": 3.0,
+      "enrolled": 319,
+      "withdraws": 10,
+      "sections": 14,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Sengupta",
+          "gpa": 4.0,
+          "withdraw_pct": 12.5,
+          "enrolled": 7,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Mitra",
+          "gpa": 3.86,
+          "withdraw_pct": 4.5,
+          "enrolled": 21,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Wenskovitch",
+          "gpa": 3.54,
+          "withdraw_pct": 2.0,
+          "enrolled": 99,
+          "withdraws": 2,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "North",
+          "gpa": 3.52,
+          "withdraw_pct": 1.7,
+          "enrolled": 113,
+          "withdraws": 2,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Xing",
+          "gpa": 3.38,
+          "withdraw_pct": 2.2,
+          "enrolled": 44,
+          "withdraws": 1,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Lucero",
+          "gpa": 2.81,
+          "withdraw_pct": 7.9,
+          "enrolled": 35,
+          "withdraws": 3,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "3704": {
+      "title": "Intermed Software Des",
+      "gpa": 3.77,
+      "withdraw_pct": 0.9,
+      "enrolled": 460,
+      "withdraws": 4,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Alsafwan",
+          "gpa": 3.99,
+          "withdraw_pct": 1.2,
+          "enrolled": 85,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Servant Cortes",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "enrolled": 136,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Seyam",
+          "gpa": 3.82,
+          "withdraw_pct": 1.1,
+          "enrolled": 86,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Meng",
+          "gpa": 3.5,
+          "withdraw_pct": 1.3,
+          "enrolled": 153,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "3714": {
+      "title": "Mobile Software Development",
+      "gpa": 3.41,
+      "withdraw_pct": 6.7,
+      "enrolled": 498,
+      "withdraws": 36,
+      "sections": 16,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Esakia",
+          "gpa": 3.72,
+          "withdraw_pct": 7.5,
+          "enrolled": 111,
+          "withdraws": 9,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Balci",
+          "gpa": 3.33,
+          "withdraw_pct": 6.8,
+          "enrolled": 356,
+          "withdraws": 26,
+          "sections": 12,
+          "thin": false
+        },
+        {
+          "name": "Seyam",
+          "gpa": 3.2,
+          "withdraw_pct": 3.1,
+          "enrolled": 31,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "3724": {
+      "title": "Human-Computr Intrctn",
+      "gpa": 3.57,
+      "withdraw_pct": 0.5,
+      "enrolled": 562,
+      "withdraws": 3,
+      "sections": 10,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "McCrickard",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "enrolled": 175,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Gusukuma",
+          "gpa": 3.5,
+          "withdraw_pct": 2.4,
+          "enrolled": 83,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Harrison",
+          "gpa": 3.41,
+          "withdraw_pct": 0.0,
+          "enrolled": 71,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Kulak",
+          "gpa": 3.39,
+          "withdraw_pct": 0.4,
+          "enrolled": 233,
+          "withdraws": 1,
+          "sections": 5,
+          "thin": false
+        }
+      ]
+    },
+    "3744": {
+      "title": "Intro GUI Programming/Graphics",
+      "gpa": 3.44,
+      "withdraw_pct": 6.7,
+      "enrolled": 402,
+      "withdraws": 29,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Lee",
+          "gpa": 3.75,
+          "withdraw_pct": 1.8,
+          "enrolled": 54,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Gusukuma",
+          "gpa": 3.4,
+          "withdraw_pct": 4.2,
+          "enrolled": 299,
+          "withdraws": 13,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Luther",
+          "gpa": 3.34,
+          "withdraw_pct": 23.4,
+          "enrolled": 49,
+          "withdraws": 15,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "3754": {
+      "title": "Cloud Software Development",
+      "gpa": 3.59,
+      "withdraw_pct": 6.2,
+      "enrolled": 316,
+      "withdraws": 21,
+      "sections": 8,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Esakia",
+          "gpa": 3.68,
+          "withdraw_pct": 3.8,
+          "enrolled": 226,
+          "withdraws": 9,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "Balci",
+          "gpa": 3.34,
+          "withdraw_pct": 11.8,
+          "enrolled": 90,
+          "withdraws": 12,
+          "sections": 3,
+          "thin": false
+        }
+      ]
+    },
+    "3824": {
+      "title": "Intro Comp Bio Bioinformatics",
+      "gpa": 3.41,
+      "withdraw_pct": 1.1,
+      "enrolled": 89,
+      "withdraws": 1,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Zhang",
+          "gpa": 3.48,
+          "withdraw_pct": 0.0,
+          "enrolled": 68,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Heath",
+          "gpa": 3.18,
+          "withdraw_pct": 4.5,
+          "enrolled": 21,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "3984": {
+      "title": "SS: Emerging Tech Project Exp",
+      "gpa": 4.0,
+      "withdraw_pct": 0.0,
+      "enrolled": 5,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Wicks",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4104": {
+      "title": "Data and Algorithm Analysis",
+      "gpa": 3.09,
+      "withdraw_pct": 3.5,
+      "enrolled": 642,
+      "withdraws": 23,
+      "sections": 12,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Ji",
+          "gpa": 3.45,
+          "withdraw_pct": 3.9,
+          "enrolled": 122,
+          "withdraws": 5,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Heath",
+          "gpa": 3.32,
+          "withdraw_pct": 1.3,
+          "enrolled": 76,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Sandu",
+          "gpa": 3.26,
+          "withdraw_pct": 0.0,
+          "enrolled": 83,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Hamouda",
+          "gpa": 3.19,
+          "withdraw_pct": 0.0,
+          "enrolled": 74,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Sowle",
+          "gpa": 2.88,
+          "withdraw_pct": 7.1,
+          "enrolled": 39,
+          "withdraws": 3,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Murali",
+          "gpa": 2.8,
+          "withdraw_pct": 6.5,
+          "enrolled": 115,
+          "withdraws": 8,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Raghvendra",
+          "gpa": 2.76,
+          "withdraw_pct": 4.3,
+          "enrolled": 133,
+          "withdraws": 6,
+          "sections": 4,
+          "thin": false
+        }
+      ]
+    },
+    "4114": {
+      "title": "Formal Languages",
+      "gpa": 3.27,
+      "withdraw_pct": 0.3,
+      "enrolled": 299,
+      "withdraws": 1,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Shaffer",
+          "gpa": 3.32,
+          "withdraw_pct": 1.4,
+          "enrolled": 68,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Mohammed",
+          "gpa": 3.26,
+          "withdraw_pct": 0.0,
+          "enrolled": 231,
+          "withdraws": 0,
+          "sections": 5,
+          "thin": false
+        }
+      ]
+    },
+    "4124": {
+      "title": "Theory of Computation",
+      "gpa": 2.22,
+      "withdraw_pct": 9.3,
+      "enrolled": 49,
+      "withdraws": 5,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Watson",
+          "gpa": 2.22,
+          "withdraw_pct": 9.3,
+          "enrolled": 49,
+          "withdraws": 5,
+          "sections": 3,
+          "thin": false
+        }
+      ]
+    },
+    "4164": {
+      "title": "Future of Security",
+      "gpa": 3.67,
+      "withdraw_pct": 0.0,
+      "enrolled": 19,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Vance",
+          "gpa": 3.86,
+          "withdraw_pct": 0.0,
+          "enrolled": 11,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Brantly",
+          "gpa": 3.41,
+          "withdraw_pct": 0.0,
+          "enrolled": 8,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4204": {
+      "title": "Computer Graphics",
+      "gpa": 3.41,
+      "withdraw_pct": 16.7,
+      "enrolled": 10,
+      "withdraws": 2,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Gracanin",
+          "gpa": 3.41,
+          "withdraw_pct": 16.7,
+          "enrolled": 10,
+          "withdraws": 2,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4224": {
+      "title": "Linux Kernel Programming",
+      "gpa": 3.18,
+      "withdraw_pct": 0.0,
+      "enrolled": 32,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Min",
+          "gpa": 3.18,
+          "withdraw_pct": 0.0,
+          "enrolled": 32,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "4234": {
+      "title": "Parallel Computation",
+      "gpa": 3.48,
+      "withdraw_pct": 2.9,
+      "enrolled": 33,
+      "withdraws": 1,
+      "sections": 3,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Feng",
+          "gpa": 3.77,
+          "withdraw_pct": 0.0,
+          "enrolled": 14,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Sandu",
+          "gpa": 3.26,
+          "withdraw_pct": 5.0,
+          "enrolled": 19,
+          "withdraws": 1,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "4254": {
+      "title": "Network Arch Prog",
+      "gpa": 3.32,
+      "withdraw_pct": 1.2,
+      "enrolled": 85,
+      "withdraws": 1,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Hasan",
+          "gpa": 3.46,
+          "withdraw_pct": 3.2,
+          "enrolled": 30,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Viswanath",
+          "gpa": 3.24,
+          "withdraw_pct": 0.0,
+          "enrolled": 55,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "4264": {
+      "title": "Principles Computer Security",
+      "gpa": 3.6,
+      "withdraw_pct": 1.1,
+      "enrolled": 350,
+      "withdraws": 4,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Rahaman",
+          "gpa": 3.85,
+          "withdraw_pct": 0.0,
+          "enrolled": 42,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Yao",
+          "gpa": 3.82,
+          "withdraw_pct": 0.0,
+          "enrolled": 63,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Hicks",
+          "gpa": 3.55,
+          "withdraw_pct": 1.8,
+          "enrolled": 108,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Chung",
+          "gpa": 3.45,
+          "withdraw_pct": 1.4,
+          "enrolled": 137,
+          "withdraws": 2,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "4274": {
+      "title": "Secure Computing Capstone",
+      "gpa": 3.62,
+      "withdraw_pct": 0.0,
+      "enrolled": 17,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Hoang",
+          "gpa": 3.81,
+          "withdraw_pct": 0.0,
+          "enrolled": 11,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Viswanath",
+          "gpa": 3.28,
+          "withdraw_pct": 0.0,
+          "enrolled": 6,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4284": {
+      "title": "Systems & Networking Capstone",
+      "gpa": 3.76,
+      "withdraw_pct": 0.7,
+      "enrolled": 145,
+      "withdraws": 1,
+      "sections": 5,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Butt",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 21,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Cameron",
+          "gpa": 3.77,
+          "withdraw_pct": 0.0,
+          "enrolled": 70,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Back",
+          "gpa": 3.72,
+          "withdraw_pct": 3.1,
+          "enrolled": 31,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Nikolopoulos",
+          "gpa": 3.59,
+          "withdraw_pct": 0.0,
+          "enrolled": 23,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4414": {
+      "title": "Issues in Scientific Computing",
+      "gpa": 3.8,
+      "withdraw_pct": 0.0,
+      "enrolled": 5,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Lin",
+          "gpa": 3.8,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4504": {
+      "title": "Computer Organization",
+      "gpa": 2.6,
+      "withdraw_pct": 10.5,
+      "enrolled": 17,
+      "withdraws": 2,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Zeng",
+          "gpa": 2.79,
+          "withdraw_pct": 20.0,
+          "enrolled": 8,
+          "withdraws": 2,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Feng",
+          "gpa": 2.44,
+          "withdraw_pct": 0.0,
+          "enrolled": 9,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4604": {
+      "title": "Int Data Base Mgt Sys",
+      "gpa": 3.42,
+      "withdraw_pct": 0.6,
+      "enrolled": 173,
+      "withdraws": 1,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Hamouda",
+          "gpa": 3.59,
+          "withdraw_pct": 1.2,
+          "enrolled": 79,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Quintin",
+          "gpa": 3.56,
+          "withdraw_pct": 0.0,
+          "enrolled": 25,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Chen",
+          "gpa": 3.18,
+          "withdraw_pct": 0.0,
+          "enrolled": 69,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "4624": {
+      "title": "Multimedia/Hypertext",
+      "gpa": 3.43,
+      "withdraw_pct": 0.4,
+      "enrolled": 244,
+      "withdraws": 1,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Fox",
+          "gpa": 3.43,
+          "withdraw_pct": 0.4,
+          "enrolled": 244,
+          "withdraws": 1,
+          "sections": 4,
+          "thin": false
+        }
+      ]
+    },
+    "4634": {
+      "title": "Design Of Information",
+      "gpa": 3.32,
+      "withdraw_pct": 0.0,
+      "enrolled": 45,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Harrison",
+          "gpa": 3.32,
+          "withdraw_pct": 0.0,
+          "enrolled": 45,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "4644": {
+      "title": "Creative Computing Studio",
+      "gpa": 3.75,
+      "withdraw_pct": 1.1,
+      "enrolled": 91,
+      "withdraws": 1,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Lee",
+          "gpa": 3.83,
+          "withdraw_pct": 0.0,
+          "enrolled": 64,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Harrison",
+          "gpa": 3.57,
+          "withdraw_pct": 3.6,
+          "enrolled": 27,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4654": {
+      "title": "Intermed Data Analytics & ML",
+      "gpa": 3.66,
+      "withdraw_pct": 0.0,
+      "enrolled": 10,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Lucero",
+          "gpa": 3.66,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "4664": {
+      "title": "Data-Centric Computng Capstone",
+      "gpa": 3.77,
+      "withdraw_pct": 0.0,
+      "enrolled": 18,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Elhamod",
+          "gpa": 3.77,
+          "withdraw_pct": 0.0,
+          "enrolled": 18,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4704": {
+      "title": "Software Engineering Capstone",
+      "gpa": 3.85,
+      "withdraw_pct": 0.3,
+      "enrolled": 384,
+      "withdraws": 1,
+      "sections": 12,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Edmison",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 31,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Charles",
+          "gpa": 3.97,
+          "withdraw_pct": 0.0,
+          "enrolled": 171,
+          "withdraws": 0,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "Seyam",
+          "gpa": 3.82,
+          "withdraw_pct": 0.8,
+          "enrolled": 118,
+          "withdraws": 1,
+          "sections": 4,
+          "thin": false
+        },
+        {
+          "name": "Noller",
+          "gpa": 3.48,
+          "withdraw_pct": 0.0,
+          "enrolled": 64,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "4784": {
+      "title": "Human-Computer Interact Capstn",
+      "gpa": 3.76,
+      "withdraw_pct": 0.0,
+      "enrolled": 118,
+      "withdraws": 0,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Wenskovitch",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 29,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Polys",
+          "gpa": 3.88,
+          "withdraw_pct": 0.0,
+          "enrolled": 33,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "McCrickard",
+          "gpa": 3.8,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Bowman",
+          "gpa": 3.74,
+          "withdraw_pct": 0.0,
+          "enrolled": 14,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Harrison",
+          "gpa": 3.5,
+          "withdraw_pct": 0.0,
+          "enrolled": 27,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Tatar",
+          "gpa": 3.43,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4804": {
+      "title": "Introduction to AI",
+      "gpa": 3.44,
+      "withdraw_pct": 0.9,
+      "enrolled": 115,
+      "withdraws": 1,
+      "sections": 2,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Chen",
+          "gpa": 3.44,
+          "withdraw_pct": 0.9,
+          "enrolled": 115,
+          "withdraws": 1,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "4824": {
+      "title": "Machine Learning",
+      "gpa": 2.89,
+      "withdraw_pct": 10.8,
+      "enrolled": 265,
+      "withdraws": 32,
+      "sections": 10,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Karpatne",
+          "gpa": 3.25,
+          "withdraw_pct": 0.0,
+          "enrolled": 17,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Jin",
+          "gpa": 3.2,
+          "withdraw_pct": 10.1,
+          "enrolled": 62,
+          "withdraws": 7,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Huang",
+          "gpa": 3.18,
+          "withdraw_pct": 7.0,
+          "enrolled": 53,
+          "withdraws": 4,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Bhattacharya",
+          "gpa": 2.82,
+          "withdraw_pct": 12.0,
+          "enrolled": 22,
+          "withdraws": 3,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Hilal",
+          "gpa": 2.66,
+          "withdraw_pct": 1.8,
+          "enrolled": 54,
+          "withdraws": 1,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Wyatt",
+          "gpa": 2.43,
+          "withdraw_pct": 23.0,
+          "enrolled": 57,
+          "withdraws": 17,
+          "sections": 3,
+          "thin": false
+        }
+      ]
+    },
+    "4884": {
+      "title": "Comp Bio & Bioinfo Capstone",
+      "gpa": 3.39,
+      "withdraw_pct": 2.8,
+      "enrolled": 35,
+      "withdraws": 1,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Murali",
+          "gpa": 3.39,
+          "withdraw_pct": 2.8,
+          "enrolled": 35,
+          "withdraws": 1,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "4974": {
+      "title": "Independent Study",
+      "gpa": 3.89,
+      "withdraw_pct": 0.0,
+      "enrolled": 15,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Huang",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Ellis",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Shaffer",
+          "gpa": 3.66,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "4984": {
+      "title": "SS: Open Source Intel Lab",
+      "gpa": 3.7,
+      "withdraw_pct": 1.8,
+      "enrolled": 107,
+      "withdraws": 2,
+      "sections": 7,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Back",
+          "gpa": 3.86,
+          "withdraw_pct": 5.0,
+          "enrolled": 38,
+          "withdraws": 2,
+          "sections": 3,
+          "thin": true
+        },
+        {
+          "name": "Eldardiry",
+          "gpa": 3.85,
+          "withdraw_pct": 0.0,
+          "enrolled": 22,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Luther",
+          "gpa": 3.51,
+          "withdraw_pct": 0.0,
+          "enrolled": 47,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "4994": {
+      "title": "Undergraduate Research",
+      "gpa": 4.0,
+      "withdraw_pct": 0.0,
+      "enrolled": 12,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Shaffer",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 6,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Heath",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 6,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5014": {
+      "title": "Research Meth in CS",
+      "gpa": 3.9,
+      "withdraw_pct": 0.0,
+      "enrolled": 97,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Farghally",
+          "gpa": 3.94,
+          "withdraw_pct": 0.0,
+          "enrolled": 40,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Tilevich",
+          "gpa": 3.94,
+          "withdraw_pct": 0.0,
+          "enrolled": 35,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Shaffer",
+          "gpa": 3.75,
+          "withdraw_pct": 0.0,
+          "enrolled": 22,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5024": {
+      "title": "Ethics & Professionalism in CS",
+      "gpa": 3.88,
+      "withdraw_pct": 0.0,
+      "enrolled": 528,
+      "withdraws": 0,
+      "sections": 13,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Farghally",
+          "gpa": 3.93,
+          "withdraw_pct": 0.0,
+          "enrolled": 392,
+          "withdraws": 0,
+          "sections": 7,
+          "thin": false
+        },
+        {
+          "name": "Yao",
+          "gpa": 3.89,
+          "withdraw_pct": 0.0,
+          "enrolled": 34,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Lu",
+          "gpa": 3.74,
+          "withdraw_pct": 0.0,
+          "enrolled": 18,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Ramakrishnan",
+          "gpa": 3.73,
+          "withdraw_pct": 0.0,
+          "enrolled": 41,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Greening",
+          "gpa": 3.63,
+          "withdraw_pct": 0.0,
+          "enrolled": 43,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "5040": {
+      "title": "Intermed Data Struct/Algorithm",
+      "gpa": 3.67,
+      "withdraw_pct": 0.6,
+      "enrolled": 180,
+      "withdraws": 1,
+      "sections": 8,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Farghally",
+          "gpa": 3.71,
+          "withdraw_pct": 0.0,
+          "enrolled": 84,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Edmison",
+          "gpa": 3.63,
+          "withdraw_pct": 1.0,
+          "enrolled": 96,
+          "withdraws": 1,
+          "sections": 6,
+          "thin": false
+        }
+      ]
+    },
+    "5044": {
+      "title": "Object-Oriented Pgmming Java",
+      "gpa": 3.52,
+      "withdraw_pct": 0.0,
+      "enrolled": 246,
+      "withdraws": 0,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Kulczycki",
+          "gpa": 3.52,
+          "withdraw_pct": 0.0,
+          "enrolled": 246,
+          "withdraws": 0,
+          "sections": 6,
+          "thin": false
+        }
+      ]
+    },
+    "5045": {
+      "title": "Computation for Data Sciences",
+      "gpa": 3.88,
+      "withdraw_pct": 0.0,
+      "enrolled": 83,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Heath",
+          "gpa": 3.98,
+          "withdraw_pct": 0.0,
+          "enrolled": 17,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Zhang",
+          "gpa": 3.86,
+          "withdraw_pct": 0.0,
+          "enrolled": 66,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "5046": {
+      "title": "Computation for Data Sciences",
+      "gpa": 3.5,
+      "withdraw_pct": 0.0,
+      "enrolled": 8,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Zhang",
+          "gpa": 3.5,
+          "withdraw_pct": 0.0,
+          "enrolled": 8,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5104": {
+      "title": "Comp and Formal Lang",
+      "gpa": 3.66,
+      "withdraw_pct": 5.6,
+      "enrolled": 17,
+      "withdraws": 1,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Heath",
+          "gpa": 3.97,
+          "withdraw_pct": 0.0,
+          "enrolled": 12,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Watson",
+          "gpa": 2.92,
+          "withdraw_pct": 16.7,
+          "enrolled": 5,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5114": {
+      "title": "Theory of Algorithms",
+      "gpa": 3.58,
+      "withdraw_pct": 0.6,
+      "enrolled": 160,
+      "withdraws": 1,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Heath",
+          "gpa": 3.74,
+          "withdraw_pct": 0.0,
+          "enrolled": 54,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Raghvendra",
+          "gpa": 3.56,
+          "withdraw_pct": 0.0,
+          "enrolled": 34,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Cho",
+          "gpa": 3.48,
+          "withdraw_pct": 0.0,
+          "enrolled": 30,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Ji",
+          "gpa": 3.45,
+          "withdraw_pct": 2.3,
+          "enrolled": 42,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "5124": {
+      "title": "Algorithms in Bioinformatics",
+      "gpa": 4.0,
+      "withdraw_pct": 0.0,
+      "enrolled": 10,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Zhang",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5204": {
+      "title": "Operating Systems",
+      "gpa": 3.95,
+      "withdraw_pct": 0.0,
+      "enrolled": 65,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Butt",
+          "gpa": 3.95,
+          "withdraw_pct": 0.0,
+          "enrolled": 65,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": false
+        }
+      ]
+    },
+    "5214": {
+      "title": "Mod & Eval Comp Sys",
+      "gpa": 3.74,
+      "withdraw_pct": 0.0,
+      "enrolled": 22,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Chen",
+          "gpa": 3.74,
+          "withdraw_pct": 0.0,
+          "enrolled": 22,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "5234": {
+      "title": "Advanced Parallel Computation",
+      "gpa": 3.73,
+      "withdraw_pct": 0.0,
+      "enrolled": 40,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Sandu",
+          "gpa": 3.81,
+          "withdraw_pct": 0.0,
+          "enrolled": 30,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Feng",
+          "gpa": 3.48,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5244": {
+      "title": "Web Application Development",
+      "gpa": 3.79,
+      "withdraw_pct": 0.0,
+      "enrolled": 146,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Kulczycki",
+          "gpa": 3.79,
+          "withdraw_pct": 0.0,
+          "enrolled": 146,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": false
+        }
+      ]
+    },
+    "5254": {
+      "title": "Mobile Application Development",
+      "gpa": 3.75,
+      "withdraw_pct": 0.0,
+      "enrolled": 247,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Kulczycki",
+          "gpa": 3.75,
+          "withdraw_pct": 0.0,
+          "enrolled": 247,
+          "withdraws": 0,
+          "sections": 4,
+          "thin": false
+        }
+      ]
+    },
+    "5264": {
+      "title": "Adv Linux Kernel Programming",
+      "gpa": 3.5,
+      "withdraw_pct": 0.0,
+      "enrolled": 20,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Min",
+          "gpa": 3.5,
+          "withdraw_pct": 0.0,
+          "enrolled": 20,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": true
+        }
+      ]
+    },
+    "5314": {
+      "title": "Programming Languages",
+      "gpa": 3.87,
+      "withdraw_pct": 0.0,
+      "enrolled": 12,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Tilevich",
+          "gpa": 3.87,
+          "withdraw_pct": 0.0,
+          "enrolled": 12,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5485": {
+      "title": "Numer Analy and Softw",
+      "gpa": 3.94,
+      "withdraw_pct": 0.0,
+      "enrolled": 11,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Sandu",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 6,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Beattie",
+          "gpa": 3.86,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5486": {
+      "title": "Numer Analy and Softw",
+      "gpa": 3.93,
+      "withdraw_pct": 0.0,
+      "enrolled": 14,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Lattimer",
+          "gpa": 3.96,
+          "withdraw_pct": 0.0,
+          "enrolled": 8,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Embree",
+          "gpa": 3.88,
+          "withdraw_pct": 0.0,
+          "enrolled": 6,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5504": {
+      "title": "Computer Architecture",
+      "gpa": 3.17,
+      "withdraw_pct": 0.0,
+      "enrolled": 10,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Paul",
+          "gpa": 3.34,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Feng",
+          "gpa": 3.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5510": {
+      "title": "Multiprocessor Programming",
+      "gpa": 3.23,
+      "withdraw_pct": 0.0,
+      "enrolled": 15,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Nikolopoulos",
+          "gpa": 3.41,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Ravindran",
+          "gpa": 2.86,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5525": {
+      "title": "Data Analytics",
+      "gpa": 3.67,
+      "withdraw_pct": 0.2,
+      "enrolled": 433,
+      "withdraws": 1,
+      "sections": 13,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Datta",
+          "gpa": 3.97,
+          "withdraw_pct": 0.0,
+          "enrolled": 36,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Skarzynski",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "enrolled": 29,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Adhikari",
+          "gpa": 3.75,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Reddy",
+          "gpa": 3.71,
+          "withdraw_pct": 0.0,
+          "enrolled": 49,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Karpatne",
+          "gpa": 3.65,
+          "withdraw_pct": 0.4,
+          "enrolled": 237,
+          "withdraws": 1,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "Muralidharan",
+          "gpa": 3.49,
+          "withdraw_pct": 0.0,
+          "enrolled": 64,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Gramacy",
+          "gpa": 3.13,
+          "withdraw_pct": 0.0,
+          "enrolled": 8,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5526": {
+      "title": "Data Analytics",
+      "gpa": 3.83,
+      "withdraw_pct": 0.0,
+      "enrolled": 50,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Deng",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 9,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Reddy",
+          "gpa": 3.79,
+          "withdraw_pct": 0.0,
+          "enrolled": 41,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "5544": {
+      "title": "Compiler Optimizations",
+      "gpa": 3.68,
+      "withdraw_pct": 0.0,
+      "enrolled": 5,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Ravindran",
+          "gpa": 3.68,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5560": {
+      "title": "Fundamentals of Info Security",
+      "gpa": 3.66,
+      "withdraw_pct": 0.0,
+      "enrolled": 126,
+      "withdraws": 0,
+      "sections": 9,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Lou",
+          "gpa": 3.72,
+          "withdraw_pct": 0.0,
+          "enrolled": 62,
+          "withdraws": 0,
+          "sections": 5,
+          "thin": false
+        },
+        {
+          "name": "Stavrou",
+          "gpa": 3.71,
+          "withdraw_pct": 0.0,
+          "enrolled": 43,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Park",
+          "gpa": 3.39,
+          "withdraw_pct": 0.0,
+          "enrolled": 21,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "5565": {
+      "title": "Network Arch and Protocols",
+      "gpa": 3.81,
+      "withdraw_pct": 0.0,
+      "enrolled": 45,
+      "withdraws": 0,
+      "sections": 5,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Yang",
+          "gpa": 3.84,
+          "withdraw_pct": 0.0,
+          "enrolled": 24,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": true
+        },
+        {
+          "name": "Wang",
+          "gpa": 3.77,
+          "withdraw_pct": 0.0,
+          "enrolled": 21,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "5566": {
+      "title": "Network Arch and Protocols",
+      "gpa": 3.96,
+      "withdraw_pct": 0.0,
+      "enrolled": 7,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Yang",
+          "gpa": 3.96,
+          "withdraw_pct": 0.0,
+          "enrolled": 7,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5584": {
+      "title": "Network Security",
+      "gpa": 3.43,
+      "withdraw_pct": 0.0,
+      "enrolled": 7,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Cho",
+          "gpa": 3.43,
+          "withdraw_pct": 0.0,
+          "enrolled": 7,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5590": {
+      "title": "System and Software Security",
+      "gpa": 3.79,
+      "withdraw_pct": 0.0,
+      "enrolled": 55,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Yao",
+          "gpa": 3.86,
+          "withdraw_pct": 0.0,
+          "enrolled": 45,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Hicks",
+          "gpa": 3.46,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5594": {
+      "title": "Blockchain Technologies",
+      "gpa": 3.92,
+      "withdraw_pct": 1.3,
+      "enrolled": 77,
+      "withdraws": 1,
+      "sections": 2,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Hoang",
+          "gpa": 3.95,
+          "withdraw_pct": 0.0,
+          "enrolled": 12,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Gao",
+          "gpa": 3.91,
+          "withdraw_pct": 1.5,
+          "enrolled": 65,
+          "withdraws": 1,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "5604": {
+      "title": "Info Storage and Ret",
+      "gpa": 3.82,
+      "withdraw_pct": 0.0,
+      "enrolled": 118,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Lourentzou",
+          "gpa": 3.98,
+          "withdraw_pct": 0.0,
+          "enrolled": 48,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Fox",
+          "gpa": 3.72,
+          "withdraw_pct": 0.0,
+          "enrolled": 63,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Lu",
+          "gpa": 3.66,
+          "withdraw_pct": 0.0,
+          "enrolled": 7,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5614": {
+      "title": "Database Management Systems",
+      "gpa": 3.68,
+      "withdraw_pct": 0.0,
+      "enrolled": 57,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Gulzar",
+          "gpa": 3.76,
+          "withdraw_pct": 0.0,
+          "enrolled": 26,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Lu",
+          "gpa": 3.63,
+          "withdraw_pct": 0.0,
+          "enrolled": 21,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Sibdari",
+          "gpa": 3.6,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5644": {
+      "title": "Machine Learning with Big Data",
+      "gpa": 3.63,
+      "withdraw_pct": 0.0,
+      "enrolled": 211,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Ramakrishnan",
+          "gpa": 3.64,
+          "withdraw_pct": 0.0,
+          "enrolled": 120,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Butler",
+          "gpa": 3.62,
+          "withdraw_pct": 0.0,
+          "enrolled": 91,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "5664": {
+      "title": "Social Media Analytics",
+      "gpa": 3.53,
+      "withdraw_pct": 0.0,
+      "enrolled": 178,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Butler",
+          "gpa": 3.59,
+          "withdraw_pct": 0.0,
+          "enrolled": 95,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Ramakrishnan",
+          "gpa": 3.47,
+          "withdraw_pct": 0.0,
+          "enrolled": 83,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "5704": {
+      "title": "Software Engineering",
+      "gpa": 3.69,
+      "withdraw_pct": 0.2,
+      "enrolled": 418,
+      "withdraws": 1,
+      "sections": 12,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Servant Cortes",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 21,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Meng",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 14,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Brown",
+          "gpa": 3.89,
+          "withdraw_pct": 0.0,
+          "enrolled": 45,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Balci",
+          "gpa": 3.66,
+          "withdraw_pct": 1.9,
+          "enrolled": 52,
+          "withdraws": 1,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Kulczycki",
+          "gpa": 3.63,
+          "withdraw_pct": 0.0,
+          "enrolled": 286,
+          "withdraws": 0,
+          "sections": 7,
+          "thin": false
+        }
+      ]
+    },
+    "5714": {
+      "title": "Usability Engineering",
+      "gpa": 3.97,
+      "withdraw_pct": 0.0,
+      "enrolled": 52,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "McCrickard",
+          "gpa": 3.99,
+          "withdraw_pct": 0.0,
+          "enrolled": 23,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Gabbard",
+          "gpa": 3.96,
+          "withdraw_pct": 0.0,
+          "enrolled": 29,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "5724": {
+      "title": "Models of HCI",
+      "gpa": 3.9,
+      "withdraw_pct": 0.0,
+      "enrolled": 94,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "McCrickard",
+          "gpa": 3.98,
+          "withdraw_pct": 0.0,
+          "enrolled": 24,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Harrison",
+          "gpa": 3.96,
+          "withdraw_pct": 0.0,
+          "enrolled": 23,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Gracanin",
+          "gpa": 3.83,
+          "withdraw_pct": 0.0,
+          "enrolled": 47,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "5734": {
+      "title": "Soc Comp & Comp Support Coop",
+      "gpa": 3.81,
+      "withdraw_pct": 0.0,
+      "enrolled": 33,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Lee",
+          "gpa": 3.89,
+          "withdraw_pct": 0.0,
+          "enrolled": 19,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Tatar",
+          "gpa": 3.71,
+          "withdraw_pct": 0.0,
+          "enrolled": 14,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5744": {
+      "title": "Software Design and Quality",
+      "gpa": 3.9,
+      "withdraw_pct": 0.0,
+      "enrolled": 107,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Edwards",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "enrolled": 60,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Edmison",
+          "gpa": 3.88,
+          "withdraw_pct": 0.0,
+          "enrolled": 47,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "5754": {
+      "title": "Virtual Environments",
+      "gpa": 3.68,
+      "withdraw_pct": 0.0,
+      "enrolled": 77,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Gracanin",
+          "gpa": 3.79,
+          "withdraw_pct": 0.0,
+          "enrolled": 40,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Bowman",
+          "gpa": 3.56,
+          "withdraw_pct": 0.0,
+          "enrolled": 37,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "5764": {
+      "title": "Information Visualization",
+      "gpa": 3.84,
+      "withdraw_pct": 0.0,
+      "enrolled": 132,
+      "withdraws": 0,
+      "sections": 5,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "North",
+          "gpa": 3.88,
+          "withdraw_pct": 0.0,
+          "enrolled": 24,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Hooshangi",
+          "gpa": 3.88,
+          "withdraw_pct": 0.0,
+          "enrolled": 18,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Polys",
+          "gpa": 3.82,
+          "withdraw_pct": 0.0,
+          "enrolled": 58,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Yang",
+          "gpa": 3.82,
+          "withdraw_pct": 0.0,
+          "enrolled": 32,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5774": {
+      "title": "User Interface Software",
+      "gpa": 3.73,
+      "withdraw_pct": 0.0,
+      "enrolled": 91,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Luther",
+          "gpa": 3.73,
+          "withdraw_pct": 0.0,
+          "enrolled": 91,
+          "withdraws": 0,
+          "sections": 4,
+          "thin": false
+        }
+      ]
+    },
+    "5804": {
+      "title": "Intro Artificial Intelligence",
+      "gpa": 3.77,
+      "withdraw_pct": 0.0,
+      "enrolled": 47,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Chen",
+          "gpa": 3.77,
+          "withdraw_pct": 0.0,
+          "enrolled": 47,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        }
+      ]
+    },
+    "5814": {
+      "title": "Introduction to Deep Learning",
+      "gpa": 3.58,
+      "withdraw_pct": 0.0,
+      "enrolled": 140,
+      "withdraws": 0,
+      "sections": 3,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Reddy",
+          "gpa": 3.58,
+          "withdraw_pct": 0.0,
+          "enrolled": 140,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": false
+        }
+      ]
+    },
+    "5824": {
+      "title": "Advanced Machine Learning",
+      "gpa": 3.84,
+      "withdraw_pct": 0.0,
+      "enrolled": 342,
+      "withdraws": 0,
+      "sections": 9,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Eldardiry",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "enrolled": 31,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Wang",
+          "gpa": 3.87,
+          "withdraw_pct": 0.0,
+          "enrolled": 78,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Huang",
+          "gpa": 3.86,
+          "withdraw_pct": 0.0,
+          "enrolled": 157,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": false
+        },
+        {
+          "name": "Jin",
+          "gpa": 3.79,
+          "withdraw_pct": 0.0,
+          "enrolled": 36,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Zhou",
+          "gpa": 3.75,
+          "withdraw_pct": 0.0,
+          "enrolled": 40,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        }
+      ]
+    },
+    "5834": {
+      "title": "Intro to Urban Computing",
+      "gpa": 3.74,
+      "withdraw_pct": 0.0,
+      "enrolled": 121,
+      "withdraws": 0,
+      "sections": 6,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Prakash",
+          "gpa": 3.78,
+          "withdraw_pct": 0.0,
+          "enrolled": 38,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Ramakrishnan",
+          "gpa": 3.72,
+          "withdraw_pct": 0.0,
+          "enrolled": 83,
+          "withdraws": 0,
+          "sections": 4,
+          "thin": false
+        }
+      ]
+    },
+    "5854": {
+      "title": "Computational Systems Biology",
+      "gpa": 3.59,
+      "withdraw_pct": 0.0,
+      "enrolled": 16,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Murali",
+          "gpa": 3.59,
+          "withdraw_pct": 0.0,
+          "enrolled": 16,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "5914": {
+      "title": "TS:Software Project Management",
+      "gpa": 3.97,
+      "withdraw_pct": 0.0,
+      "enrolled": 39,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Kennedy",
+          "gpa": 3.97,
+          "withdraw_pct": 0.0,
+          "enrolled": 39,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "5934": {
+      "title": "Capstone Project",
+      "gpa": 3.91,
+      "withdraw_pct": 0.0,
+      "enrolled": 78,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Hooshangi",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "enrolled": 78,
+          "withdraws": 0,
+          "sections": 4,
+          "thin": false
+        }
+      ]
+    },
+    "5984": {
+      "title": "SS:Natural Language Processing",
+      "gpa": 3.82,
+      "withdraw_pct": 0.0,
+      "enrolled": 141,
+      "withdraws": 0,
+      "sections": 8,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Kennedy",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 28,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Rho",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 11,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Viswanath",
+          "gpa": 3.96,
+          "withdraw_pct": 0.0,
+          "enrolled": 7,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Huang",
+          "gpa": 3.81,
+          "withdraw_pct": 0.0,
+          "enrolled": 41,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": false
+        },
+        {
+          "name": "Reddy",
+          "gpa": 3.72,
+          "withdraw_pct": 0.0,
+          "enrolled": 38,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Sikora",
+          "gpa": 3.64,
+          "withdraw_pct": 0.0,
+          "enrolled": 11,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Luther",
+          "gpa": 3.42,
+          "withdraw_pct": 0.0,
+          "enrolled": 5,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "6104": {
+      "title": "TS: Complex Networks",
+      "gpa": 4.0,
+      "withdraw_pct": 0.0,
+      "enrolled": 17,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Heath",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 17,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "6204": {
+      "title": "TS: Computing and Social Good",
+      "gpa": 3.9,
+      "withdraw_pct": 0.0,
+      "enrolled": 48,
+      "withdraws": 0,
+      "sections": 5,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Hicks",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 17,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        },
+        {
+          "name": "Butt",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 7,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Chung",
+          "gpa": 3.95,
+          "withdraw_pct": 0.0,
+          "enrolled": 6,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Hasan",
+          "gpa": 3.74,
+          "withdraw_pct": 0.0,
+          "enrolled": 18,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "6504": {
+      "title": "TS: Memory System Architecture",
+      "gpa": 4.0,
+      "withdraw_pct": 0.0,
+      "enrolled": 6,
+      "withdraws": 0,
+      "sections": 1,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Jian",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 6,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "6524": {
+      "title": "Deep Learning",
+      "gpa": 3.8,
+      "withdraw_pct": 0.0,
+      "enrolled": 84,
+      "withdraws": 0,
+      "sections": 5,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Huang",
+          "gpa": 3.85,
+          "withdraw_pct": 0.0,
+          "enrolled": 57,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": false
+        },
+        {
+          "name": "Xuan",
+          "gpa": 3.7,
+          "withdraw_pct": 0.0,
+          "enrolled": 27,
+          "withdraws": 0,
+          "sections": 3,
+          "thin": true
+        }
+      ]
+    },
+    "6604": {
+      "title": "TS: Digital Libraries",
+      "gpa": 3.81,
+      "withdraw_pct": 0.0,
+      "enrolled": 115,
+      "withdraws": 0,
+      "sections": 7,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Kafura",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 19,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Lourentzou",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 13,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Fox",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "enrolled": 23,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Reddy",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "enrolled": 20,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Sikora",
+          "gpa": 3.75,
+          "withdraw_pct": 0.0,
+          "enrolled": 8,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Lu",
+          "gpa": 3.66,
+          "withdraw_pct": 0.0,
+          "enrolled": 17,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Viswanath",
+          "gpa": 3.29,
+          "withdraw_pct": 0.0,
+          "enrolled": 15,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "6704": {
+      "title": "Adv Topics S/W Eng",
+      "gpa": 3.81,
+      "withdraw_pct": 0.0,
+      "enrolled": 50,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Servant Cortes",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 14,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Tilevich",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 14,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Meng",
+          "gpa": 3.89,
+          "withdraw_pct": 0.0,
+          "enrolled": 8,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Gulzar",
+          "gpa": 3.39,
+          "withdraw_pct": 0.0,
+          "enrolled": 14,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "6724": {
+      "title": "TS: Human-Al Interaction",
+      "gpa": 3.86,
+      "withdraw_pct": 0.0,
+      "enrolled": 88,
+      "withdraws": 0,
+      "sections": 7,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Gracanin",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Kelliher",
+          "gpa": 3.92,
+          "withdraw_pct": 0.0,
+          "enrolled": 8,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Lee",
+          "gpa": 3.89,
+          "withdraw_pct": 0.0,
+          "enrolled": 11,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "North",
+          "gpa": 3.86,
+          "withdraw_pct": 0.0,
+          "enrolled": 27,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "McCrickard",
+          "gpa": 3.79,
+          "withdraw_pct": 0.0,
+          "enrolled": 14,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Luther",
+          "gpa": 3.78,
+          "withdraw_pct": 0.0,
+          "enrolled": 18,
+          "withdraws": 0,
+          "sections": 2,
+          "thin": true
+        }
+      ]
+    },
+    "6804": {
+      "title": "AT: Science-guided Mach Lrning",
+      "gpa": 3.93,
+      "withdraw_pct": 0.0,
+      "enrolled": 71,
+      "withdraws": 0,
+      "sections": 4,
+      "thin": false,
+      "instructors": [
+        {
+          "name": "Huang",
+          "gpa": 4.0,
+          "withdraw_pct": 0.0,
+          "enrolled": 20,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Karpatne",
+          "gpa": 3.99,
+          "withdraw_pct": 0.0,
+          "enrolled": 28,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Yao",
+          "gpa": 3.81,
+          "withdraw_pct": 0.0,
+          "enrolled": 7,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Eldardiry",
+          "gpa": 3.79,
+          "withdraw_pct": 0.0,
+          "enrolled": 16,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    },
+    "6824": {
+      "title": "Adv Topics Comp Biol & Bioinfo",
+      "gpa": 3.9,
+      "withdraw_pct": 0.0,
+      "enrolled": 25,
+      "withdraws": 0,
+      "sections": 2,
+      "thin": true,
+      "instructors": [
+        {
+          "name": "Zhang",
+          "gpa": 3.94,
+          "withdraw_pct": 0.0,
+          "enrolled": 15,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        },
+        {
+          "name": "Bhattacharya",
+          "gpa": 3.83,
+          "withdraw_pct": 0.0,
+          "enrolled": 10,
+          "withdraws": 0,
+          "sections": 1,
+          "thin": true
+        }
+      ]
+    }
+  }
+}
