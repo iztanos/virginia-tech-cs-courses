@@ -159,16 +159,24 @@ def parse_level_doc(path: Path, level: int) -> tuple[dict, list[dict]]:
     foot = middle.pop() if middle and "###" not in middle[-1] else ""
 
     # 4000-level groups its entries under "## Theory electives" and similar.
-    # Those chunks carry no data, so they ride along as verbatim markdown.
+    # A group heading shares its `---` chunk with the entry that follows it, so
+    # each chunk is split further at `### ` boundaries and stored as a list of
+    # blocks -- otherwise that first entry gets swallowed as prose and vanishes
+    # from the dataset while still rendering correctly in the docs.
     entries: list[dict] = []
-    order: list[dict] = []
+    order: list[list[dict]] = []
     for chunk in middle:
-        if chunk.strip().startswith("### "):
-            entry = parse_entry(chunk, level)
-            entries.append(entry)
-            order.append({"t": "course", "id": entry["id"]})
-        else:
-            order.append({"t": "md", "v": chunk.strip("\n")})
+        group: list[dict] = []
+        for part in re.split(r"(?m)^(?=### )", chunk):
+            if not part.strip():
+                continue
+            if part.lstrip().startswith("### "):
+                entry = parse_entry(part, level)
+                entries.append(entry)
+                group.append({"t": "course", "id": entry["id"]})
+            else:
+                group.append({"t": "md", "v": part.strip("\n")})
+        order.append(group)
 
     page = {
         "level": level,

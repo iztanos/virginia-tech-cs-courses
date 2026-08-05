@@ -40,10 +40,15 @@ def render_course(course: dict) -> str:
 
 
 def render_level(page: dict, by_id: dict[str, dict]) -> str:
+    # Each group was one `---`-delimited chunk; blocks inside a group (a "##"
+    # section heading and the entry beneath it) are separated by a blank line.
     parts = [page["head"]]
-    for chunk in page["chunks"]:
+    for group in page["chunks"]:
         parts.append(
-            render_course(by_id[chunk["id"]]) if chunk["t"] == "course" else chunk["v"]
+            "\n\n".join(
+                render_course(by_id[block["id"]]) if block["t"] == "course" else block["v"]
+                for block in group
+            )
         )
     parts.append(page["foot"])
     return SEP.join(parts) + "\n"

@@ -3252,6 +3252,192 @@
       "teaching": "n/d"
     },
     {
+      "id": "cs-4104",
+      "numbers": [
+        "4104"
+      ],
+      "title": "Data and Algorithm Analysis",
+      "level": 4000,
+      "heading": "CS 4104: Data and Algorithm Analysis",
+      "anchor": "cs-4104-data-and-algorithm-analysis",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Data structures and algorithms from an analytical perspective: theoretical analysis of efficiency, comparing\nalgorithms on space and run-time, analytical methods for theoretical and practical performance bounds, and\nconstraints affecting problem solvability."
+        },
+        {
+          "t": "p",
+          "v": "**The most useful theory elective and the worst-reviewed course in the department.** The subject matter is\nwhat employers mean when they say \"algorithms,\" and it is the natural continuation of CS 3114."
+        },
+        {
+          "t": "p",
+          "v": "The teaching is the problem, and the reviews name names. **Adrian Sandu** drew three separate one-star\nreviews in early 2026 — reads slides in monotone, never works an example problem, has \"not ONCE solved a word\nproblem (the kinds of problems on tests and homeworks).\" **T.M. Murali** drew 2024 reviews alleging he\nridiculed and humiliated students in class."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Note that the grades are *fine*. This is the clearest case in the dataset of GPA completely failing to\ncapture the experience — the five RMP ratings all describe the same two instructors, so treat the 1.00 as a\nverdict on specific sections, not on the subject."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.09",
+              "3.5%",
+              "642",
+              "**1.00 (n=5)**",
+              "5.00"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Ji",
+              "3.45",
+              "4%",
+              "122"
+            ],
+            [
+              "Heath",
+              "3.32",
+              "1%",
+              "76"
+            ],
+            [
+              "Sandu",
+              "3.26",
+              "0%",
+              "83"
+            ],
+            [
+              "Hamouda",
+              "3.19",
+              "0%",
+              "74"
+            ],
+            [
+              "Murali",
+              "2.80",
+              "7%",
+              "115"
+            ],
+            [
+              "Raghvendra",
+              "2.76",
+              "4%",
+              "133"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · THEORY ELECTIVE**\n**Prerequisites:** CS 3114 (C or better) and (MATH 3034 or MATH 3134)",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "THEORY ELECTIVE"
+      ],
+      "prerequisites": "CS 3114 (C or better) and (MATH 3034 or MATH 3134)",
+      "verdict": "> **Usefulness 8/10 · Teaching D · Take it, but check the roster first**",
+      "usefulness": 8,
+      "usefulness_raw": "8/10",
+      "teaching": "D",
+      "stats": {
+        "gpa": 3.09,
+        "withdraw_pct": 3.5,
+        "enrolled": 642,
+        "rmp_quality": 1.0,
+        "rmp_n": 5,
+        "rmp_difficulty": 5.0,
+        "would_take_again_pct": null
+      },
+      "instructors": [
+        {
+          "name": "Ji",
+          "gpa": 3.45,
+          "withdraw_pct": 4.0,
+          "n": 122
+        },
+        {
+          "name": "Heath",
+          "gpa": 3.32,
+          "withdraw_pct": 1.0,
+          "n": 76
+        },
+        {
+          "name": "Sandu",
+          "gpa": 3.26,
+          "withdraw_pct": 0.0,
+          "n": 83
+        },
+        {
+          "name": "Hamouda",
+          "gpa": 3.19,
+          "withdraw_pct": 0.0,
+          "n": 74
+        },
+        {
+          "name": "Murali",
+          "gpa": 2.8,
+          "withdraw_pct": 7.0,
+          "n": 115
+        },
+        {
+          "name": "Raghvendra",
+          "gpa": 2.76,
+          "withdraw_pct": 4.0,
+          "n": 133
+        }
+      ]
+    },
+    {
       "id": "cs-4114",
       "numbers": [
         "4114"
@@ -3446,6 +3632,217 @@
       "usefulness": 3,
       "usefulness_raw": "3/10",
       "teaching": "n/d"
+    },
+    {
+      "id": "cs-4604",
+      "numbers": [
+        "4604"
+      ],
+      "title": "Introduction to Database Management Systems",
+      "level": 4000,
+      "heading": "CS 4604: Introduction to Database Management Systems",
+      "anchor": "cs-4604-introduction-to-database-management-systems",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Basic database models and their corresponding logical and physical data structures; comparison of models;\nlogical data design and database usage; relationships, implementation, data integrity, performance\nconsiderations, applications."
+        },
+        {
+          "t": "p",
+          "v": "**The best usefulness-to-pain ratio in the entire catalog.** SQL, relational modeling, normalization,\nindexing, and transactions — skills you will use in your first week at almost any software job — taught by\ninstructors students rate perfectly. A 0.6% withdrawal rate and a perfect 5.00 across nine ratings is a\ncombination nothing else in the department matches."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "**Sally Hamouda** — \"hands down the best prof at VT... very lenient grader as well, it takes a royal screwup\nto get a bad grade.\" **Sehrish Nizamani** draws five separate 5/5 reviews across 2025-26, singled out for\nteaching SQL properly: \"she teaches SQL very clearly and makes sure we understand how to write queries\nproperly, not just memorize them. She also explains things like data modeling and normalization in a simple\nway.\""
+        },
+        {
+          "t": "p",
+          "v": "Note the senior-standing requirement — you cannot front-load this one, which is a genuine shame given how\nmuch of the rest of the degree it would make more concrete."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.42",
+              "**0.6%**",
+              "173",
+              "**5.00 (n=9)**",
+              "2.00",
+              "100%"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Hamouda",
+              "3.59",
+              "1%",
+              "79"
+            ],
+            [
+              "Chen",
+              "3.18",
+              "0%",
+              "69"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer**\n**Prerequisites:** CS 3114 (C or better), senior standing",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 (C or better), senior standing",
+      "verdict": "> **Usefulness 9/10 · Teaching A · Non-negotiable if you want a software job**",
+      "usefulness": 9,
+      "usefulness_raw": "9/10",
+      "teaching": "A",
+      "stats": {
+        "gpa": 3.42,
+        "withdraw_pct": 0.6,
+        "enrolled": 173,
+        "rmp_quality": 5.0,
+        "rmp_n": 9,
+        "rmp_difficulty": 2.0,
+        "would_take_again_pct": 100.0
+      },
+      "instructors": [
+        {
+          "name": "Hamouda",
+          "gpa": 3.59,
+          "withdraw_pct": 1.0,
+          "n": 79
+        },
+        {
+          "name": "Chen",
+          "gpa": 3.18,
+          "withdraw_pct": 0.0,
+          "n": 69
+        }
+      ]
+    },
+    {
+      "id": "cs-4224",
+      "numbers": [
+        "4224"
+      ],
+      "title": "Linux Kernel Programming",
+      "level": 4000,
+      "heading": "CS 4224: Linux Kernel Programming",
+      "anchor": "cs-4224-linux-kernel-programming",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Design and internal organization of the Linux kernel: kernel subsystems, boot process, memory management,\nprocess and thread model, scheduling, interrupt and exception handling, the virtual file system and concrete\nfile systems, block I/O and the I/O scheduler, the network stack, device drivers. You modify existing kernel\ncode and design, implement, test, and evaluate new kernel modules, with kernel and full-stack debugging\nthroughout."
+        },
+        {
+          "t": "p",
+          "v": "**The best-kept secret in the catalog.** Zero withdrawals across the sample window. Nothing else available to\nan undergraduate signals systems competence this loudly, and the debugging skills transfer everywhere."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.18",
+              "**0.0%**",
+              "32"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Spring only**\n**Prerequisites:** see catalog — CS 3214 expected",
+      "credits": "3 credits",
+      "terms": [
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "see catalog — CS 3214 expected",
+      "verdict": "> **Usefulness 8/10 for systems and infrastructure, 4/10 otherwise · Teaching A−**",
+      "usefulness": 8,
+      "usefulness_raw": "8/10 for systems and infrastructure, 4/10 otherwise",
+      "teaching": "A−",
+      "stats": {
+        "gpa": 3.18,
+        "withdraw_pct": 0.0,
+        "enrolled": 32,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
     },
     {
       "id": "cs-4234",
@@ -3779,6 +4176,148 @@
       }
     },
     {
+      "id": "cs-4264",
+      "numbers": [
+        "4264"
+      ],
+      "title": "Principles of Computer Security",
+      "level": 4000,
+      "heading": "CS 4264: Principles of Computer Security",
+      "anchor": "cs-4264-principles-of-computer-security",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Survey of computer security design principles and models for software systems: cryptographic models and\nmethods; modern techniques for robust operating systems, software, web applications, large-scale networks,\nand data protection; privacy models and techniques; contemporary computer and network security examples."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "**No bad option on the instructor bench** — the tightest spread of any elective in the department, which is\nitself a signal about how the course is run. High value even if you never work in security; the\nthreat-modeling instinct transfers to all engineering."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.60",
+              "1.1%",
+              "350"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Rahaman",
+              "3.85",
+              "0%",
+              "42"
+            ],
+            [
+              "Yao",
+              "3.82",
+              "0%",
+              "63"
+            ],
+            [
+              "Hicks",
+              "3.55",
+              "2%",
+              "108"
+            ],
+            [
+              "Chung",
+              "3.45",
+              "1%",
+              "137"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits**\n**Prerequisites:** CS 3214 (C or better) or ECE equivalent · corequisite for CS 4274",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 3214 (C or better) or ECE equivalent · corequisite for CS 4274",
+      "verdict": "> **Usefulness 8/10 · Teaching B+**",
+      "usefulness": 8,
+      "usefulness_raw": "8/10",
+      "teaching": "B+",
+      "stats": {
+        "gpa": 3.6,
+        "withdraw_pct": 1.1,
+        "enrolled": 350,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      },
+      "instructors": [
+        {
+          "name": "Rahaman",
+          "gpa": 3.85,
+          "withdraw_pct": 0.0,
+          "n": 42
+        },
+        {
+          "name": "Yao",
+          "gpa": 3.82,
+          "withdraw_pct": 0.0,
+          "n": 63
+        },
+        {
+          "name": "Hicks",
+          "gpa": 3.55,
+          "withdraw_pct": 2.0,
+          "n": 108
+        },
+        {
+          "name": "Chung",
+          "gpa": 3.45,
+          "withdraw_pct": 1.0,
+          "n": 137
+        }
+      ]
+    },
+    {
       "id": "cs-4164",
       "numbers": [
         "4164"
@@ -3849,6 +4388,82 @@
         "gpa": 3.67,
         "withdraw_pct": 0.0,
         "enrolled": 19,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4804",
+      "numbers": [
+        "4804"
+      ],
+      "title": "Introduction to Artificial Intelligence",
+      "level": 4000,
+      "heading": "CS 4804: Introduction to Artificial Intelligence",
+      "anchor": "cs-4804-introduction-to-artificial-intelligence",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Problem solving, game playing, and computer vision: search trees and graphs, game trees, block world vision,\nsyntactic pattern recognition, object matching, natural language, robotics."
+        },
+        {
+          "t": "p",
+          "v": "Classical AI. The catalog description reads dated, but search, adversarial search, and constraint reasoning\nare durable material. **Tu Vu**, formerly of DeepMind, draws a strong 2026 review: \"extremely knowledgeable\nabout all things AI/LLM and gives great lectures... prioritizes learning over assignments.\""
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---"
+          ],
+          "rows": [
+            [
+              "3.44",
+              "0.9%",
+              "115",
+              "5.00 (n=3, thin)"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** CS 3114 (C or better), senior standing",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 (C or better), senior standing",
+      "verdict": "> **Usefulness 6/10 · Teaching A (thin data)**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10",
+      "teaching": "A",
+      "stats": {
+        "gpa": 3.44,
+        "withdraw_pct": 0.9,
+        "enrolled": 115,
         "rmp_quality": null,
         "rmp_n": null,
         "rmp_difficulty": null,
@@ -4184,6 +4799,55 @@
       "teaching": "n/d"
     },
     {
+      "id": "cs-4014",
+      "numbers": [
+        "4014"
+      ],
+      "title": "Algorithms & Society",
+      "level": 4000,
+      "heading": "CS 4014: Algorithms & Society",
+      "anchor": "cs-4014-algorithms-society",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "No data — recently introduced."
+        },
+        {
+          "t": "p",
+          "v": "Social perspectives on algorithms and their implications for class, gender, race, ethnicity, geography, and\ndisability status; critical thinking about the impacts of computing and the role of social values in design;\nmachine learning, privacy, and the sociotechnical infrastructure surrounding algorithms."
+        },
+        {
+          "t": "p",
+          "v": "⚠️ The department's course-offerings page lists this as **\"CS 4101 Algorithm and Society.\"** The catalog\nnumber is **CS 4014**. Verify against the timetable before registering."
+        },
+        {
+          "t": "p",
+          "v": "Genuinely worthwhile material with minimal technical content — and you already have CS 3604 covering adjacent\nground as a core requirement."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**3 credits · Fall, Spring · Pathways 3 + 11**\n**Prerequisites:** junior standing",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [
+        "Pathways 3 + 11"
+      ],
+      "prerequisites": "junior standing",
+      "verdict": "> **Usefulness 3/10 · Teaching n/d**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "n/d"
+    },
+    {
       "id": "cs-4624",
       "numbers": [
         "4624"
@@ -4326,6 +4990,50 @@
         "rmp_difficulty": null,
         "would_take_again_pct": null
       }
+    },
+    {
+      "id": "cs-4094",
+      "numbers": [
+        "4094"
+      ],
+      "title": "Computer Science Capstone",
+      "level": 4000,
+      "heading": "CS 4094: Computer Science Capstone",
+      "anchor": "cs-4094-computer-science-capstone",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "No data — recently introduced."
+        },
+        {
+          "t": "p",
+          "v": "Senior capstone integrating prior coursework: team-based approach to open-ended real-world problems covering\nproblem formulation, requirements definition, design, and implementation, with written and oral presentation\nof results."
+        },
+        {
+          "t": "p",
+          "v": "The generic default, and the most widely available option."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer**\n**Prerequisites:** CS 2506 and CS 3114",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [],
+      "prerequisites": "CS 2506 and CS 3114",
+      "verdict": "> **Usefulness 7/10 · Teaching n/d**",
+      "usefulness": 7,
+      "usefulness_raw": "7/10",
+      "teaching": "n/d"
     },
     {
       "id": "cs-4284",
@@ -4850,6 +5558,42 @@
       ],
       "flags": [],
       "prerequisites": "CS 3724 and (HIST/SOC/STS 2604) and COMM 2084"
+    },
+    {
+      "id": "cs-4944",
+      "numbers": [
+        "4944"
+      ],
+      "title": "Seminar",
+      "level": 4000,
+      "heading": "CS 4944: Seminar",
+      "anchor": "cs-4944-seminar",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "One credit, senior year. An administrative requirement."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**1 credit · Fall · REQUIRED**\n**Prerequisites:** CS 3604",
+      "credits": "1 credit",
+      "terms": [
+        "Fall"
+      ],
+      "flags": [
+        "REQUIRED"
+      ],
+      "prerequisites": "CS 3604",
+      "verdict": "> **Usefulness 1/10 · Teaching n/d**",
+      "usefulness": 1,
+      "usefulness_raw": "1/10",
+      "teaching": "n/d"
     },
     {
       "id": "cs-4894",

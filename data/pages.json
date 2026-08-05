@@ -5,30 +5,42 @@
       "head": "# 1000-level courses\n\n[← back to index](../README.md) · [2000](2000-level.md) · [3000](3000-level.md) · [4000](4000-level.md)\n\nSix courses. Only one — CS 1114 — is part of the CS major core; the rest are service courses for other\nmajors or one-credit administration. If you are a CS major, the entire useful content of this page is\nCS 1114 and CS 1944.",
       "foot": "[← back to index](../README.md) · next: [2000-level](2000-level.md)",
       "chunks": [
-        {
-          "t": "course",
-          "id": "cs-1014"
-        },
-        {
-          "t": "course",
-          "id": "cs-1044"
-        },
-        {
-          "t": "course",
-          "id": "cs-1054"
-        },
-        {
-          "t": "course",
-          "id": "cs-1064"
-        },
-        {
-          "t": "course",
-          "id": "cs-1114"
-        },
-        {
-          "t": "course",
-          "id": "cs-1944"
-        }
+        [
+          {
+            "t": "course",
+            "id": "cs-1014"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-1044"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-1054"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-1064"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-1114"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-1944"
+          }
+        ]
       ]
     },
     {
@@ -36,46 +48,66 @@
       "head": "# 2000-level courses\n\n[← back to index](../README.md) · [1000](1000-level.md) · [3000](3000-level.md) · [4000](4000-level.md)\n\nEleven courses. Three of them — CS 2114, 2505, 2506 — are the spine of the degree and the hardest block\nmost students hit before CS 3214. CS 2506 posts the second-lowest GPA of any required course.",
       "foot": "[← 1000-level](1000-level.md) · [back to index](../README.md) · next: [3000-level](3000-level.md)",
       "chunks": [
-        {
-          "t": "course",
-          "id": "cs-2064"
-        },
-        {
-          "t": "course",
-          "id": "cs-2104"
-        },
-        {
-          "t": "course",
-          "id": "cs-2114"
-        },
-        {
-          "t": "course",
-          "id": "cs-2144"
-        },
-        {
-          "t": "course",
-          "id": "cs-2164"
-        },
-        {
-          "t": "course",
-          "id": "cs-2304"
-        },
-        {
-          "t": "course",
-          "id": "cs-2505"
-        },
-        {
-          "t": "course",
-          "id": "cs-2506"
-        },
-        {
-          "t": "course",
-          "id": "cs-2964"
-        },
-        {
-          "t": "course",
-          "id": "a-note-on-cs-2704"
-        }
+        [
+          {
+            "t": "course",
+            "id": "cs-2064"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-2104"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-2114"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-2144"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-2164"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-2304"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-2505"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-2506"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-2964"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "a-note-on-cs-2704"
+          }
+        ]
       ]
     },
     {
@@ -83,78 +115,114 @@
       "head": "# 3000-level courses\n\n[← back to index](../README.md) · [1000](1000-level.md) · [2000](2000-level.md) · [4000](4000-level.md)\n\nNineteen entries. This is where the major happens: CS 3114 and CS 3214 are the two highest-usefulness\ncourses in the entire catalog, and most of the elective branches open from here.",
       "foot": "[← 2000-level](2000-level.md) · [back to index](../README.md) · next: [4000-level](4000-level.md)",
       "chunks": [
-        {
-          "t": "course",
-          "id": "cs-3114"
-        },
-        {
-          "t": "course",
-          "id": "cs-3214"
-        },
-        {
-          "t": "course",
-          "id": "cs-3274"
-        },
-        {
-          "t": "course",
-          "id": "cs-3304"
-        },
-        {
-          "t": "course",
-          "id": "cs-3314"
-        },
-        {
-          "t": "course",
-          "id": "cs-3414"
-        },
-        {
-          "t": "course",
-          "id": "cs-3604"
-        },
-        {
-          "t": "course",
-          "id": "cs-3634"
-        },
-        {
-          "t": "course",
-          "id": "cs-3654"
-        },
-        {
-          "t": "course",
-          "id": "cs-3704"
-        },
-        {
-          "t": "course",
-          "id": "cs-3714"
-        },
-        {
-          "t": "course",
-          "id": "cs-3724"
-        },
-        {
-          "t": "course",
-          "id": "cs-3744"
-        },
-        {
-          "t": "course",
-          "id": "cs-3754"
-        },
-        {
-          "t": "course",
-          "id": "cs-3804"
-        },
-        {
-          "t": "course",
-          "id": "cs-3824"
-        },
-        {
-          "t": "course",
-          "id": "cs-3900"
-        },
-        {
-          "t": "course",
-          "id": "cs-3954"
-        }
+        [
+          {
+            "t": "course",
+            "id": "cs-3114"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3214"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3274"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3304"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3314"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3414"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3604"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3634"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3654"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3704"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3714"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3724"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3744"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3754"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3804"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3824"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3900"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-3954"
+          }
+        ]
       ]
     },
     {
@@ -162,150 +230,254 @@
       "head": "# 4000-level courses\n\n[← back to index](../README.md) · [1000](1000-level.md) · [2000](2000-level.md) · [3000](3000-level.md)\n\nThirty-seven entries — every elective, both required 4000-level slots (theory elective and capstone), and\nthe independent-study vehicles. Grouped by area; the master table in the [README](../README.md) links\ndirectly to each.\n\n**Jump to:** [Theory electives](#theory-electives) · [Databases](#databases) ·\n[Systems, networks, architecture](#systems-networks-architecture) ·\n[Security](#security) · [AI and data](#ai-and-data) · [Ethics and information](#ethics-and-information) ·\n[Capstones](#capstones) · [Seminar, special topics, independent work](#seminar-special-topics-and-independent-work)",
       "foot": "[← 3000-level](3000-level.md) · [back to index](../README.md) · see also\n[professors](professors.md) and [tracks](tracks.md)",
       "chunks": [
-        {
-          "t": "md",
-          "v": "## Theory electives\n\nYou must take exactly one of CS 4104, 4114, 4124, or 4134 (or graduate CS 5104 / 5114). They are not\nequivalent in difficulty or value.\n\n### CS 4104: Data and Algorithm Analysis\n\n**3 credits · Fall, Spring, Summer · THEORY ELECTIVE**\n**Prerequisites:** CS 3114 (C or better) and (MATH 3034 or MATH 3134)\n\n| Avg GPA | Withdraw | Enrolled | RMP quality | RMP difficulty |\n|---:|---:|---:|---|---:|\n| 3.09 | 3.5% | 642 | **1.00 (n=5)** | 5.00 |\n\nData structures and algorithms from an analytical perspective: theoretical analysis of efficiency, comparing\nalgorithms on space and run-time, analytical methods for theoretical and practical performance bounds, and\nconstraints affecting problem solvability.\n\n**The most useful theory elective and the worst-reviewed course in the department.** The subject matter is\nwhat employers mean when they say \"algorithms,\" and it is the natural continuation of CS 3114.\n\nThe teaching is the problem, and the reviews name names. **Adrian Sandu** drew three separate one-star\nreviews in early 2026 — reads slides in monotone, never works an example problem, has \"not ONCE solved a word\nproblem (the kinds of problems on tests and homeworks).\" **T.M. Murali** drew 2024 reviews alleging he\nridiculed and humiliated students in class.\n\n| Instructor | GPA | Withdraw | n |\n|---|---:|---:|---:|\n| Ji | 3.45 | 4% | 122 |\n| Heath | 3.32 | 1% | 76 |\n| Sandu | 3.26 | 0% | 83 |\n| Hamouda | 3.19 | 0% | 74 |\n| Murali | 2.80 | 7% | 115 |\n| Raghvendra | 2.76 | 4% | 133 |\n\nNote that the grades are *fine*. This is the clearest case in the dataset of GPA completely failing to\ncapture the experience — the five RMP ratings all describe the same two instructors, so treat the 1.00 as a\nverdict on specific sections, not on the subject.\n\n> **Usefulness 8/10 · Teaching D · Take it, but check the roster first**"
-        },
-        {
-          "t": "course",
-          "id": "cs-4114"
-        },
-        {
-          "t": "course",
-          "id": "cs-4124"
-        },
-        {
-          "t": "course",
-          "id": "cs-4134"
-        },
-        {
-          "t": "md",
-          "v": "## Databases\n\n### CS 4604: Introduction to Database Management Systems\n\n**3 credits · Fall, Spring, Summer**\n**Prerequisites:** CS 3114 (C or better), senior standing\n\n| Avg GPA | Withdraw | Enrolled | RMP quality | RMP difficulty | Would take again |\n|---:|---:|---:|---|---:|---:|\n| 3.42 | **0.6%** | 173 | **5.00 (n=9)** | 2.00 | 100% |\n\nBasic database models and their corresponding logical and physical data structures; comparison of models;\nlogical data design and database usage; relationships, implementation, data integrity, performance\nconsiderations, applications.\n\n**The best usefulness-to-pain ratio in the entire catalog.** SQL, relational modeling, normalization,\nindexing, and transactions — skills you will use in your first week at almost any software job — taught by\ninstructors students rate perfectly. A 0.6% withdrawal rate and a perfect 5.00 across nine ratings is a\ncombination nothing else in the department matches.\n\n| Instructor | GPA | Withdraw | n |\n|---|---:|---:|---:|\n| Hamouda | 3.59 | 1% | 79 |\n| Chen | 3.18 | 0% | 69 |\n\n**Sally Hamouda** — \"hands down the best prof at VT... very lenient grader as well, it takes a royal screwup\nto get a bad grade.\" **Sehrish Nizamani** draws five separate 5/5 reviews across 2025-26, singled out for\nteaching SQL properly: \"she teaches SQL very clearly and makes sure we understand how to write queries\nproperly, not just memorize them. She also explains things like data modeling and normalization in a simple\nway.\"\n\nNote the senior-standing requirement — you cannot front-load this one, which is a genuine shame given how\nmuch of the rest of the degree it would make more concrete.\n\n> **Usefulness 9/10 · Teaching A · Non-negotiable if you want a software job**"
-        },
-        {
-          "t": "md",
-          "v": "## Systems, networks, architecture\n\n### CS 4224: Linux Kernel Programming\n\n**3 credits · Spring only**\n**Prerequisites:** see catalog — CS 3214 expected\n\n| Avg GPA | Withdraw | Enrolled |\n|---:|---:|---:|\n| 3.18 | **0.0%** | 32 |\n\nDesign and internal organization of the Linux kernel: kernel subsystems, boot process, memory management,\nprocess and thread model, scheduling, interrupt and exception handling, the virtual file system and concrete\nfile systems, block I/O and the I/O scheduler, the network stack, device drivers. You modify existing kernel\ncode and design, implement, test, and evaluate new kernel modules, with kernel and full-stack debugging\nthroughout.\n\n**The best-kept secret in the catalog.** Zero withdrawals across the sample window. Nothing else available to\nan undergraduate signals systems competence this loudly, and the debugging skills transfer everywhere.\n\n> **Usefulness 8/10 for systems and infrastructure, 4/10 otherwise · Teaching A−**"
-        },
-        {
-          "t": "course",
-          "id": "cs-4234"
-        },
-        {
-          "t": "course",
-          "id": "cs-4254"
-        },
-        {
-          "t": "course",
-          "id": "cs-4304"
-        },
-        {
-          "t": "course",
-          "id": "cs-4504"
-        },
-        {
-          "t": "course",
-          "id": "cs-4414"
-        },
-        {
-          "t": "md",
-          "v": "## Security\n\n### CS 4264: Principles of Computer Security\n\n**3 credits**\n**Prerequisites:** CS 3214 (C or better) or ECE equivalent · corequisite for CS 4274\n\n| Avg GPA | Withdraw | Enrolled |\n|---:|---:|---:|\n| 3.60 | 1.1% | 350 |\n\nSurvey of computer security design principles and models for software systems: cryptographic models and\nmethods; modern techniques for robust operating systems, software, web applications, large-scale networks,\nand data protection; privacy models and techniques; contemporary computer and network security examples.\n\n| Instructor | GPA | Withdraw | n |\n|---|---:|---:|---:|\n| Rahaman | 3.85 | 0% | 42 |\n| Yao | 3.82 | 0% | 63 |\n| Hicks | 3.55 | 2% | 108 |\n| Chung | 3.45 | 1% | 137 |\n\n**No bad option on the instructor bench** — the tightest spread of any elective in the department, which is\nitself a signal about how the course is run. High value even if you never work in security; the\nthreat-modeling instinct transfers to all engineering.\n\n> **Usefulness 8/10 · Teaching B+**"
-        },
-        {
-          "t": "course",
-          "id": "cs-4164"
-        },
-        {
-          "t": "md",
-          "v": "## AI and data\n\n### CS 4804: Introduction to Artificial Intelligence\n\n**3 credits · Fall, Spring**\n**Prerequisites:** CS 3114 (C or better), senior standing\n\n| Avg GPA | Withdraw | Enrolled | RMP |\n|---:|---:|---:|---|\n| 3.44 | 0.9% | 115 | 5.00 (n=3, thin) |\n\nProblem solving, game playing, and computer vision: search trees and graphs, game trees, block world vision,\nsyntactic pattern recognition, object matching, natural language, robotics.\n\nClassical AI. The catalog description reads dated, but search, adversarial search, and constraint reasoning\nare durable material. **Tu Vu**, formerly of DeepMind, draws a strong 2026 review: \"extremely knowledgeable\nabout all things AI/LLM and gives great lectures... prioritizes learning over assignments.\"\n\n> **Usefulness 6/10 · Teaching A (thin data)**"
-        },
-        {
-          "t": "course",
-          "id": "cs-4824"
-        },
-        {
-          "t": "course",
-          "id": "cs-4654"
-        },
-        {
-          "t": "course",
-          "id": "cs-4204"
-        },
-        {
-          "t": "course",
-          "id": "cs-4144"
-        },
-        {
-          "t": "md",
-          "v": "## Ethics and information\n\n### CS 4014: Algorithms & Society\n\n**3 credits · Fall, Spring · Pathways 3 + 11**\n**Prerequisites:** junior standing\n\nNo data — recently introduced.\n\nSocial perspectives on algorithms and their implications for class, gender, race, ethnicity, geography, and\ndisability status; critical thinking about the impacts of computing and the role of social values in design;\nmachine learning, privacy, and the sociotechnical infrastructure surrounding algorithms.\n\n⚠️ The department's course-offerings page lists this as **\"CS 4101 Algorithm and Society.\"** The catalog\nnumber is **CS 4014**. Verify against the timetable before registering.\n\nGenuinely worthwhile material with minimal technical content — and you already have CS 3604 covering adjacent\nground as a core requirement.\n\n> **Usefulness 3/10 · Teaching n/d**"
-        },
-        {
-          "t": "course",
-          "id": "cs-4624"
-        },
-        {
-          "t": "course",
-          "id": "cs-4634"
-        },
-        {
-          "t": "md",
-          "v": "## Capstones\n\nYou need exactly one 4000-level capstone. As of Fall 2025, enrolling requires passing grades in **CS 2506 and\nCS 3114**. Choose by what you want to talk about in interviews.\n\n### CS 4094: Computer Science Capstone\n\n**3 credits · Fall, Spring, Summer**\n**Prerequisites:** CS 2506 and CS 3114\n\nNo data — recently introduced.\n\nSenior capstone integrating prior coursework: team-based approach to open-ended real-world problems covering\nproblem formulation, requirements definition, design, and implementation, with written and oral presentation\nof results.\n\nThe generic default, and the most widely available option.\n\n> **Usefulness 7/10 · Teaching n/d**"
-        },
-        {
-          "t": "course",
-          "id": "cs-4284"
-        },
-        {
-          "t": "course",
-          "id": "cs-4704"
-        },
-        {
-          "t": "course",
-          "id": "cs-4274"
-        },
-        {
-          "t": "course",
-          "id": "cs-4664"
-        },
-        {
-          "t": "course",
-          "id": "cs-4784"
-        },
-        {
-          "t": "course",
-          "id": "cs-4644"
-        },
-        {
-          "t": "course",
-          "id": "cs-4884"
-        },
-        {
-          "t": "course",
-          "id": "cs-4774"
-        },
-        {
-          "t": "md",
-          "v": "## Seminar, special topics, and independent work\n\n### CS 4944: Seminar\n\n**1 credit · Fall · REQUIRED**\n**Prerequisites:** CS 3604\n\nOne credit, senior year. An administrative requirement.\n\n> **Usefulness 1/10 · Teaching n/d**"
-        },
-        {
-          "t": "course",
-          "id": "cs-4894"
-        },
-        {
-          "t": "course",
-          "id": "cs-4974"
-        },
-        {
-          "t": "course",
-          "id": "cs-4984"
-        },
-        {
-          "t": "course",
-          "id": "cs-4994"
-        },
-        {
-          "t": "course",
-          "id": "cs-4954"
-        }
+        [
+          {
+            "t": "md",
+            "v": "## Theory electives\n\nYou must take exactly one of CS 4104, 4114, 4124, or 4134 (or graduate CS 5104 / 5114). They are not\nequivalent in difficulty or value."
+          },
+          {
+            "t": "course",
+            "id": "cs-4104"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4114"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4124"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4134"
+          }
+        ],
+        [
+          {
+            "t": "md",
+            "v": "## Databases"
+          },
+          {
+            "t": "course",
+            "id": "cs-4604"
+          }
+        ],
+        [
+          {
+            "t": "md",
+            "v": "## Systems, networks, architecture"
+          },
+          {
+            "t": "course",
+            "id": "cs-4224"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4234"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4254"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4304"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4504"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4414"
+          }
+        ],
+        [
+          {
+            "t": "md",
+            "v": "## Security"
+          },
+          {
+            "t": "course",
+            "id": "cs-4264"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4164"
+          }
+        ],
+        [
+          {
+            "t": "md",
+            "v": "## AI and data"
+          },
+          {
+            "t": "course",
+            "id": "cs-4804"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4824"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4654"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4204"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4144"
+          }
+        ],
+        [
+          {
+            "t": "md",
+            "v": "## Ethics and information"
+          },
+          {
+            "t": "course",
+            "id": "cs-4014"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4624"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4634"
+          }
+        ],
+        [
+          {
+            "t": "md",
+            "v": "## Capstones\n\nYou need exactly one 4000-level capstone. As of Fall 2025, enrolling requires passing grades in **CS 2506 and\nCS 3114**. Choose by what you want to talk about in interviews."
+          },
+          {
+            "t": "course",
+            "id": "cs-4094"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4284"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4704"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4274"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4664"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4784"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4644"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4884"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4774"
+          }
+        ],
+        [
+          {
+            "t": "md",
+            "v": "## Seminar, special topics, and independent work"
+          },
+          {
+            "t": "course",
+            "id": "cs-4944"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4894"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4974"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4984"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4994"
+          }
+        ],
+        [
+          {
+            "t": "course",
+            "id": "cs-4954"
+          }
+        ]
       ]
     }
   ],
