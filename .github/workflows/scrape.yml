@@ -1,0 +1,85 @@
+name: Scrape VT data
+
+# Two cadences. The timetable changes constantly during registration; the
+# catalog, ratings and grade extract move slowly enough for a weekly pass.
+on:
+  schedule:
+    - cron: "*/30 * * * *" # timetable only
+    - cron: "17 6 * * 1" # everything, Mondays
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Refresh every source, not just the timetable"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    env:
+      FULL: ${{ github.event.schedule == '17 6 * * 1' || inputs.full }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Timetable
+        run: uv run --with httpx --with lxml python -m tools.vtcourses.timetable
+
+      - name: Catalog
+        if: env.FULL == 'true'
+        run: uv run --with httpx --with lxml python -m tools.vtcourses.catalog
+
+      - name: Grade distributions
+        if: env.FULL == 'true'
+        run: uv run --with httpx python -m tools.vtcourses.grades
+
+      - name: RateMyProfessors
+        if: env.FULL == 'true'
+        run: uv run --with httpx python -m tools.vtcourses.rmp
+
+      - name: Reddit
+        # No-ops with a message when the secrets are absent, so the job stays
+        # green until someone registers an app.
+        if: env.FULL == 'true'
+        env:
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+        run: uv run --with httpx python -m tools.vtcourses.reddit
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/generated
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "no changes"
+          else
+            git commit -m "chore(data): refresh scraped VT data"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  deploy:
+    needs: scrape
+    if: needs.scrape.outputs.changed == 'true'
+    # A called workflow can only narrow the caller's permissions, never widen
+    # them, so the Pages scopes have to be granted here.
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
