@@ -1,0 +1,5119 @@
+{
+  "courses": [
+    {
+      "id": "cs-1014",
+      "numbers": [
+        "1014"
+      ],
+      "title": "Introduction to Computational Thinking",
+      "level": 1000,
+      "heading": "CS 1014: Introduction to Computational Thinking",
+      "anchor": "cs-1014-introduction-to-computational-thinking",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Computational thinking as a perspective rather than a skill — problem formulation, applying computational\ntools to large-scale problems across domains, a basic introduction to algorithms and one practical\nlanguage, plus the societal and ethical implications of computational systems."
+        },
+        {
+          "t": "p",
+          "v": "Built for non-majors who want computational literacy without committing to programming. Perfectly\nreasonable at what it does. CS majors skip it entirely."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.23",
+              "3.2%",
+              "548",
+              "3.11 (n=9)",
+              "3.44"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring · Pathways 5F + 10**\n**Prerequisites:** none",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [
+        "Pathways 5F + 10"
+      ],
+      "prerequisites": "none",
+      "verdict": "> **Usefulness 2/10 · Teaching C+**",
+      "usefulness": 2,
+      "usefulness_raw": "2/10",
+      "teaching": "C+",
+      "stats": {
+        "gpa": 3.23,
+        "withdraw_pct": 3.2,
+        "enrolled": 548,
+        "rmp_quality": 3.11,
+        "rmp_n": 9,
+        "rmp_difficulty": 3.44,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-1044",
+      "numbers": [
+        "1044"
+      ],
+      "title": "Introduction to Programming in C",
+      "level": 1000,
+      "heading": "CS 1044: Introduction to Programming in C",
+      "anchor": "cs-1044-introduction-to-programming-in-c",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Structured programming in C: statement sequencing, logic control, structured data, input/output, functions."
+        },
+        {
+          "t": "p",
+          "v": "A legacy service course for engineering majors. The 44% would-take-again rate is among the worst in the\ndepartment, and it sits alongside a *low* difficulty rating — which says the frustration is with delivery,\nnot with rigor. CS majors belong in CS 1114, and will learn substantially more C in CS 2505 anyway."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.24",
+              "2.3%",
+              "388",
+              "2.04 (n=25)",
+              "3.84",
+              "**44%**"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Spring only**\n**Prerequisites:** none · partially duplicates CS 1344",
+      "credits": "3 credits",
+      "terms": [
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "none · partially duplicates CS 1344",
+      "verdict": "> **Usefulness 2/10 · Teaching D**",
+      "usefulness": 2,
+      "usefulness_raw": "2/10",
+      "teaching": "D",
+      "stats": {
+        "gpa": 3.24,
+        "withdraw_pct": 2.3,
+        "enrolled": 388,
+        "rmp_quality": 2.04,
+        "rmp_n": 25,
+        "rmp_difficulty": 3.84,
+        "would_take_again_pct": 44.0
+      }
+    },
+    {
+      "id": "cs-1054",
+      "numbers": [
+        "1054"
+      ],
+      "title": "Introduction to Programming in Java",
+      "level": 1000,
+      "heading": "CS 1054: Introduction to Programming in Java",
+      "anchor": "cs-1054-introduction-to-programming-in-java",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Introductory object-oriented programming in Java: control flow, classes, objects, methods, instantiation,\nmessage passing, plus the impact of computing on diversity and inclusion."
+        },
+        {
+          "t": "p",
+          "v": "The lowest-rated introductory course at VT. Unlike CS 1044, it is also genuinely hard for what it is — a\n4.21 difficulty rating on an intro course is a pacing red flag, and the sub-3.0 GPA backs that up.\nSuperseded by CS 1114 for majors."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "2.96",
+              "4.3%",
+              "513",
+              "1.92 (n=19)",
+              "4.21",
+              "**50%**"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall only · Pathways 5F + 11**\n**Prerequisites:** none",
+      "credits": "3 credits",
+      "terms": [
+        "Fall"
+      ],
+      "flags": [
+        "Pathways 5F + 11"
+      ],
+      "prerequisites": "none",
+      "verdict": "> **Usefulness 2/10 · Teaching D**",
+      "usefulness": 2,
+      "usefulness_raw": "2/10",
+      "teaching": "D",
+      "stats": {
+        "gpa": 2.96,
+        "withdraw_pct": 4.3,
+        "enrolled": 513,
+        "rmp_quality": 1.92,
+        "rmp_n": 19,
+        "rmp_difficulty": 4.21,
+        "would_take_again_pct": 50.0
+      }
+    },
+    {
+      "id": "cs-1064",
+      "numbers": [
+        "1064"
+      ],
+      "title": "Introduction to Programming in Python",
+      "level": 1000,
+      "heading": "CS 1064: Introduction to Programming in Python",
+      "anchor": "cs-1064-introduction-to-programming-in-python",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Python fundamentals framed around scientific and engineering problems: control flow, state tracing, simple\nand complex types, functional and object-oriented organization, data processing, debugging."
+        },
+        {
+          "t": "p",
+          "v": "**The best-rated large course in the department**, and it is essentially one professor. **John Lewis**\ncollects sustained 4–5/5 ratings across dozens of reviews — \"best professor I have had at Virginia Tech\"\nrecurs verbatim. Students describe clear explanations, generous deadlines, and consistent accessibility."
+        },
+        {
+          "t": "p",
+          "v": "Not a CS-major course. But if you are an engineering or science student who needs exactly one programming\ncourse, this is the one, and Lewis is the reason."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.63",
+              "0.9%",
+              "**3,494**",
+              "**4.22 (n=88)**",
+              "2.49",
+              "**97%**"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · Pathways 5F + 10**\n**Prerequisites:** none",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "Pathways 5F + 10"
+      ],
+      "prerequisites": "none",
+      "verdict": "> **Usefulness 3/10 for CS majors, 8/10 for everyone else · Teaching A**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10 for CS majors, 8/10 for everyone else",
+      "teaching": "A",
+      "stats": {
+        "gpa": 3.63,
+        "withdraw_pct": 0.9,
+        "enrolled": 3494,
+        "rmp_quality": 4.22,
+        "rmp_n": 88,
+        "rmp_difficulty": 2.49,
+        "would_take_again_pct": 97.0
+      }
+    },
+    {
+      "id": "cs-1114",
+      "numbers": [
+        "1114"
+      ],
+      "title": "Introduction to Software Design",
+      "level": 1000,
+      "heading": "CS 1114: Introduction to Software Design",
+      "anchor": "cs-1114-introduction-to-software-design",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Object-oriented programming fundamentals, basic software engineering principles, simple data types, control\nstructures, arrays and strings, basic algorithms, testing and debugging, and a model of the computer as an\nabstract machine."
+        },
+        {
+          "t": "p",
+          "v": "**The worst student experience of any required course, on every metric available.** Lowest\nwould-take-again in the core, second-lowest GPA, and a 15.8% withdrawal rate — roughly one student in six\ndoes not finish."
+        },
+        {
+          "t": "p",
+          "v": "The instructor spread is the story:"
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "A third of students in Edwards' sections withdrew. Recent bright spot: **David McPherson** collects repeated\n5/5 ratings through 2026 (\"class and projects were easy... he is great\")."
+        },
+        {
+          "t": "p",
+          "v": "The dominant complaint across CS 1114 and CS 2114 is **Web-CAT**, VT's automated grader — finicky submission\nbehavior and steep late penalties appear in review after review. Budget time for submission mechanics, not\njust for the code."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "**2.60**",
+              "**15.8%**",
+              "2,107",
+              "2.64 (n=121)",
+              "3.88",
+              "**56%**"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Kotut",
+              "3.04",
+              "1%",
+              "138"
+            ],
+            [
+              "Feng",
+              "2.81",
+              "12%",
+              "104"
+            ],
+            [
+              "Senger",
+              "2.78",
+              "19%",
+              "109"
+            ],
+            [
+              "Irwin",
+              "2.66",
+              "11%",
+              "121"
+            ],
+            [
+              "Barnette",
+              "2.57",
+              "13%",
+              "1,368"
+            ],
+            [
+              "**Edwards**",
+              "**2.35**",
+              "**34%**",
+              "267"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · DEGREE CORE**\n**Prerequisites:** none · corequisite MATH 1225 · partially duplicates CS 1054, 1124, 1705",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "DEGREE CORE"
+      ],
+      "prerequisites": "none · corequisite MATH 1225 · partially duplicates CS 1054, 1124, 1705",
+      "verdict": "> **Usefulness 9/10 — unavoidable, and it gates the entire major · Teaching C− · Shop hard for the section**",
+      "usefulness": 9,
+      "usefulness_raw": "9/10 — unavoidable, and it gates the entire major",
+      "teaching": "C−",
+      "stats": {
+        "gpa": 2.6,
+        "withdraw_pct": 15.8,
+        "enrolled": 2107,
+        "rmp_quality": 2.64,
+        "rmp_n": 121,
+        "rmp_difficulty": 3.88,
+        "would_take_again_pct": 56.0
+      },
+      "instructors": [
+        {
+          "name": "Kotut",
+          "gpa": 3.04,
+          "withdraw_pct": 1.0,
+          "n": 138
+        },
+        {
+          "name": "Feng",
+          "gpa": 2.81,
+          "withdraw_pct": 12.0,
+          "n": 104
+        },
+        {
+          "name": "Senger",
+          "gpa": 2.78,
+          "withdraw_pct": 19.0,
+          "n": 109
+        },
+        {
+          "name": "Irwin",
+          "gpa": 2.66,
+          "withdraw_pct": 11.0,
+          "n": 121
+        },
+        {
+          "name": "Barnette",
+          "gpa": 2.57,
+          "withdraw_pct": 13.0,
+          "n": 1368
+        },
+        {
+          "name": "Edwards",
+          "gpa": 2.35,
+          "withdraw_pct": 34.0,
+          "n": 267
+        }
+      ]
+    },
+    {
+      "id": "cs-1944",
+      "numbers": [
+        "1944"
+      ],
+      "title": "Computer Science First Year Seminar",
+      "level": 1000,
+      "heading": "CS 1944: Computer Science First Year Seminar",
+      "anchor": "cs-1944-computer-science-first-year-seminar",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "No meaningful grade or rating data. Academic and career planning for CS majors."
+        },
+        {
+          "t": "p",
+          "v": "A one-credit administrative requirement. Show up, get the credit."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**1 credit · Fall, Summer · REQUIRED**\n**Prerequisites:** CS 1114 or CS 2064 or ECE 2514",
+      "credits": "1 credit",
+      "terms": [
+        "Fall",
+        "Summer"
+      ],
+      "flags": [
+        "REQUIRED"
+      ],
+      "prerequisites": "CS 1114 or CS 2064 or ECE 2514",
+      "verdict": "> **Usefulness 1/10 · Teaching n/d**",
+      "usefulness": 1,
+      "usefulness_raw": "1/10",
+      "teaching": "n/d"
+    },
+    {
+      "id": "cs-2064",
+      "numbers": [
+        "2064"
+      ],
+      "title": "Intermediate Programming in Python",
+      "level": 2000,
+      "heading": "CS 2064: Intermediate Programming in Python",
+      "anchor": "cs-2064-intermediate-programming-in-python",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Advanced control flow and data processing, data structures, computational techniques, object-oriented\nprogramming, and modern data science pipelines — implementation in data science and production\nenvironments."
+        },
+        {
+          "t": "p",
+          "v": "Aimed at scientists and engineers. It is an accepted alternative prerequisite into CS 2114, which is its\nmain structural role. Ratings are mediocre across 30 reviews. CS majors have no reason to be here."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.06",
+              "2.0%",
+              "98",
+              "2.40 (n=30)",
+              "3.13"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · Pathways 5A + 10**\n**Prerequisites:** CS 1064",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "Pathways 5A + 10"
+      ],
+      "prerequisites": "CS 1064",
+      "verdict": "> **Usefulness 3/10 · Teaching C−**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "C−",
+      "stats": {
+        "gpa": 3.06,
+        "withdraw_pct": 2.0,
+        "enrolled": 98,
+        "rmp_quality": 2.4,
+        "rmp_n": 30,
+        "rmp_difficulty": 3.13,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-2104",
+      "numbers": [
+        "2104"
+      ],
+      "title": "Introduction to Problem Solving in Computer Science",
+      "level": 2000,
+      "heading": "CS 2104: Introduction to Problem Solving in Computer Science",
+      "anchor": "cs-2104-introduction-to-problem-solving-in-computer-science",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "A broad range of heuristics for solving problems relevant to computation: classical math and word problems,\ngenerating solutions to real-life professional problems, and problem solving through computation."
+        },
+        {
+          "t": "p",
+          "v": "Genuinely divisive, and the split is instructor-shaped. **Patrick Sullivan** and **Sehrish Nizamani** draw\nstrong recent reviews — \"one of the best CS professors I've ever had,\" \"very helpful and very clearly cares\nabout her students.\" **Margaret Ellis** polarizes within the same semester: one 2026 review calls the class\n\"completely meaningless\" with an \"absurd amount of classwork,\" another calls her \"amazing... genuinely cares\na lot about her students.\""
+        },
+        {
+          "t": "p",
+          "v": "Low difficulty, easy grade, thin skill transfer either way."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.55",
+              "1.3%",
+              "1,404",
+              "3.58 (n=26)",
+              "2.19"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · MAJOR REQUIREMENT**\n**Prerequisites:** none stated",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "MAJOR REQUIREMENT"
+      ],
+      "prerequisites": "none stated",
+      "verdict": "> **Usefulness 4/10 · Teaching B**",
+      "usefulness": 4,
+      "usefulness_raw": "4/10",
+      "teaching": "B",
+      "stats": {
+        "gpa": 3.55,
+        "withdraw_pct": 1.3,
+        "enrolled": 1404,
+        "rmp_quality": 3.58,
+        "rmp_n": 26,
+        "rmp_difficulty": 2.19,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-2114",
+      "numbers": [
+        "2114"
+      ],
+      "title": "Software Design and Data Structures",
+      "level": 2000,
+      "heading": "CS 2114: Software Design and Data Structures",
+      "anchor": "cs-2114-software-design-and-data-structures",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Programming-intensive exploration of software design: advanced object-oriented design, ethics in computing,\nalgorithm development and analysis, classic data structures, and a team-based software project."
+        },
+        {
+          "t": "p",
+          "v": "The real on-ramp to the major. Every section runs identical content and format — as one student put it,\n\"all profs teach the class with identical format + content, so whoever your prof is shouldn't make a big\ndiff in your grade.\" The data mostly agrees, with one exception:"
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "**Mohammed Farghally** is the clear pick and draws consistent 4–5/5 reviews (\"nice guy who wants you to\nlearn, and he's very accessible\"). Web-CAT frustration dominates the negative comments again, along with\nslow TA grading — one 2026 review describes a grade drifting from an A to a B−/C+ over four weeks as\nassignments were marked."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.20",
+              "3.5%",
+              "**2,675**",
+              "2.50 (n=97)",
+              "3.19"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "**Farghally**",
+              "**3.50**",
+              "1%",
+              "279"
+            ],
+            [
+              "Esakia",
+              "3.24",
+              "1%",
+              "229"
+            ],
+            [
+              "Haqq",
+              "3.23",
+              "2%",
+              "944"
+            ],
+            [
+              "Ellis",
+              "3.10",
+              "5%",
+              "1,223"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · REQUIRED · Pathways 6D + 10**\n**Prerequisites:** CS 1114 or CS 2064",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "REQUIRED",
+        "Pathways 6D + 10"
+      ],
+      "prerequisites": "CS 1114 or CS 2064",
+      "verdict": "> **Usefulness 9/10 · Teaching C — the content is fine; the autograder experience drags it down**",
+      "usefulness": 9,
+      "usefulness_raw": "9/10",
+      "teaching": "C",
+      "stats": {
+        "gpa": 3.2,
+        "withdraw_pct": 3.5,
+        "enrolled": 2675,
+        "rmp_quality": 2.5,
+        "rmp_n": 97,
+        "rmp_difficulty": 3.19,
+        "would_take_again_pct": null
+      },
+      "instructors": [
+        {
+          "name": "Farghally",
+          "gpa": 3.5,
+          "withdraw_pct": 1.0,
+          "n": 279
+        },
+        {
+          "name": "Esakia",
+          "gpa": 3.24,
+          "withdraw_pct": 1.0,
+          "n": 229
+        },
+        {
+          "name": "Haqq",
+          "gpa": 3.23,
+          "withdraw_pct": 2.0,
+          "n": 944
+        },
+        {
+          "name": "Ellis",
+          "gpa": 3.1,
+          "withdraw_pct": 5.0,
+          "n": 1223
+        }
+      ]
+    },
+    {
+      "id": "cs-2144",
+      "numbers": [
+        "2144"
+      ],
+      "title": "Competitive Problem Solving I",
+      "level": 2000,
+      "heading": "CS 2144: Competitive Problem Solving I",
+      "anchor": "cs-2144-competitive-problem-solving-i",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Algorithms, data structures, and implementation techniques taught through judged competitive programming.\nArrays, lists, maps, trees; recursion, divide-and-conquer, dynamic programming, search and traversal, graph\nrepresentations, computational geometry; macro and micro optimization."
+        },
+        {
+          "t": "p",
+          "v": "Formalized out of the old CS 2984 special study (GPA 3.54, n=236 in the sample window). **This is the most\ndirectly interview-shaped course VT offers** — the judged-submission format is LeetCode and ICPC practice,\nfor credit, with a structure around it."
+        },
+        {
+          "t": "p",
+          "v": "The enrollment is tiny and self-selecting, so the 3.80 GPA is not a difficulty signal."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.80",
+              "0.0%",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits**\n**Prerequisites:** CS 2114",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 2114",
+      "verdict": "> **Usefulness 6/10 generally, 8/10 if you are grinding technical interviews · Teaching n/d**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10 generally, 8/10 if you are grinding technical interviews",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.8,
+        "withdraw_pct": 0.0,
+        "enrolled": 10,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-2164",
+      "numbers": [
+        "2164"
+      ],
+      "title": "Foundations of Contemporary Security Environments",
+      "level": 2000,
+      "heading": "CS 2164: Foundations of Contemporary Security Environments",
+      "anchor": "cs-2164-foundations-of-contemporary-security-environments",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Political, legal, ethical, technical, environmental, historical, and cultural perspectives on contemporary\nsecurity environments; applying and analyzing the effectiveness of security procedures, tools, and policies;\nrisk and decision-making."
+        },
+        {
+          "t": "p",
+          "v": "Part of the Secure Computing major's foundation. This is a **policy and framing course, not a technical\none** — no exploitation, no cryptographic implementation, no tooling. Useful context, minimal skill\ntransfer."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---"
+          ],
+          "rows": [
+            [
+              "3.62",
+              "3.1%",
+              "217",
+              "4.00 (n=4, thin)"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** none stated",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "none stated",
+      "verdict": "> **Usefulness 3/10 · Teaching B (thin data)**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "B",
+      "stats": {
+        "gpa": 3.62,
+        "withdraw_pct": 3.1,
+        "enrolled": 217,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-2304",
+      "numbers": [
+        "2304"
+      ],
+      "title": "Topics in Programming Systems",
+      "level": 2000,
+      "heading": "CS 2304: Topics in Programming Systems",
+      "anchor": "cs-2304-topics-in-programming-systems",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Guided self-study in one specific programming system — JavaScript, C++, CUDA, Ruby, SQL, FORTRAN, UNIX —\ncovering its syntax and applications."
+        },
+        {
+          "t": "p",
+          "v": "An underrated way to pick up a concrete, marketable skill for a single credit. The SQL, JavaScript, and CUDA\nvariants are the ones with real career return."
+        },
+        {
+          "t": "p",
+          "v": "One caution the numbers make plain: a **7.9% withdrawal rate against a 1.75 difficulty rating**. Nothing\nabout the material is hard. It is self-paced, and self-paced is where people quietly disappear. Set your own\ndeadlines in week one."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.64",
+              "**7.9%**",
+              "406",
+              "5.00 (n=4, thin)",
+              "1.75"
+            ]
+          ]
+        }
+      ],
+      "header": "**1 credit · Fall, Spring · repeatable 3× (max 2× for major credit)**\n**Prerequisites:** CS 2114",
+      "credits": "1 credit",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 2114",
+      "verdict": "> **Usefulness 5/10 — cheap, targeted, real · Teaching B+**",
+      "usefulness": 5,
+      "usefulness_raw": "5/10 — cheap, targeted, real",
+      "teaching": "B+",
+      "stats": {
+        "gpa": 3.64,
+        "withdraw_pct": 7.9,
+        "enrolled": 406,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": 1.75,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-2505",
+      "numbers": [
+        "2505"
+      ],
+      "title": "Computer Organization I",
+      "level": 2000,
+      "heading": "CS 2505: Computer Organization I",
+      "anchor": "cs-2505-computer-organization-i",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Design and operation of digital computers, working up from the logic gate level: combinational and\nsequential circuits, information representation, computer arithmetic, ALUs, control unit design, basic\ncomputer organization, and the relationship between high-level languages and instruction set architectures.\nHeavy C programming throughout."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "**Allyson Senger** dominates recent reviews and splits sharply. The praise is specific and repeated — caring,\nresponsive, supportive, \"for such a difficult class, she makes it a whole lot easier,\" \"she responds quickly\nand makes you feel supported, not judged.\" The criticism is equally specific: a final exam covering material\nbarely addressed during the semester. **David McPherson** draws consistent praise for passion and elaboration."
+        },
+        {
+          "t": "p",
+          "v": "For most students this is the first serious encounter with C and assembly. It is a step change from CS 2114."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "2.95",
+              "8.7%",
+              "1,798",
+              "3.37 (n=63)",
+              "3.43"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Tausif",
+              "3.78",
+              "1%",
+              "122"
+            ],
+            [
+              "Wenskovitch",
+              "3.57",
+              "1%",
+              "75"
+            ],
+            [
+              "McPherson",
+              "2.94",
+              "9%",
+              "798"
+            ],
+            [
+              "McQuain",
+              "2.81",
+              "10%",
+              "678"
+            ],
+            [
+              "Paul",
+              "2.63",
+              "14%",
+              "125"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · DEGREE CORE**\n**Prerequisites:** CS 1114 or CS 2064 (C or better) · corequisite MATH 2534 or MATH 3034",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "DEGREE CORE"
+      ],
+      "prerequisites": "CS 1114 or CS 2064 (C or better) · corequisite MATH 2534 or MATH 3034",
+      "verdict": "> **Usefulness 9/10 · Teaching B−**",
+      "usefulness": 9,
+      "usefulness_raw": "9/10",
+      "teaching": "B−",
+      "stats": {
+        "gpa": 2.95,
+        "withdraw_pct": 8.7,
+        "enrolled": 1798,
+        "rmp_quality": 3.37,
+        "rmp_n": 63,
+        "rmp_difficulty": 3.43,
+        "would_take_again_pct": null
+      },
+      "instructors": [
+        {
+          "name": "Tausif",
+          "gpa": 3.78,
+          "withdraw_pct": 1.0,
+          "n": 122
+        },
+        {
+          "name": "Wenskovitch",
+          "gpa": 3.57,
+          "withdraw_pct": 1.0,
+          "n": 75
+        },
+        {
+          "name": "McPherson",
+          "gpa": 2.94,
+          "withdraw_pct": 9.0,
+          "n": 798
+        },
+        {
+          "name": "McQuain",
+          "gpa": 2.81,
+          "withdraw_pct": 10.0,
+          "n": 678
+        },
+        {
+          "name": "Paul",
+          "gpa": 2.63,
+          "withdraw_pct": 14.0,
+          "n": 125
+        }
+      ]
+    },
+    {
+      "id": "cs-2506",
+      "numbers": [
+        "2506"
+      ],
+      "title": "Computer Organization II",
+      "level": 2000,
+      "heading": "CS 2506: Computer Organization II",
+      "anchor": "cs-2506-computer-organization-ii",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Instruction formats and construction, addressing modes, instruction execution, **memory hierarchy operation\nand performance**, pipelining, input/output, and the relationship between high-level languages and machine\nlanguage."
+        },
+        {
+          "t": "p",
+          "v": "**Second-lowest GPA in the required core**, and since Fall 2025 a hard gate for the capstone. This is where\ncache behavior and pipelining stop being trivia and start explaining why your code is slow — the direct\nfeeder into CS 3214."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "**Dimitrios Nikolopoulos** is the interesting case. He runs Discord office hours covering most of the day and\nrecords supplemental lectures, and students single that out as what makes the course survivable — while\nsimultaneously noting visible frustration in lecture when students don't follow. Reviews of **Senger**'s\nfinal here are unusually bleak."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "**2.68**",
+              "9.3%",
+              "1,261",
+              "3.16 (n=28)",
+              "**4.18**"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Feng",
+              "2.86",
+              "11%",
+              "108"
+            ],
+            [
+              "Nikolopoulos",
+              "2.78",
+              "5%",
+              "335"
+            ],
+            [
+              "McQuain",
+              "2.75",
+              "**17%**",
+              "291"
+            ],
+            [
+              "Wenskovitch",
+              "2.64",
+              "10%",
+              "106"
+            ],
+            [
+              "Jian",
+              "2.52",
+              "6%",
+              "421"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · DEGREE CORE**\n**Prerequisites:** (CS 2114 or ECE 3514) and (CS 2505 or ECE 2564) and (MATH 2534 or MATH 3034), all C or better",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "DEGREE CORE"
+      ],
+      "prerequisites": "(CS 2114 or ECE 3514) and (CS 2505 or ECE 2564) and (MATH 2534 or MATH 3034), all C or better",
+      "verdict": "> **Usefulness 9/10 · Teaching B−**",
+      "usefulness": 9,
+      "usefulness_raw": "9/10",
+      "teaching": "B−",
+      "stats": {
+        "gpa": 2.68,
+        "withdraw_pct": 9.3,
+        "enrolled": 1261,
+        "rmp_quality": 3.16,
+        "rmp_n": 28,
+        "rmp_difficulty": 4.18,
+        "would_take_again_pct": null
+      },
+      "instructors": [
+        {
+          "name": "Feng",
+          "gpa": 2.86,
+          "withdraw_pct": 11.0,
+          "n": 108
+        },
+        {
+          "name": "Nikolopoulos",
+          "gpa": 2.78,
+          "withdraw_pct": 5.0,
+          "n": 335
+        },
+        {
+          "name": "McQuain",
+          "gpa": 2.75,
+          "withdraw_pct": 17.0,
+          "n": 291
+        },
+        {
+          "name": "Wenskovitch",
+          "gpa": 2.64,
+          "withdraw_pct": 10.0,
+          "n": 106
+        },
+        {
+          "name": "Jian",
+          "gpa": 2.52,
+          "withdraw_pct": 6.0,
+          "n": 421
+        }
+      ]
+    },
+    {
+      "id": "cs-2964",
+      "numbers": [
+        "2964",
+        "2974",
+        "2984"
+      ],
+      "title": "Field, Independent, and Special Study",
+      "level": 2000,
+      "heading": "CS 2964 / 2974 / 2984: Field, Independent, and Special Study",
+      "anchor": "cs-2964-2974-2984-field-independent-and-special-study",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Variable-credit vehicles. CS 2984 historically carried \"Competitive Problem Solving I\" before it became the\nstanding course CS 2144 — which accounts for most of that 236-student enrollment."
+        },
+        {
+          "t": "p",
+          "v": "Value depends entirely on the topic and the faculty member involved."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Course",
+            "Avg GPA",
+            "Enrolled"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "2974 Independent Study",
+              "4.00",
+              "24"
+            ],
+            [
+              "2984 Special Study",
+              "3.54",
+              "236"
+            ]
+          ]
+        }
+      ],
+      "header": "**1–19 credits, variable**",
+      "credits": "1–19 credits, variable",
+      "terms": [],
+      "flags": [],
+      "prerequisites": null,
+      "verdict": "> **Usefulness variable · Teaching n/d**",
+      "usefulness": null,
+      "usefulness_raw": "variable",
+      "teaching": "n/d"
+    },
+    {
+      "id": "a-note-on-cs-2704",
+      "numbers": [],
+      "title": "A note on CS 2704",
+      "level": 2000,
+      "heading": "A note on CS 2704",
+      "anchor": "a-note-on-cs-2704",
+      "is_course": false,
+      "body": [
+        {
+          "t": "p",
+          "v": "CS 2704 appears in the current catalog as a stub — contact hours listed, no title, no description. It is a\nretired course number. Ignore it if you see it referenced anywhere."
+        }
+      ]
+    },
+    {
+      "id": "cs-3114",
+      "numbers": [
+        "3114"
+      ],
+      "title": "Data Structures and Algorithms",
+      "level": 3000,
+      "heading": "CS 3114: Data Structures and Algorithms",
+      "anchor": "cs-3114-data-structures-and-algorithms",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Advanced data structures and performance analysis: sorting, searching, hashing, advanced tree structures and\nalgorithms, file system organization and access methods, plus ethical issues in data analysis and software\nperformance. Projects demand real design and implementation work."
+        },
+        {
+          "t": "p",
+          "v": "Interview currency, prerequisite for nearly every worthwhile elective, and since Fall 2025 a capstone gate.\nNote that despite carrying Pathways 5A it **cannot double-count** with any other requirement — the only\ncourse in the degree with that restriction."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "A 1.10 GPA spread across sections of the same required course. **Mohammed Farghally** draws the best recent\nreviews — \"by far the best professor I've had at VT... good lecturer and gives a lot of leeway.\" **Yang Cao**\ndraws the worst: a Spring 2025 review reports a section starting at 150 students and dropping to 40 before\nthe drop deadline. **Patrick Sullivan** is genuinely split — praised for being approachable and giving clear\nanswers, criticized in the same term for leaving a midterm ungraded for six weeks."
+        },
+        {
+          "t": "p",
+          "v": "The standing student advice for the projects: start early, choose your partner carefully, go to office hours\nthe moment you're stuck."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.00",
+              "8.0%",
+              "1,536",
+              "3.05 (n=42)",
+              "3.67",
+              "96%"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Edmison",
+              "**3.72**",
+              "1%",
+              "135"
+            ],
+            [
+              "Cao",
+              "3.11",
+              "6%",
+              "546"
+            ],
+            [
+              "Sullivan",
+              "2.98",
+              "**16%**",
+              "207"
+            ],
+            [
+              "McQuain",
+              "2.73",
+              "9%",
+              "552"
+            ],
+            [
+              "Davis",
+              "2.62",
+              "6%",
+              "62"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · REQUIRED · Pathways 5A**\n**Prerequisites:** (CS 2114 or ECE 3514) and (CS 2505 or ECE 2564) and (MATH 2534 or MATH 3034)",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "REQUIRED",
+        "Pathways 5A"
+      ],
+      "prerequisites": "(CS 2114 or ECE 3514) and (CS 2505 or ECE 2564) and (MATH 2534 or MATH 3034)",
+      "verdict": "> **Usefulness 10/10 · Teaching C+ · The section matters more here than anywhere else in the degree**",
+      "usefulness": 10,
+      "usefulness_raw": "10/10",
+      "teaching": "C+",
+      "stats": {
+        "gpa": 3.0,
+        "withdraw_pct": 8.0,
+        "enrolled": 1536,
+        "rmp_quality": 3.05,
+        "rmp_n": 42,
+        "rmp_difficulty": 3.67,
+        "would_take_again_pct": 96.0
+      },
+      "instructors": [
+        {
+          "name": "Edmison",
+          "gpa": 3.72,
+          "withdraw_pct": 1.0,
+          "n": 135
+        },
+        {
+          "name": "Cao",
+          "gpa": 3.11,
+          "withdraw_pct": 6.0,
+          "n": 546
+        },
+        {
+          "name": "Sullivan",
+          "gpa": 2.98,
+          "withdraw_pct": 16.0,
+          "n": 207
+        },
+        {
+          "name": "McQuain",
+          "gpa": 2.73,
+          "withdraw_pct": 9.0,
+          "n": 552
+        },
+        {
+          "name": "Davis",
+          "gpa": 2.62,
+          "withdraw_pct": 6.0,
+          "n": 62
+        }
+      ]
+    },
+    {
+      "id": "cs-3214",
+      "numbers": [
+        "3214"
+      ],
+      "title": "Computer Systems",
+      "level": 3000,
+      "heading": "CS 3214: Computer Systems",
+      "anchor": "cs-3214-computer-systems",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Computer systems as they matter to application programmers, with emphasis on operating system principles:\nprocesses, threads, synchronization, deadlock, CPU scheduling, system call interfaces, system-level I/O and\nfile management, shell programming, separate compilation, loading and linking, IPC, virtual and physical\nmemory management, garbage collection, and network programming."
+        },
+        {
+          "t": "p",
+          "v": "**The highest-value course in the catalog.** Four large C projects — shell, malloc, threadpool, web server —\nplus exercises. Students report 20+ hours a week for an A and a midterm average around 40%."
+        },
+        {
+          "t": "p",
+          "v": "The number that matters most is the withdrawal rate: **4.4%, in the hardest course in the major.** People\nfinish this course. That is what a well-built hard course looks like — real autograders, a maintained public\ncourse site, genuinely scaffolded projects."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Grades are remarkably consistent across instructors — this is run as one course, not six."
+        },
+        {
+          "t": "p",
+          "v": "**Dan Williams** gets the strongest recent reviews: \"an incredible professor... made all the lecture material\nclear,\" \"he was nice, knowledgeable, and wanted us to succeed.\" **Godmar Back** designed the course and\npolarizes hard — one 2026 review praises him for teaching in a way that makes you \"learn the material well,\"\nanother from the same academic year calls his lectures unfollowable: \"he is flying through a Linux terminal\ntyping at 100 wpm and you can barely follow along.\""
+        },
+        {
+          "t": "p",
+          "v": "Worth knowing regardless of your section: multiple students in *other* instructors' sections report studying\nexclusively from Back's recorded lectures and finishing ~20 points above the class average."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "2.92",
+              "**4.4%**",
+              "1,077",
+              "3.63 (n=23)",
+              "**4.48**",
+              "94%"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Williams",
+              "2.99",
+              "3%",
+              "96"
+            ],
+            [
+              "Butt",
+              "2.98",
+              "7%",
+              "215"
+            ],
+            [
+              "Hu",
+              "2.93",
+              "6%",
+              "82"
+            ],
+            [
+              "Back",
+              "2.92",
+              "4%",
+              "451"
+            ],
+            [
+              "McQuain",
+              "2.84",
+              "2%",
+              "183"
+            ],
+            [
+              "Hicks",
+              "2.78",
+              "4%",
+              "50"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring · DEGREE CORE**\n**Prerequisites:** CS 2506 and CS 3114",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [
+        "DEGREE CORE"
+      ],
+      "prerequisites": "CS 2506 and CS 3114",
+      "verdict": "> **Usefulness 10/10 · Teaching B+ · If you take one hard course seriously, make it this one**",
+      "usefulness": 10,
+      "usefulness_raw": "10/10",
+      "teaching": "B+",
+      "stats": {
+        "gpa": 2.92,
+        "withdraw_pct": 4.4,
+        "enrolled": 1077,
+        "rmp_quality": 3.63,
+        "rmp_n": 23,
+        "rmp_difficulty": 4.48,
+        "would_take_again_pct": 94.0
+      },
+      "instructors": [
+        {
+          "name": "Williams",
+          "gpa": 2.99,
+          "withdraw_pct": 3.0,
+          "n": 96
+        },
+        {
+          "name": "Butt",
+          "gpa": 2.98,
+          "withdraw_pct": 7.0,
+          "n": 215
+        },
+        {
+          "name": "Hu",
+          "gpa": 2.93,
+          "withdraw_pct": 6.0,
+          "n": 82
+        },
+        {
+          "name": "Back",
+          "gpa": 2.92,
+          "withdraw_pct": 4.0,
+          "n": 451
+        },
+        {
+          "name": "McQuain",
+          "gpa": 2.84,
+          "withdraw_pct": 2.0,
+          "n": 183
+        },
+        {
+          "name": "Hicks",
+          "gpa": 2.78,
+          "withdraw_pct": 4.0,
+          "n": 50
+        }
+      ]
+    },
+    {
+      "id": "cs-3274",
+      "numbers": [
+        "3274"
+      ],
+      "title": "Software Reverse Engineering",
+      "level": 3000,
+      "heading": "CS 3274: Software Reverse Engineering",
+      "anchor": "cs-3274-software-reverse-engineering",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Theory and practice of software reverse engineering: static and dynamic analysis techniques and tools,\nreverse engineering of malware and obfuscated binaries, communications and command-and-control analysis,\nand reverse engineering of non-binary software."
+        },
+        {
+          "t": "p",
+          "v": "**The highest withdrawal rate of any CS course in the dataset** — nearly one student in five. Excellent,\ngenuinely differentiated preparation for security work, and a bad idea if security is not your direction."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "2.85",
+              "**18.8%**",
+              "52"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Spring only**\n**Prerequisites:** (CS 2114 and CS 2506) or (ECE 2534 and ECE 3514)",
+      "credits": "3 credits",
+      "terms": [
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "(CS 2114 and CS 2506) or (ECE 2534 and ECE 3514)",
+      "verdict": "> **Usefulness 7/10 for security careers, 3/10 otherwise · Teaching n/d**",
+      "usefulness": 7,
+      "usefulness_raw": "7/10 for security careers, 3/10 otherwise",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 2.85,
+        "withdraw_pct": 18.8,
+        "enrolled": 52,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3304",
+      "numbers": [
+        "3304"
+      ],
+      "title": "Comparative Languages",
+      "level": 3000,
+      "heading": "CS 3304: Comparative Languages",
+      "anchor": "cs-3304-comparative-languages",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Programming language constructs with emphasis on run-time behavior, studied two ways: the fundamental\nelements of languages and their inclusion in commercial systems, and the differences between implementations\nof common elements across languages."
+        },
+        {
+          "t": "p",
+          "v": "The content genuinely broadens how you think about languages. The execution draws fire, and the criticism\nappears even inside the positive reviews: exams reward memorizing the syntax of languages you will never use\nagain."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "**David McPherson** is excellent here — \"absolutely amazing professor, great at teaching the material and has\nvery engaging lectures,\" with the syntax-memorization exams named as the one downside. **Denis Gracanin**\nholds the highest GPA in the course *and* the worst reviews in the department: \"by far the most dysfunctional\nclass I have ever taken at Virginia Tech.\""
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.24",
+              "4.0%",
+              "1,043",
+              "2.33 (n=6, thin)",
+              "4.17"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Gracanin",
+              "**3.67**",
+              "4%",
+              "52"
+            ],
+            [
+              "Meng",
+              "3.40",
+              "1%",
+              "93"
+            ],
+            [
+              "McPherson",
+              "3.34",
+              "1%",
+              "407"
+            ],
+            [
+              "Tilevich",
+              "3.14",
+              "5%",
+              "408"
+            ],
+            [
+              "Gulzar",
+              "2.84",
+              "**15%**",
+              "83"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · MAJOR REQUIREMENT**\n**Prerequisites:** CS 3114 (C or better)",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "MAJOR REQUIREMENT"
+      ],
+      "prerequisites": "CS 3114 (C or better)",
+      "verdict": "> **Usefulness 6/10 · Teaching C**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10",
+      "teaching": "C",
+      "stats": {
+        "gpa": 3.24,
+        "withdraw_pct": 4.0,
+        "enrolled": 1043,
+        "rmp_quality": null,
+        "rmp_n": 6,
+        "rmp_difficulty": 4.17,
+        "would_take_again_pct": null
+      },
+      "instructors": [
+        {
+          "name": "Gracanin",
+          "gpa": 3.67,
+          "withdraw_pct": 4.0,
+          "n": 52
+        },
+        {
+          "name": "Meng",
+          "gpa": 3.4,
+          "withdraw_pct": 1.0,
+          "n": 93
+        },
+        {
+          "name": "McPherson",
+          "gpa": 3.34,
+          "withdraw_pct": 1.0,
+          "n": 407
+        },
+        {
+          "name": "Tilevich",
+          "gpa": 3.14,
+          "withdraw_pct": 5.0,
+          "n": 408
+        },
+        {
+          "name": "Gulzar",
+          "gpa": 2.84,
+          "withdraw_pct": 15.0,
+          "n": 83
+        }
+      ]
+    },
+    {
+      "id": "cs-3314",
+      "numbers": [
+        "3314"
+      ],
+      "title": "Programming Language Theory and Practice",
+      "level": 3000,
+      "heading": "CS 3314: Programming Language Theory and Practice",
+      "anchor": "cs-3314-programming-language-theory-and-practice",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Theoretical basis of programming languages: formal languages, computability theory, type theory, language\ndesign, standard syntax notation, control flow and data representation features, implementation strategies,\nand unsolvable problems in the context of programming languages."
+        },
+        {
+          "t": "p",
+          "v": "A newer course with encouraging early ratings — 4.20 quality against a 2.60 difficulty is a strong opening\ncombination. Functionally a gentler, more practical blend of CS 3304 and CS 4114 material. If the ideas in\n3304 appealed to you but the exams did not, look here."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---",
+            "---",
+            "---",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "no data (new)",
+              "—",
+              "—",
+              "4.20 (n=5)",
+              "2.60"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall only**\n**Prerequisites:** CS 3114",
+      "credits": "3 credits",
+      "terms": [
+        "Fall"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114",
+      "verdict": "> **Usefulness 5/10 · Teaching B+ (thin data)**",
+      "usefulness": 5,
+      "usefulness_raw": "5/10",
+      "teaching": "B+",
+      "stats": {
+        "gpa": null,
+        "withdraw_pct": null,
+        "enrolled": null,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": 2.6,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3414",
+      "numbers": [
+        "3414"
+      ],
+      "title": "Numerical Methods",
+      "level": 3000,
+      "heading": "CS 3414: Numerical Methods",
+      "anchor": "cs-3414-numerical-methods",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Computational methods for numerical solution of non-linear equations and differential equations,\napproximations, iterations, and least squares."
+        },
+        {
+          "t": "p",
+          "v": "Hard relative to its enrollment size, and narrow in application. Worth taking if you are heading into\nscientific computing, simulation, or graduate engineering; otherwise there are better uses of the slot."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.06",
+              "5.6%",
+              "68",
+              "2.50 (n=4, thin)",
+              "4.50"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** an intro programming course, plus multivariable calculus / differential equations · mutually exclusive with MATH 4404",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "an intro programming course, plus multivariable calculus / differential equations · mutually exclusive with MATH 4404",
+      "verdict": "> **Usefulness 4/10 · Teaching C**",
+      "usefulness": 4,
+      "usefulness_raw": "4/10",
+      "teaching": "C",
+      "stats": {
+        "gpa": 3.06,
+        "withdraw_pct": 5.6,
+        "enrolled": 68,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": 4.5,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3604",
+      "numbers": [
+        "3604"
+      ],
+      "title": "Professionalism in Computing",
+      "level": 3000,
+      "heading": "CS 3604: Professionalism in Computing",
+      "anchor": "cs-3604-professionalism-in-computing",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Ethical, social, and professional concerns of the computing field: social impact of computing, effects on\nsociety, the responsibilities of computing professionals, case studies, and an overview of computing history."
+        },
+        {
+          "t": "p",
+          "v": "**The most honest paradox in the catalog.** Perfect instructor ratings, a 3.79 GPA, a 1.11 difficulty rating\n— and students say the quiet part out loud: *\"Class was extremely easy — probably spent 15 total hours on the\nclass and got an A... Don't take Prof Dunlap if you want to learn something.\"*"
+        },
+        {
+          "t": "p",
+          "v": "**Daniel Dunlap** is genuinely well-liked — chill, engaging, forgiving on late work, visibly invested in his\nstudents. The course is reading quizzes, discussion posts, essays, and a partnered case-study presentation."
+        },
+        {
+          "t": "p",
+          "v": "Take him, take the three credits, and don't expect the course to change you."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "**3.79**",
+              "0.5%",
+              "1,250",
+              "**5.00 (n=9)**",
+              "**1.11**"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer · DEGREE CORE**\n**Prerequisites:** none stated · prerequisite for CS 4944",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [
+        "DEGREE CORE"
+      ],
+      "prerequisites": "none stated · prerequisite for CS 4944",
+      "verdict": "> **Usefulness 2/10 · Teaching A as an experience, F as skill-building**",
+      "usefulness": 2,
+      "usefulness_raw": "2/10",
+      "teaching": "A",
+      "stats": {
+        "gpa": 3.79,
+        "withdraw_pct": 0.5,
+        "enrolled": 1250,
+        "rmp_quality": 5.0,
+        "rmp_n": 9,
+        "rmp_difficulty": 1.11,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3634",
+      "numbers": [
+        "3634"
+      ],
+      "title": "CS Foundations for Computational Modeling & Data Analytics",
+      "level": 3000,
+      "heading": "CS 3634: CS Foundations for Computational Modeling & Data Analytics",
+      "anchor": "cs-3634-cs-foundations-for-computational-modeling-data-analytics",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "No CS-major grade data."
+        },
+        {
+          "t": "p",
+          "v": "Survey of the CS concepts and tools that enable computational science and data analytics: data structure\ndesign and implementation, performance analysis, high-performance architectures, parallel computation, and\nthe operating system concepts that affect large-scale analytics performance."
+        },
+        {
+          "t": "p",
+          "v": "**Built for CMDA majors, not CS majors.** It is a compressed substitute for CS 3114 and CS 3214 material.\nAs a CS major you take the real courses instead."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** see catalog — CMDA-track",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "see catalog — CMDA-track",
+      "verdict": "> **Usefulness 3/10 for CS majors · Teaching n/d**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10 for CS majors",
+      "teaching": "n/d"
+    },
+    {
+      "id": "cs-3654",
+      "numbers": [
+        "3654"
+      ],
+      "title": "Introductory Data Analytics and Visualization",
+      "level": 3000,
+      "heading": "CS 3654: Introductory Data Analytics and Visualization",
+      "anchor": "cs-3654-introductory-data-analytics-and-visualization",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Basic principles and techniques in data analytics: collecting, storing, accessing, and manipulating\nstandard-size and large datasets; data visualization; and identifying sources of bias."
+        },
+        {
+          "t": "p",
+          "v": "Light and well-liked. Its main structural role is as the prerequisite for CS 4654. As a CS major you will\nfind it shallow, but it is the cheapest legitimate entry point into the data track."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.46",
+              "3.0%",
+              "319",
+              "4.17 (n=6)",
+              "2.50"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer**\n**Prerequisites:** an intro programming course, MATH 2204-level calculus, and a statistics course",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [],
+      "prerequisites": "an intro programming course, MATH 2204-level calculus, and a statistics course",
+      "verdict": "> **Usefulness 4/10 · Teaching B+**",
+      "usefulness": 4,
+      "usefulness_raw": "4/10",
+      "teaching": "B+",
+      "stats": {
+        "gpa": 3.46,
+        "withdraw_pct": 3.0,
+        "enrolled": 319,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": 2.5,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3704",
+      "numbers": [
+        "3704"
+      ],
+      "title": "Intermediate Software Design and Engineering",
+      "level": 3000,
+      "heading": "CS 3704: Intermediate Software Design and Engineering",
+      "anchor": "cs-3704-intermediate-software-design-and-engineering",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Software design principles with emphasis on engineering practice: lifecycle activities including design,\ncoding, testing, debugging, and maintenance, and how design affects each; peer review, design for reuse,\nCASE tools, writing software to specification. Built around a semester-long team project."
+        },
+        {
+          "t": "p",
+          "v": "The honest student summary: *\"This class is a huge group project where you work on an overarching website or\napp. You are not taught ANY code. The lectures cover development processes and topics like unit testing.\"*\nThat is a fair complaint, and also a fair description of professional software engineering."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Grading is uniformly generous. **Saad Nizamani** draws strong recent reviews — \"fair, great attitude, and\nalways ready to help\" — with the pointed caveat that \"not all CS professors for this class are this nice.\"\nAvoid **Gracanin** and **Balci** sections."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "**3.77**",
+              "0.9%",
+              "460",
+              "2.70 (n=10)",
+              "3.60",
+              "100%"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Alsafwan",
+              "**3.99**",
+              "1%",
+              "85"
+            ],
+            [
+              "Servant Cortes",
+              "3.91",
+              "0%",
+              "136"
+            ],
+            [
+              "Seyam",
+              "3.82",
+              "1%",
+              "86"
+            ],
+            [
+              "Meng",
+              "3.50",
+              "1%",
+              "153"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** CS 3114 (C or better) · prerequisite for CS 4704",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 (C or better) · prerequisite for CS 4704",
+      "verdict": "> **Usefulness 7/10 · Teaching B−**",
+      "usefulness": 7,
+      "usefulness_raw": "7/10",
+      "teaching": "B−",
+      "stats": {
+        "gpa": 3.77,
+        "withdraw_pct": 0.9,
+        "enrolled": 460,
+        "rmp_quality": 2.7,
+        "rmp_n": 10,
+        "rmp_difficulty": 3.6,
+        "would_take_again_pct": 100.0
+      },
+      "instructors": [
+        {
+          "name": "Alsafwan",
+          "gpa": 3.99,
+          "withdraw_pct": 1.0,
+          "n": 85
+        },
+        {
+          "name": "Servant Cortes",
+          "gpa": 3.91,
+          "withdraw_pct": 0.0,
+          "n": 136
+        },
+        {
+          "name": "Seyam",
+          "gpa": 3.82,
+          "withdraw_pct": 1.0,
+          "n": 86
+        },
+        {
+          "name": "Meng",
+          "gpa": 3.5,
+          "withdraw_pct": 1.0,
+          "n": 153
+        }
+      ]
+    },
+    {
+      "id": "cs-3714",
+      "numbers": [
+        "3714"
+      ],
+      "title": "Mobile Software Development",
+      "level": 3000,
+      "heading": "CS 3714: Mobile Software Development",
+      "anchor": "cs-3714-mobile-software-development",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Technologies and concepts underlying mobile development: mobile platforms, architecture, OS and programming\nenvironment; design patterns for mobile applications; network-centric development; data persistence;\nprogramming for cameras, recorders, accelerometers, gyroscopes, and antennas; location-aware development."
+        },
+        {
+          "t": "p",
+          "v": "The content is reasonable. The delivery is the problem. **Osman Balci** teaches most sections and has six\nconsecutive 1/5 ratings running through 2026 — \"worst professor in the vt cs department in my opinion, his\nlectures are so out of date and his office hours were never helpful,\" alongside repeated accounts of students\nbeing ridiculed for asking questions. The dissenting reviews describe him as blunt and strict but\nknowledgeable."
+        },
+        {
+          "t": "p",
+          "v": "**Esakia** 3.72 GPA versus Balci 3.33 in the same course."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.41",
+              "6.7%",
+              "498",
+              "2.27 (n=15)",
+              "3.60"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer**\n**Prerequisites:** CS 3114 or equivalent",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 or equivalent",
+      "verdict": "> **Usefulness 5/10 · Teaching D+ · Only worth it with Esakia or a new instructor**",
+      "usefulness": 5,
+      "usefulness_raw": "5/10",
+      "teaching": "D+",
+      "stats": {
+        "gpa": 3.41,
+        "withdraw_pct": 6.7,
+        "enrolled": 498,
+        "rmp_quality": 2.27,
+        "rmp_n": 15,
+        "rmp_difficulty": 3.6,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3724",
+      "numbers": [
+        "3724"
+      ],
+      "title": "Introduction to Human-Computer Interaction",
+      "level": 3000,
+      "heading": "CS 3724: Introduction to Human-Computer Interaction",
+      "anchor": "cs-3724-introduction-to-human-computer-interaction",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Survey of HCI concepts, theory, and practice: the basic components of human-computer interaction and its\ninterdisciplinary underpinnings; critical evaluation of computer-based technology from a user-oriented rather\nthan system-oriented perspective, across both human (cognitive, social) and technological (I/O, interaction\nstyles, devices) thrusts; design guidelines, evaluation methods, participatory design."
+        },
+        {
+          "t": "p",
+          "v": "Easy, well-liked, and the gateway to an entire branch of the catalog. **D. Scott McCrickard** posts a 3.91\nGPA with 0% withdrawals across 175 students. **Amun Kharel** collects repeated 5/5 reviews — \"always has\nengaging lectures and is passionate about what he teaches,\" \"a very reasonable grader, flexible with\nextensions.\""
+        },
+        {
+          "t": "p",
+          "v": "**Andrew Kulak** is the weak point in the ratings, though even a defender's review concedes only that he\n\"grades kind of tough and can come off as a little arrogant\" while finding the class interesting."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty",
+            "Would take again"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.57",
+              "**0.5%**",
+              "562",
+              "2.82 (n=17)",
+              "3.41",
+              "100%"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer**\n**Prerequisites:** CS 2114 or equivalent · gateway to CS 4634, 4644, 4774, 4784",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [],
+      "prerequisites": "CS 2114 or equivalent · gateway to CS 4634, 4644, 4774, 4784",
+      "verdict": "> **Usefulness 6/10 generally, 9/10 for product or design careers · Teaching A−**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10 generally, 9/10 for product or design careers",
+      "teaching": "A−",
+      "stats": {
+        "gpa": 3.57,
+        "withdraw_pct": 0.5,
+        "enrolled": 562,
+        "rmp_quality": 2.82,
+        "rmp_n": 17,
+        "rmp_difficulty": 3.41,
+        "would_take_again_pct": 100.0
+      }
+    },
+    {
+      "id": "cs-3744",
+      "numbers": [
+        "3744"
+      ],
+      "title": "Introduction to GUI Programming and Graphics",
+      "level": 3000,
+      "heading": "CS 3744: Introduction to GUI Programming and Graphics",
+      "anchor": "cs-3744-introduction-to-gui-programming-and-graphics",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Design and implementation of object-oriented graphical user interfaces and 2D graphics systems: callbacks,\nhandlers, event listeners, design patterns, layout managers, architectural models; and the mathematical\nfoundations of graphics — clipping, scan conversion, affine and convex linear transformations, projections,\nviewing, structuring."
+        },
+        {
+          "t": "p",
+          "v": "**The lowest course-level rating in the department at n≥5.** The graphics-math half is legitimate; the GUI\nhalf is dated desktop-toolkit material that transfers poorly to modern frontend work."
+        },
+        {
+          "t": "p",
+          "v": "If you want graphics, take CS 4204. If you want interface work, take CS 3724."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.44",
+              "6.7%",
+              "402",
+              "**1.20 (n=5)**",
+              "3.80"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring, Summer**\n**Prerequisites:** CS 3114 and MATH 2114",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring",
+        "Summer"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 and MATH 2114",
+      "verdict": "> **Usefulness 3/10 · Teaching D**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "D",
+      "stats": {
+        "gpa": 3.44,
+        "withdraw_pct": 6.7,
+        "enrolled": 402,
+        "rmp_quality": 1.2,
+        "rmp_n": 5,
+        "rmp_difficulty": 3.8,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3754",
+      "numbers": [
+        "3754"
+      ],
+      "title": "Cloud Software Development",
+      "level": 3000,
+      "heading": "CS 3754: Cloud Software Development",
+      "anchor": "cs-3754-cloud-software-development",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Fundamentals of cloud software development: design patterns, APIs, and underlying middleware; developing\ndistributed multi-tiered enterprise applications that run on a server and are accessed through a web browser\nfrom desktop, laptop, tablet, or phone."
+        },
+        {
+          "t": "p",
+          "v": "The topic is squarely relevant to modern backend work. The delivery, again under **Balci**, is not: *\"his\ncontent is outdated anyways, it's a mostly worthless class. You'll probably get an A but gain little.\"*\nAnother review calls the workload atrocious with vague specifications; a third describes him dropping all\ndeadlines mid-semester \"to test our maturity.\""
+        },
+        {
+          "t": "p",
+          "v": "**Esakia** posts 3.68 GPA with 4% withdrawals against Balci's 3.34 and 12%."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP quality",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.59",
+              "6.2%",
+              "316",
+              "2.25 (n=8)",
+              "3.62"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** CS 3114 (C or better)",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 (C or better)",
+      "verdict": "> **Usefulness 6/10 with the right instructor, 3/10 otherwise · Teaching D+**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10 with the right instructor, 3/10 otherwise",
+      "teaching": "D+",
+      "stats": {
+        "gpa": 3.59,
+        "withdraw_pct": 6.2,
+        "enrolled": 316,
+        "rmp_quality": 2.25,
+        "rmp_n": 8,
+        "rmp_difficulty": 3.62,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3804",
+      "numbers": [
+        "3804"
+      ],
+      "title": "Foundations and Applications of Artificial Intelligence",
+      "level": 3000,
+      "heading": "CS 3804: Foundations and Applications of Artificial Intelligence",
+      "anchor": "cs-3804-foundations-and-applications-of-artificial-intelligence",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Application-driven introduction to modern AI and ML: a functional view of supervised, unsupervised,\nsemi-supervised, and reinforcement learning, including generative and large language model capabilities;\nusing established libraries and cloud-based AI services to build end-to-end applications in vision and\nother areas."
+        },
+        {
+          "t": "p",
+          "v": "The applied, library-first AI course — deliberately shallow on the mathematics. Early ratings are strong and\nthe difficulty is low."
+        },
+        {
+          "t": "p",
+          "v": "**Take this instead of CS 4824 only if AI is a tool for you rather than a career.** If you want to work in\nML, CS 4824 is the one that carries weight."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP",
+            "RMP difficulty"
+          ],
+          "align": [
+            "---",
+            "---",
+            "---",
+            "---",
+            "---:"
+          ],
+          "rows": [
+            [
+              "no data (new)",
+              "—",
+              "—",
+              "4.40 (n=5)",
+              "2.40"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Spring**\n**Prerequisites:** see catalog",
+      "credits": "3 credits",
+      "terms": [
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "see catalog",
+      "verdict": "> **Usefulness 6/10 · Teaching B+ (thin data)**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10",
+      "teaching": "B+",
+      "stats": {
+        "gpa": null,
+        "withdraw_pct": null,
+        "enrolled": null,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": 2.4,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3824",
+      "numbers": [
+        "3824"
+      ],
+      "title": "Introduction to Computational Biology and Bioinformatics",
+      "level": 3000,
+      "heading": "CS 3824: Introduction to Computational Biology and Bioinformatics",
+      "anchor": "cs-3824-introduction-to-computational-biology-and-bioinformatics",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Hands-on introduction to computational biology and bioinformatics: structural bioinformatics, modeling and\nsimulation of biological networks, computational sequence analysis, algorithms for reconstructing\nphylogenies, computational systems biology, and data mining algorithms."
+        },
+        {
+          "t": "p",
+          "v": "Domain-specific and, on the numbers, well-run."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.41",
+              "1.1%",
+              "89"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall**\n**Prerequisites:** CS 3114 (C or better) · feeds CS 4884",
+      "credits": "3 credits",
+      "terms": [
+        "Fall"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 (C or better) · feeds CS 4884",
+      "verdict": "> **Usefulness 4/10 generally, 9/10 for biotech or health tech · Teaching n/d**",
+      "usefulness": 4,
+      "usefulness_raw": "4/10 generally, 9/10 for biotech or health tech",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.41,
+        "withdraw_pct": 1.1,
+        "enrolled": 89,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-3900",
+      "numbers": [
+        "3900"
+      ],
+      "title": "Bridge Experience",
+      "level": 3000,
+      "heading": "CS 3900: Bridge Experience",
+      "anchor": "cs-3900-bridge-experience",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "Application of academic knowledge in a work-based experience aligned with post-graduation goals — typically\nan internship, co-op, undergraduate research, or study abroad — plus self-evaluation, reflection, and a\nshowcase of learning."
+        },
+        {
+          "t": "p",
+          "v": "Zero credits and mandatory. Plan it early; the approval step is what catches people late."
+        }
+      ],
+      "header": "**0 credits · REQUIRED**\n**Prerequisites:** departmental approval of your 3900 plan",
+      "credits": "0 credits",
+      "terms": [],
+      "flags": [
+        "REQUIRED"
+      ],
+      "prerequisites": "departmental approval of your 3900 plan"
+    },
+    {
+      "id": "cs-3954",
+      "numbers": [
+        "3954",
+        "3984"
+      ],
+      "title": "Study Abroad and Special Study",
+      "level": 3000,
+      "heading": "CS 3954 / 3984: Study Abroad and Special Study",
+      "anchor": "cs-3954-3984-study-abroad-and-special-study",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "CS 3984 has historically carried \"Entrepreneurship in Computer Science\" (Fall) among other topics. Value\ndepends entirely on the specific offering."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**1–19 credits, variable**",
+      "credits": "1–19 credits, variable",
+      "terms": [],
+      "flags": [],
+      "prerequisites": null,
+      "verdict": "> **Usefulness variable · Teaching n/d**",
+      "usefulness": null,
+      "usefulness_raw": "variable",
+      "teaching": "n/d"
+    },
+    {
+      "id": "cs-4114",
+      "numbers": [
+        "4114"
+      ],
+      "title": "Introduction to Formal Languages and Automata Theory",
+      "level": 4000,
+      "heading": "CS 4114: Introduction to Formal Languages and Automata Theory",
+      "anchor": "cs-4114-introduction-to-formal-languages-and-automata-theory",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Formal languages and the correspondence between language classes and the automata that recognize them:\nformal definitions of grammars and acceptors, deterministic and nondeterministic systems, grammar ambiguity,\nfinite state and pushdown automata, and normal forms."
+        },
+        {
+          "t": "p",
+          "v": "**The path of least resistance for the theory requirement.** A 0.3% withdrawal rate across 299 students is\nessentially nobody. Modest direct career value, but solid grounding if you later take compilers."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.27",
+              "**0.3%**",
+              "299"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring · THEORY ELECTIVE**\n**Prerequisites:** MATH 3134 or MATH 3034 — note there is **no CS prerequisite**",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [
+        "THEORY ELECTIVE"
+      ],
+      "prerequisites": "MATH 3134 or MATH 3034 — note there is **no CS prerequisite**",
+      "verdict": "> **Usefulness 4/10 · Teaching B**",
+      "usefulness": 4,
+      "usefulness_raw": "4/10",
+      "teaching": "B",
+      "stats": {
+        "gpa": 3.27,
+        "withdraw_pct": 0.3,
+        "enrolled": 299,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4124",
+      "numbers": [
+        "4124"
+      ],
+      "title": "Theory of Computation",
+      "level": 4000,
+      "heading": "CS 4124: Theory of Computation",
+      "anchor": "cs-4124-theory-of-computation",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Theoretical analysis of the computational process: abstract programs, classes of computational machines and\ntheir equivalence, recursive function theory, unsolvable problems, Church's thesis, Kleene's theorem, program\nequivalence, generability, acceptability, decidability."
+        },
+        {
+          "t": "p",
+          "v": "**The lowest GPA of any CS course in the dataset**, across three sections. Maximum difficulty, minimum\nindustry return."
+        },
+        {
+          "t": "p",
+          "v": "Choose this only if you are heading toward a theory PhD and want the signal on your transcript."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "**2.22**",
+              "9.3%",
+              "49"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · THEORY ELECTIVE**\n**Prerequisites:** MATH 3134 or MATH 3034",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [
+        "THEORY ELECTIVE"
+      ],
+      "prerequisites": "MATH 3134 or MATH 3034",
+      "verdict": "> **Usefulness 3/10 · Teaching D**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "D",
+      "stats": {
+        "gpa": 2.22,
+        "withdraw_pct": 9.3,
+        "enrolled": 49,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4134",
+      "numbers": [
+        "4134"
+      ],
+      "title": "Quantum Computation and Information Processing",
+      "level": 4000,
+      "heading": "CS 4134: Quantum Computation and Information Processing",
+      "anchor": "cs-4134-quantum-computation-and-information-processing",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "No grade or rating data — recently introduced."
+        },
+        {
+          "t": "p",
+          "v": "Quantum states and phenomena; quantum communication concepts including superdense coding and teleportation;\nclassical and quantum circuits and gate sets; quantum algorithms compared to classical ones; quantum\ncomputational complexity classes; density operators, measurements, quantum channels; error correction and the\nstabilizer formalism."
+        },
+        {
+          "t": "p",
+          "v": "Intellectually the most interesting theory option and the one with the least near-term payoff. It counts as\nyour theory elective, which makes it a legitimate choice if the subject genuinely grabs you — the\nopportunity cost is CS 4104, not a free slot."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**3 credits · Fall, Spring · THEORY ELECTIVE**\n**Prerequisites:** see catalog",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [
+        "THEORY ELECTIVE"
+      ],
+      "prerequisites": "see catalog",
+      "verdict": "> **Usefulness 3/10 · Teaching n/d**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "n/d"
+    },
+    {
+      "id": "cs-4234",
+      "numbers": [
+        "4234"
+      ],
+      "title": "Parallel Computation",
+      "level": 4000,
+      "heading": "CS 4234: Parallel Computation",
+      "anchor": "cs-4234-parallel-computation",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Parallel computer architectures, models of parallel computation, interconnection networks, parallel algorithm\ndevelopment and analysis, programming paradigms and languages for parallel computation, performance\nmeasurement and evaluation."
+        },
+        {
+          "t": "p",
+          "v": "The natural follow-on to CS 3214, and increasingly relevant given where hardware is heading."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.48",
+              "2.9%",
+              "33"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** CS 3214 (C or better)",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3214 (C or better)",
+      "verdict": "> **Usefulness 6/10 · Teaching n/d**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.48,
+        "withdraw_pct": 2.9,
+        "enrolled": 33,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4254",
+      "numbers": [
+        "4254"
+      ],
+      "title": "Computer Network Architecture and Programming",
+      "level": 4000,
+      "heading": "CS 4254: Computer Network Architecture and Programming",
+      "anchor": "cs-4254-computer-network-architecture-and-programming",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Computer network architecture and programming network services: DNS, email and MIME, HTTP, SNMP, multimedia;\nwired, wireless, and satellite architectures; the OSI model with emphasis on upper layers; congestion\ncontrol, quality of service, routing; the Internet protocol suite (IP, TCP, ARP, RARP); server design,\nconnectionless and concurrent."
+        },
+        {
+          "t": "p",
+          "v": "Fills the single biggest gap CS 3214 leaves. Low withdrawal, reasonable grades, and directly applicable to\nbackend and infrastructure work."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.32",
+              "1.2%",
+              "85"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** see catalog — CS 3214 expected",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "see catalog — CS 3214 expected",
+      "verdict": "> **Usefulness 8/10 · Teaching B (thin data)**",
+      "usefulness": 8,
+      "usefulness_raw": "8/10",
+      "teaching": "B",
+      "stats": {
+        "gpa": 3.32,
+        "withdraw_pct": 1.2,
+        "enrolled": 85,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4304",
+      "numbers": [
+        "4304"
+      ],
+      "title": "Compiler Design and Implementation",
+      "level": 4000,
+      "heading": "CS 4304: Compiler Design and Implementation",
+      "anchor": "cs-4304-compiler-design-and-implementation",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "No recent grade data."
+        },
+        {
+          "t": "p",
+          "v": "Theory, design, and implementation of a large language translator system: lexical analysis, syntactic\nanalysis, code generation, and optimization. You build a full translator."
+        },
+        {
+          "t": "p",
+          "v": "One of the two or three courses that permanently changes how you read code. It does not run every year, so\nplan around it rather than assuming availability."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**3 credits · offered sporadically — check the timetable early**\n**Prerequisites:** CS 3214 (C or better)",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 3214 (C or better)",
+      "verdict": "> **Usefulness 7/10 · Teaching n/d**",
+      "usefulness": 7,
+      "usefulness_raw": "7/10",
+      "teaching": "n/d"
+    },
+    {
+      "id": "cs-4504",
+      "numbers": [
+        "4504"
+      ],
+      "title": "Computer Organization III",
+      "level": 4000,
+      "heading": "CS 4504: Computer Organization III",
+      "anchor": "cs-4504-computer-organization-iii",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Structure, elements, and analysis of modern enterprise computers: performance evaluation of commercial\ncomputing, past and emerging technology trends, the impact of parallelism at multiple levels of architecture,\nmemory and storage, Amdahl's Law, Flynn's Taxonomy."
+        },
+        {
+          "t": "p",
+          "v": "The lowest GPA at the 4000 level — but on only 17 students across two sections, so treat that as indicative\nrather than settled. Worthwhile if you are heading toward hardware or architecture; largely redundant after\nCS 2505, 2506, and 3214 otherwise."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "**2.60**",
+              "10.5%",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Spring**\n**Prerequisites:** ECE 2500 or CS 3214 or ECE 3504 (C or better)",
+      "credits": "3 credits",
+      "terms": [
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "ECE 2500 or CS 3214 or ECE 3504 (C or better)",
+      "verdict": "> **Usefulness 5/10 · Teaching n/d**",
+      "usefulness": 5,
+      "usefulness_raw": "5/10",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 2.6,
+        "withdraw_pct": 10.5,
+        "enrolled": 17,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4414",
+      "numbers": [
+        "4414"
+      ],
+      "title": "Issues in Scientific Computing",
+      "level": 4000,
+      "heading": "CS 4414: Issues in Scientific Computing",
+      "anchor": "cs-4414-issues-in-scientific-computing",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Theory and techniques of modern computational mathematics: computing environments, computational linear\nalgebra, optimization, approximation, parameter identification, finite difference and finite element methods,\nsymbolic computation. Project-oriented, modeling physical systems with production software."
+        },
+        {
+          "t": "p",
+          "v": "Highly domain-specific. Five students in the sample window — the numbers mean almost nothing."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.80",
+              "0.0%",
+              "5"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** differential equations, MATH 3214, and a programming course",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "differential equations, MATH 3214, and a programming course",
+      "verdict": "> **Usefulness 4/10 · Teaching n/d**",
+      "usefulness": 4,
+      "usefulness_raw": "4/10",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.8,
+        "withdraw_pct": 0.0,
+        "enrolled": 5,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4164",
+      "numbers": [
+        "4164"
+      ],
+      "title": "Future of Security",
+      "level": 4000,
+      "heading": "CS 4164: Future of Security",
+      "anchor": "cs-4164-future-of-security",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Identification and analysis of complex real-world security problems and threats to people, organizations, and\nnations across domains, roles, and future scenarios: crisis communication, decision-making tools, ethical\nprinciples, and problem-solving methods before, during, and after conflicts, disasters, and attacks. Uses an\nexperiential learning facility."
+        },
+        {
+          "t": "p",
+          "v": "Scenario- and policy-oriented rather than technical. Part of the Secure Computing major. Very light."
+        },
+        {
+          "t": "verdict"
+        },
+        {
+          "t": "p",
+          "v": "See also [CS 3274 Software Reverse Engineering](3000-level.md#cs-3274-software-reverse-engineering) — the\nmost technically demanding security course available, and the highest withdrawal rate in the dataset."
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.67",
+              "0.0%",
+              "19"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** see catalog",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "see catalog",
+      "verdict": "> **Usefulness 3/10 · Teaching n/d**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.67,
+        "withdraw_pct": 0.0,
+        "enrolled": 19,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4824",
+      "numbers": [
+        "4824"
+      ],
+      "title": "Machine Learning",
+      "level": 4000,
+      "heading": "CS 4824: Machine Learning",
+      "anchor": "cs-4824-machine-learning",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Algorithms and principles of machine learning, focused on perception problems in computer vision, natural\nlanguage processing, and robotics: representing uncertainty, learning from data, supervised learning,\nensemble methods, unsupervised learning, structured models, learning theory, reinforcement learning. Includes\na technical project on real-world datasets."
+        },
+        {
+          "t": "p",
+          "v": "**The rigorous ML option** — actual mathematics and actual model implementation, not library calls. The\nhardest of the AI-family electives by a wide margin, with the third-lowest GPA at the 4000 level and a\ndouble-digit withdrawal rate."
+        },
+        {
+          "t": "instructors",
+          "i": 0
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "**2.89**",
+              "10.8%",
+              "265"
+            ]
+          ]
+        }
+      ],
+      "instructors_tables": [
+        {
+          "header": [
+            "Instructor",
+            "GPA",
+            "Withdraw",
+            "n"
+          ],
+          "align": [
+            "---",
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "Jin",
+              "3.20",
+              "10%",
+              "62"
+            ],
+            [
+              "Huang",
+              "3.18",
+              "7%",
+              "53"
+            ],
+            [
+              "Hilal",
+              "2.66",
+              "2%",
+              "54"
+            ],
+            [
+              "Wyatt",
+              "2.43",
+              "**23%**",
+              "57"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** CS 3114 and a statistics course",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 and a statistics course",
+      "verdict": "> **Usefulness 8/10 · Teaching C+ · Take this over CS 3804 if ML is the career rather than the tool**",
+      "usefulness": 8,
+      "usefulness_raw": "8/10",
+      "teaching": "C+",
+      "stats": {
+        "gpa": 2.89,
+        "withdraw_pct": 10.8,
+        "enrolled": 265,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      },
+      "instructors": [
+        {
+          "name": "Jin",
+          "gpa": 3.2,
+          "withdraw_pct": 10.0,
+          "n": 62
+        },
+        {
+          "name": "Huang",
+          "gpa": 3.18,
+          "withdraw_pct": 7.0,
+          "n": 53
+        },
+        {
+          "name": "Hilal",
+          "gpa": 2.66,
+          "withdraw_pct": 2.0,
+          "n": 54
+        },
+        {
+          "name": "Wyatt",
+          "gpa": 2.43,
+          "withdraw_pct": 23.0,
+          "n": 57
+        }
+      ]
+    },
+    {
+      "id": "cs-4654",
+      "numbers": [
+        "4654"
+      ],
+      "title": "Intermediate Data Analytics and Machine Learning",
+      "level": 4000,
+      "heading": "CS 4654: Intermediate Data Analytics and Machine Learning",
+      "anchor": "cs-4654-intermediate-data-analytics-and-machine-learning",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Supervised and unsupervised learning strategies: regression, generalized linear models, regularization,\ndimension reduction, tree-based classification methods, clustering, advanced naive Bayes, neural networks."
+        },
+        {
+          "t": "p",
+          "v": "The practitioner's counterpart to CS 4824 — methods applied rather than derived. Good paired with it, weak as\na substitute for it."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.66",
+              "0.0%",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** (STAT/CMDA/CS 3654) and a statistics course",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "(STAT/CMDA/CS 3654) and a statistics course",
+      "verdict": "> **Usefulness 6/10 · Teaching n/d**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.66,
+        "withdraw_pct": 0.0,
+        "enrolled": 10,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4204",
+      "numbers": [
+        "4204"
+      ],
+      "title": "Computer Graphics",
+      "level": 4000,
+      "heading": "CS 4204: Computer Graphics",
+      "anchor": "cs-4204-computer-graphics",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Hardware and software techniques for displaying graphical information: 2D and 3D geometry and\ntransformations, clipping and windowing, software systems, interactive graphics, shading, hidden surface\nelimination, perspective depth, modeling and realism."
+        },
+        {
+          "t": "p",
+          "v": "The real graphics course, as opposed to CS 3744. Strong if you are heading toward games, simulation,\nvisualization, or rendering. The sample is ten students, so the numbers carry no weight."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.41",
+              "1 of 10 students",
+              "10"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits**\n**Prerequisites:** CS 3114 and MATH 2114",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 3114 and MATH 2114",
+      "verdict": "> **Usefulness 5/10 generally, 9/10 for graphics careers · Teaching n/d**",
+      "usefulness": 5,
+      "usefulness_raw": "5/10 generally, 9/10 for graphics careers",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.41,
+        "withdraw_pct": 1.0,
+        "enrolled": 10,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4144",
+      "numbers": [
+        "4144"
+      ],
+      "title": "Competitive Problem Solving II",
+      "level": 4000,
+      "heading": "CS 4144: Competitive Problem Solving II",
+      "anchor": "cs-4144-competitive-problem-solving-ii",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "No data — recently introduced."
+        },
+        {
+          "t": "p",
+          "v": "Advanced algorithms, data structures, and implementation techniques through judged competitive programming:\nadvanced searching and graph algorithms, advanced dynamic programming, linear programming techniques,\ncomputational geometry, numerical algorithms, plus optimization for efficiency."
+        },
+        {
+          "t": "p",
+          "v": "The continuation of [CS 2144](2000-level.md#cs-2144-competitive-problem-solving-i), and the same verdict:\nunusually direct technical-interview and ICPC preparation, for credit."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**3 credits**\n**Prerequisites:** CS 2114 and the CS 2144 lineage",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 2114 and the CS 2144 lineage",
+      "verdict": "> **Usefulness 6/10 generally, 8/10 for interview preparation · Teaching n/d**",
+      "usefulness": 6,
+      "usefulness_raw": "6/10 generally, 8/10 for interview preparation",
+      "teaching": "n/d"
+    },
+    {
+      "id": "cs-4624",
+      "numbers": [
+        "4624"
+      ],
+      "title": "Multimedia, Hypertext and Information Access",
+      "level": 4000,
+      "heading": "CS 4624: Multimedia, Hypertext and Information Access",
+      "anchor": "cs-4624-multimedia-hypertext-and-information-access",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Architectures, concepts, data, hardware, methods, models, software, standards, structures, and technologies\nfor networked multimedia information systems, hypertext and hypermedia, videoconferencing, authoring and\nelectronic publishing, and information access — capture, representation, linking, storage, compression,\nbrowsing, search, retrieval."
+        },
+        {
+          "t": "p",
+          "v": "A soft capstone with a dated framing. Low risk, low technical return — but it *does* satisfy the capstone\nrequirement, which is worth something if your schedule is tight."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.43",
+              "0.4%",
+              "244"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · CAPSTONE-ELIGIBLE**\n**Prerequisites:** see catalog",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [
+        "CAPSTONE-ELIGIBLE"
+      ],
+      "prerequisites": "see catalog",
+      "verdict": "> **Usefulness 3/10 · Teaching n/d**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.43,
+        "withdraw_pct": 0.4,
+        "enrolled": 244,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4634",
+      "numbers": [
+        "4634"
+      ],
+      "title": "Design of Information",
+      "level": 4000,
+      "heading": "CS 4634: Design of Information",
+      "anchor": "cs-4634-design-of-information",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "The higher-order properties that turn data into information: analysis of user needs, user comprehension and\nlocal semantics, design of information organization, and design of information display appropriate to use and\nsetting."
+        },
+        {
+          "t": "p",
+          "v": "Same category as CS 4624 — an easy capstone, light on engineering."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.32",
+              "**0.0%**",
+              "45"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · CAPSTONE-ELIGIBLE**\n**Prerequisites:** CS 3114 and CS 3724 (C or better)",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [
+        "CAPSTONE-ELIGIBLE"
+      ],
+      "prerequisites": "CS 3114 and CS 3724 (C or better)",
+      "verdict": "> **Usefulness 3/10 · Teaching n/d**",
+      "usefulness": 3,
+      "usefulness_raw": "3/10",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.32,
+        "withdraw_pct": 0.0,
+        "enrolled": 45,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4284",
+      "numbers": [
+        "4284"
+      ],
+      "title": "Systems & Networking Capstone",
+      "level": 4000,
+      "heading": "CS 4284: Systems & Networking Capstone",
+      "anchor": "cs-4284-systems-networking-capstone",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Advanced topics in computer systems and networking: distributed and parallel processing, emerging\narchitectures, novel systems management and networking design, fault tolerance, robust and secure data\nmanagement. Team-based, open-ended, with design and documentation of advanced systems."
+        },
+        {
+          "t": "p",
+          "v": "**The best capstone if you took CS 3214 and liked it.** The most technically substantial of the set."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.76",
+              "0.7%",
+              "145"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits**\n**Prerequisites:** CS 3114 and CS 3214 (C or better)",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 3114 and CS 3214 (C or better)",
+      "verdict": "> **Usefulness 8/10 · Teaching B+**",
+      "usefulness": 8,
+      "usefulness_raw": "8/10",
+      "teaching": "B+",
+      "stats": {
+        "gpa": 3.76,
+        "withdraw_pct": 0.7,
+        "enrolled": 145,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4704",
+      "numbers": [
+        "4704"
+      ],
+      "title": "Software Engineering Capstone",
+      "level": 4000,
+      "heading": "CS 4704: Software Engineering Capstone",
+      "anchor": "cs-4704-software-engineering-capstone",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Senior project integrating software engineering knowledge: team-based problem formulation, requirements\nengineering, architecture, design, implementation, integration, documentation, and delivery of a system that\nsolves a real-world problem."
+        },
+        {
+          "t": "p",
+          "v": "The largest and most conventional capstone, and the highest GPA of the set. Good portfolio material, low\nrisk."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.85",
+              "0.3%",
+              "384"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits**\n**Prerequisites:** CS 3704 (C or better), or CS 3714 or CS 3754",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 3704 (C or better), or CS 3714 or CS 3754",
+      "verdict": "> **Usefulness 7/10 · Teaching B+**",
+      "usefulness": 7,
+      "usefulness_raw": "7/10",
+      "teaching": "B+",
+      "stats": {
+        "gpa": 3.85,
+        "withdraw_pct": 0.3,
+        "enrolled": 384,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4274",
+      "numbers": [
+        "4274"
+      ],
+      "title": "Secure Computing Capstone",
+      "level": 4000,
+      "heading": "CS 4274: Secure Computing Capstone",
+      "anchor": "cs-4274-secure-computing-capstone",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Advanced cybersecurity and secure computing: threat modeling through identification and analysis of security\nthreats; reasoning about the efficacy, complexity, cost, and ethical tradeoffs of security systems;\nteam-based work on open-ended security problems."
+        },
+        {
+          "t": "p",
+          "v": "Note the **corequisite** — you take this alongside CS 4264, not after it. That trips up schedules regularly."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.62",
+              "0.0%",
+              "17"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring**\n**Prerequisites:** CS 3114 and CS 3214 · **corequisite CS 4264**",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 and CS 3214 · **corequisite CS 4264**",
+      "verdict": "> **Usefulness 7/10 for security careers · Teaching n/d**",
+      "usefulness": 7,
+      "usefulness_raw": "7/10 for security careers",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.62,
+        "withdraw_pct": 0.0,
+        "enrolled": 17,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4664",
+      "numbers": [
+        "4664"
+      ],
+      "title": "Data-Centric Computing Capstone",
+      "level": 4000,
+      "heading": "CS 4664: Data-Centric Computing Capstone",
+      "anchor": "cs-4664-data-centric-computing-capstone",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Project-based course on deriving insights from real-world data: team-based end-to-end projects spanning the\nfull data science workflow — problem statement, research questions, collection, preparation and cleaning,\niterative analysis and interpretation, synthesis into a written report and an interactive executable\ncodebase."
+        },
+        {
+          "t": "p",
+          "v": "Check eligibility before planning around it."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled",
+            "RMP"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:",
+            "---"
+          ],
+          "rows": [
+            [
+              "3.77",
+              "0.0%",
+              "18",
+              "3.75 (n=4, thin)"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring · usually restricted to Data-Centric Computing majors**\n**Prerequisites:** CS 3114 plus data coursework",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3114 plus data coursework",
+      "verdict": "> **Usefulness 7/10 · Teaching B**",
+      "usefulness": 7,
+      "usefulness_raw": "7/10",
+      "teaching": "B",
+      "stats": {
+        "gpa": 3.77,
+        "withdraw_pct": 0.0,
+        "enrolled": 18,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4784",
+      "numbers": [
+        "4784"
+      ],
+      "title": "Human-Computer Interaction Capstone",
+      "level": 4000,
+      "heading": "CS 4784: Human-Computer Interaction Capstone",
+      "anchor": "cs-4784-human-computer-interaction-capstone",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Team-based, end-to-end, integrative interface design project drawn from departmental expertise: virtual and\naugmented reality, embodied cognition, visualization, semiotic engineering, game design, personal information\nmanagement, mobile computing, design tools, educational technology, digital democracy."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.76",
+              "0.0%",
+              "118"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · Fall, Spring · usually restricted to CS majors with the HCI minor**\n**Prerequisites:** CS 3724 (C or better), senior standing",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3724 (C or better), senior standing",
+      "verdict": "> **Usefulness 5/10 generally, 8/10 for product or design careers · Teaching n/d**",
+      "usefulness": 5,
+      "usefulness_raw": "5/10 generally, 8/10 for product or design careers",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.76,
+        "withdraw_pct": 0.0,
+        "enrolled": 118,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4644",
+      "numbers": [
+        "4644"
+      ],
+      "title": "Creative Computing Studio",
+      "level": 4000,
+      "heading": "CS 4644: Creative Computing Studio",
+      "anchor": "cs-4644-creative-computing-studio",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Capstone at the intersection of arts and technology: intensive immersion in game design, interactive art,\ndigital music, and immersive virtual reality, with teams conducting an end-to-end integrative design project."
+        },
+        {
+          "t": "p",
+          "v": "Genuinely fun, low rigor. A legitimate choice if you have a specific portfolio piece in mind."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.75",
+              "1.1%",
+              "91"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits · CAPSTONE-ELIGIBLE**\n**Prerequisites:** CS 3724 (C or better)",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [
+        "CAPSTONE-ELIGIBLE"
+      ],
+      "prerequisites": "CS 3724 (C or better)",
+      "verdict": "> **Usefulness 4/10 · Teaching n/d**",
+      "usefulness": 4,
+      "usefulness_raw": "4/10",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.75,
+        "withdraw_pct": 1.1,
+        "enrolled": 91,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4884",
+      "numbers": [
+        "4884"
+      ],
+      "title": "Computational Biology and Bioinformatics Capstone",
+      "level": 4000,
+      "heading": "CS 4884: Computational Biology and Bioinformatics Capstone",
+      "anchor": "cs-4884-computational-biology-and-bioinformatics-capstone",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Team-based work on open-ended problems in computational biology and bioinformatics: algorithms for CBB,\ncomputational models for biological systems, structure-function analysis of biomolecules, genomic data\nanalysis and mining, computational genomics, systems biology."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.39",
+              "2.8%",
+              "35"
+            ]
+          ]
+        }
+      ],
+      "header": "**3 credits**\n**Prerequisites:** CS 3824 lineage",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 3824 lineage",
+      "verdict": "> **Usefulness 4/10 generally, 9/10 for biotech or health tech · Teaching n/d**",
+      "usefulness": 4,
+      "usefulness_raw": "4/10 generally, 9/10 for biotech or health tech",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.39,
+        "withdraw_pct": 2.8,
+        "enrolled": 35,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4774",
+      "numbers": [
+        "4774"
+      ],
+      "title": "Human-Computer Interaction Design Experience",
+      "level": 4000,
+      "heading": "CS 4774: Human-Computer Interaction Design Experience",
+      "anchor": "cs-4774-human-computer-interaction-design-experience",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "**Explicitly not for CS major credit.** Listed here only so it isn't confused with CS 4784, which is the\ncapstone-eligible version."
+        }
+      ],
+      "header": "**3 credits · Fall, Spring · HCI minors only**\n**Prerequisites:** CS 3724 and (HIST/SOC/STS 2604) and COMM 2084",
+      "credits": "3 credits",
+      "terms": [
+        "Fall",
+        "Spring"
+      ],
+      "flags": [],
+      "prerequisites": "CS 3724 and (HIST/SOC/STS 2604) and COMM 2084"
+    },
+    {
+      "id": "cs-4894",
+      "numbers": [
+        "4894"
+      ],
+      "title": "Special Topics in Computer Science",
+      "level": 4000,
+      "heading": "CS 4894: Special Topics in Computer Science",
+      "anchor": "cs-4894-special-topics-in-computer-science",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "Advanced undergraduate topics in the design, development, use, and impact of CS solutions or software\nsystems. Named examples in the catalog: blockchain systems, DevOps, new programming languages, social media\nsoftware, software as a service, micro-services, end-user programming systems."
+        },
+        {
+          "t": "p",
+          "v": "**Frequently the most current material in the department** — this is where DevOps and microservices content\nactually lives, and neither has a standing course. Check what is running each term; quality tracks the\ninstructor rather than the course number."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "header": "**3 credits · repeatable twice, max 9 credits**\n**Prerequisites:** CS 2114 and CS 2505",
+      "credits": "3 credits",
+      "terms": [],
+      "flags": [],
+      "prerequisites": "CS 2114 and CS 2505",
+      "verdict": "> **Usefulness variable, up to 8/10 for a well-run DevOps or microservices section · Teaching n/d**",
+      "usefulness": 8,
+      "usefulness_raw": "variable, up to 8/10 for a well-run DevOps or microservices section",
+      "teaching": "n/d"
+    },
+    {
+      "id": "cs-4974",
+      "numbers": [
+        "4974"
+      ],
+      "title": "Independent Study",
+      "level": 4000,
+      "heading": "CS 4974: Independent Study",
+      "anchor": "cs-4974-independent-study",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Worth real consideration if there is a specific faculty member whose work interests you. The ratio of\nlearning to bureaucracy is excellent, and it is the one course you can shape entirely."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.89",
+              "0.0%",
+              "15"
+            ]
+          ]
+        }
+      ],
+      "header": "**1–19 credits, variable**",
+      "credits": "1–19 credits, variable",
+      "terms": [],
+      "flags": [],
+      "prerequisites": null,
+      "verdict": "> **Usefulness 7/10, entirely dependent on the advisor · Teaching n/d**",
+      "usefulness": 7,
+      "usefulness_raw": "7/10, entirely dependent on the advisor",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.89,
+        "withdraw_pct": 0.0,
+        "enrolled": 15,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4984",
+      "numbers": [
+        "4984"
+      ],
+      "title": "Special Study",
+      "level": 4000,
+      "heading": "CS 4984: Special Study",
+      "anchor": "cs-4984-special-study",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "Has historically carried \"Machine Learning Capstone\" among other topics. Value is entirely\ntopic-dependent."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "3.70",
+              "1.8%",
+              "107"
+            ]
+          ]
+        }
+      ],
+      "header": "**1–19 credits, variable**",
+      "credits": "1–19 credits, variable",
+      "terms": [],
+      "flags": [],
+      "prerequisites": null,
+      "verdict": "> **Usefulness variable · Teaching n/d**",
+      "usefulness": null,
+      "usefulness_raw": "variable",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 3.7,
+        "withdraw_pct": 1.8,
+        "enrolled": 107,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4994",
+      "numbers": [
+        "4994"
+      ],
+      "title": "Undergraduate Research",
+      "level": 4000,
+      "heading": "CS 4994: Undergraduate Research",
+      "anchor": "cs-4994-undergraduate-research",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "stats",
+          "i": 0
+        },
+        {
+          "t": "p",
+          "v": "**The highest-leverage credits available to an undergraduate** if you are considering graduate school, and\nstrong signal for industry research roles."
+        },
+        {
+          "t": "p",
+          "v": "Approach faculty in your junior year, not your senior spring. The students who get the most out of this\nstarted the conversation a year before they enrolled."
+        },
+        {
+          "t": "verdict"
+        }
+      ],
+      "stats_tables": [
+        {
+          "header": [
+            "Avg GPA",
+            "Withdraw",
+            "Enrolled"
+          ],
+          "align": [
+            "---:",
+            "---:",
+            "---:"
+          ],
+          "rows": [
+            [
+              "4.00",
+              "0.0%",
+              "12"
+            ]
+          ]
+        }
+      ],
+      "header": "**1–19 credits, variable**",
+      "credits": "1–19 credits, variable",
+      "terms": [],
+      "flags": [],
+      "prerequisites": null,
+      "verdict": "> **Usefulness 8/10 if graduate-school-bound, 4/10 otherwise · Teaching n/d**",
+      "usefulness": 8,
+      "usefulness_raw": "8/10 if graduate-school-bound, 4/10 otherwise",
+      "teaching": "n/d",
+      "stats": {
+        "gpa": 4.0,
+        "withdraw_pct": 0.0,
+        "enrolled": 12,
+        "rmp_quality": null,
+        "rmp_n": null,
+        "rmp_difficulty": null,
+        "would_take_again_pct": null
+      }
+    },
+    {
+      "id": "cs-4954",
+      "numbers": [
+        "4954",
+        "4964"
+      ],
+      "title": "Study Abroad and Field Study",
+      "level": 4000,
+      "heading": "CS 4954 / 4964: Study Abroad and Field Study",
+      "anchor": "cs-4954-4964-study-abroad-and-field-study",
+      "is_course": true,
+      "body": [
+        {
+          "t": "header"
+        },
+        {
+          "t": "p",
+          "v": "Administrative vehicles for credit earned outside the standard course structure."
+        }
+      ],
+      "header": "**1–19 credits, variable**",
+      "credits": "1–19 credits, variable",
+      "terms": [],
+      "flags": [],
+      "prerequisites": null
+    }
+  ]
+}

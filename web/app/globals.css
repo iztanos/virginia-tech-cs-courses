@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-maroon: #861f41;
+  --color-maroon-light: #a83057;
+  --color-orange: #e5751f;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply bg-white text-neutral-900 antialiased;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    @apply bg-neutral-950 text-neutral-100;
+  }
+}
+
+/* Prose rendered from the guide's markdown blocks. */
+.guide h4 {
+  @apply mt-6 mb-2 text-lg font-semibold;
+}
+.guide p {
+  @apply my-3 leading-relaxed;
+}
+.guide strong {
+  @apply font-semibold;
+}
+.guide a {
+  @apply text-maroon underline underline-offset-2 dark:text-orange;
+}
+.guide ul {
+  @apply my-3 list-disc pl-6;
+}
+.guide li {
+  @apply my-1;
+}
+.guide blockquote {
+  @apply my-4 border-l-4 border-maroon bg-maroon/5 py-2 pl-4 dark:border-orange dark:bg-orange/10;
+}
+.guide table {
+  @apply my-4 w-full border-collapse text-sm;
+}
+.guide th,
+.guide td {
+  @apply border-b border-neutral-200 px-3 py-1.5 text-left dark:border-neutral-800;
+}
+.guide th {
+  @apply font-semibold;
+}

@@ -39,6 +39,21 @@ withdrawal rate**. See [docs/professors.md](docs/professors.md).
 
 ---
 
+## Searchable version
+
+This guide is also a website: **every course searchable and sortable by usefulness, teaching
+grade, GPA and withdrawal rate, joined against the sections actually on VT's timetable right
+now** — CRN, meeting times, location, capacity, and whether the section is open or full.
+
+Sections refresh every 30 minutes and the catalog weekly, straight from VT. See
+[ARCHITECTURE.md](ARCHITECTURE.md).
+
+> **Note:** VT's public timetable no longer publishes instructor assignments — the Instructor
+> column reads `N/A` for every section. The instructor tables in this guide come from the
+> AY2019-22 grade extract, so you still have to check who is teaching a section yourself.
+
+---
+
 ## Contents
 
 | Page | What's in it |
@@ -50,6 +65,7 @@ withdrawal rate**. See [docs/professors.md](docs/professors.md).
 | [docs/professors.md](docs/professors.md) | Instructor spread tables; who is consistently praised and criticized |
 | [docs/tracks.md](docs/tracks.md) | Recommended elective sets by career goal |
 | [docs/methodology.md](docs/methodology.md) | Sources, caveats, catalog discrepancies, how to reproduce |
+| [ARCHITECTURE.md](ARCHITECTURE.md) | How the data pipeline works; what auto-updates and what does not |
 
 ---
 
