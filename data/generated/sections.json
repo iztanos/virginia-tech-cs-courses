@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-07T00:24:50+00:00",
+  "scraped_at": "2026-08-07T03:29:16+00:00",
   "source": "https://selfservice.banner.vt.edu/ssb/HZSKVTSC.P_ProcRequest",
   "subject": "CS",
   "campus": "Blacksburg",
@@ -4482,7 +4482,7 @@
               "location": "NCB 220"
             }
           ],
-          "open": false
+          "open": true
         },
         {
           "crn": "92226",
@@ -6456,7 +6456,7 @@
               "location": "AA 109"
             }
           ],
-          "open": false
+          "open": true
         },
         {
           "crn": "91523",
