@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-07T19:30:24+00:00",
+  "scraped_at": "2026-08-07T20:42:25+00:00",
   "source": "https://selfservice.banner.vt.edu/ssb/HZSKVTSC.P_ProcRequest",
   "subject": "CS",
   "campus": "Blacksburg",
@@ -2475,7 +2475,7 @@
               "location": "MCB 238"
             }
           ],
-          "open": true
+          "open": false
         },
         {
           "crn": "83538",
@@ -4377,7 +4377,7 @@
               "location": "TORG 1040"
             }
           ],
-          "open": true
+          "open": false
         },
         {
           "crn": "92193",
@@ -11873,16 +11873,16 @@
           "number": "3604",
           "title": "Professionalism in Computing",
           "schedule_type": "ONLINE COURSE - VL",
-          "modality": "Online: Asynchronous",
+          "modality": "Online with Synchronous Mtgs.",
           "credits": "3",
           "capacity": 35,
           "instructor": "N/A",
           "exam": "Check withInstructor",
           "meetings": [
             {
-              "days": "(ARR)",
-              "begin": "",
-              "end": "",
+              "days": "M T W R F",
+              "begin": "10:30AM",
+              "end": "1:00PM",
               "location": "ONLINE"
             }
           ],
