@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-08-07T11:47:27+00:00",
+  "scraped_at": "2026-08-07T13:07:17+00:00",
   "source": "https://selfservice.banner.vt.edu/ssb/HZSKVTSC.P_ProcRequest",
   "subject": "CS",
   "campus": "Blacksburg",
@@ -1869,7 +1869,7 @@
               "location": "GOODW 155"
             }
           ],
-          "open": false
+          "open": true
         },
         {
           "crn": "83510",
@@ -11824,7 +11824,71 @@
     {
       "code": "202612",
       "name": "Winter 26-27",
-      "sections": []
+      "sections": [
+        {
+          "crn": "40119",
+          "course": "CS-1064",
+          "number": "1064",
+          "title": "Intro to Programming in Python",
+          "schedule_type": "ONLINE COURSE - VL",
+          "modality": "Online: Asynchronous",
+          "credits": "3",
+          "capacity": 35,
+          "instructor": "N/A",
+          "exam": "Check withInstructor",
+          "meetings": [
+            {
+              "days": "(ARR)",
+              "begin": "",
+              "end": "",
+              "location": "ONLINE"
+            }
+          ],
+          "open": true
+        },
+        {
+          "crn": "40120",
+          "course": "CS-1944",
+          "number": "1944",
+          "title": "Computer Science 1st Yr Sem",
+          "schedule_type": "ONLINE COURSE - VL",
+          "modality": "Online: Asynchronous",
+          "credits": "1",
+          "capacity": 35,
+          "instructor": "N/A",
+          "exam": "Check withInstructor",
+          "meetings": [
+            {
+              "days": "(ARR)",
+              "begin": "",
+              "end": "",
+              "location": "ONLINE"
+            }
+          ],
+          "open": true
+        },
+        {
+          "crn": "40121",
+          "course": "CS-3604",
+          "number": "3604",
+          "title": "Professionalism in Computing",
+          "schedule_type": "ONLINE COURSE - VL",
+          "modality": "Online: Asynchronous",
+          "credits": "3",
+          "capacity": 35,
+          "instructor": "N/A",
+          "exam": "Check withInstructor",
+          "meetings": [
+            {
+              "days": "(ARR)",
+              "begin": "",
+              "end": "",
+              "location": "ONLINE"
+            }
+          ],
+          "open": true
+        }
+      ]
     }
   ]
 }
