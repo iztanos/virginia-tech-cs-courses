@@ -13,7 +13,7 @@ data/
   courses.json           curated scores + prose      SOURCE OF TRUTH, hand-edited
   pages.json             page chrome + master table  SOURCE OF TRUTH, hand-edited
   generated/
-    sections.json        live timetable              scraped, every 30 min
+    sections.json        live timetable              scraped, twice a day
     catalog.json         official catalog            scraped, weekly
 docs/
   1000-4000-level.md     GENERATED from data/ -- do not edit
