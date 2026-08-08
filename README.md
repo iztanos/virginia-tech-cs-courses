@@ -45,7 +45,7 @@ This guide is also a website: **every course searchable and sortable by usefulne
 grade, GPA and withdrawal rate, joined against the sections actually on VT's timetable right
 now** — CRN, meeting times, location, capacity, and whether the section is open or full.
 
-Sections refresh every 30 minutes and the catalog weekly, straight from VT. See
+Sections refresh twice a day and the catalog weekly, straight from VT. See
 [ARCHITECTURE.md](ARCHITECTURE.md).
 
 > **Note:** VT's public timetable no longer publishes instructor assignments — the Instructor
