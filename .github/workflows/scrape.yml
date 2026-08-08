@@ -4,7 +4,7 @@ name: Scrape VT data
 # catalog, ratings and grade extract move slowly enough for a weekly pass.
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *" # timetable, twice daily
     - cron: "17 6 * * 1" # everything, Mondays
   workflow_dispatch:
     inputs:
